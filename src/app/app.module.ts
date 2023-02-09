@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AtTheBeginningComponent } from './at-the-beginning/at-the-beginning.component';
 import { NobodyKnowsComponent } from './nobody-knows/nobody-knows.component';
+import { TheServerComponent } from './nobody-knows/the-server/the-server.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AtTheBeginningComponent,
     NobodyKnowsComponent,
+    TheServerComponent,
   ],
   imports: [
     BrowserModule,
