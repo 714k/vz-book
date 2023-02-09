@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AtTheBeginningComponent } from './at-the-beginning/at-the-beginning.component';
-import { NobodyKnowsWhoIsComponent } from './nobody-knows-who-is/nobody-knows-who-is.component';
+import { NobodyKnowsComponent } from './nobody-knows/nobody-knows.component';
 
 const routes: Routes = [
   {path: "", redirectTo: 'at-the-beginning', pathMatch: "full"},
@@ -15,8 +15,8 @@ const routes: Routes = [
     }
   },
   {
-    path: "nobody-knows-who-is",
-    component: NobodyKnowsWhoIsComponent,
+    path: "nobody-knows",
+    component: NobodyKnowsComponent,
   },
 ];
 

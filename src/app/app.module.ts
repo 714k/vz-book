@@ -4,13 +4,13 @@ import { BrowserModule, Meta } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AtTheBeginningComponent } from './at-the-beginning/at-the-beginning.component';
-import { NobodyKnowsWhoIsComponent } from './nobody-knows-who-is/nobody-knows-who-is.component';
+import { NobodyKnowsComponent } from './nobody-knows/nobody-knows.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AtTheBeginningComponent,
-    NobodyKnowsWhoIsComponent,
+    NobodyKnowsComponent,
   ],
   imports: [
     BrowserModule,
