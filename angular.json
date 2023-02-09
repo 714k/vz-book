@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/vz",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -100,5 +100,8 @@
         }
       }
     }
-  }
+  },
+  "cli": {
+    "analytics": "7fad58f1-ea8d-479e-af60-7d76471e6a3b"
+  }  
 }

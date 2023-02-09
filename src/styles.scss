@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('./assets/fonts/IBMPlexMono-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url('./assets/fonts/Ubuntu-Medium.ttf');
+}
+
+body {
+  background-color: #101318;
+  color: #c9d7e3;
+  font-size: 16px;
+  font-family:'Ubuntu Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 16px;
+  margin: 0;
+
+  &.at-the-beginnings {
+    background-color: #9EC5FF;
+    color: #0E274D;
+  }
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    background-image: url('./assets/svg/logo-vz.svg');
+    background-repeat: no-repeat;
+    text-indent: -10000rem;
+    height: 3.75rem;
+    width: 3.75rem;
+    display: inline-flex;
+    margin: 0;
+  }  
+
+  nav {
+    display: inline-flex;
+  }
+}
+
+h2, h3, h4, a {
+  font-family:'IBM Plex Mono', Courier, monospace;
+}
+
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5rem;
+}
