@@ -21,17 +21,9 @@ export class AtTheBeginningComponent implements OnInit, AfterViewInit {
       name: 'keywords',
       content: 'beginning, web, ui, developer'
     });
-
-    // this.elementRef.nativeElement.ownerDocument
-    //     .body.style.backgroundColor = '#9EC5FF';
-
-    // For update the logo in each section
-    // document.getElementsByTagName("h1")[0].style.color = 'green';
-        
   }
 
   ngAfterViewInit(): void {
     document.querySelector('body')?.classList.add('at-the-beginning');
   }
-
 }
