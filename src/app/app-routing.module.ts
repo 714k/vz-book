@@ -5,6 +5,7 @@ import { NoOneKnowsComponent } from './no-one-knows/no-one-knows.component';
 import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component';
 import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigator.component';
 import { TheServerComponent } from './no-one-knows/the-server/the-server.component';
+import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: "at-the-beginning/no-one-knows/the-fixer",
     component: TheFixerComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on",
+    component: NobodyKnowsHeWorkedOnComponent,
   },
 ];
 

@@ -8,6 +8,7 @@ import { NoOneKnowsComponent } from './no-one-knows/no-one-knows.component';
 import { TheServerComponent } from './no-one-knows/the-server/the-server.component';
 import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigator.component';
 import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component';
+import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component'
     TheServerComponent,
     TheNavigatorComponent,
     TheFixerComponent,
+    SeccionAmarillaComponent,
   ],
   imports: [
     BrowserModule,
