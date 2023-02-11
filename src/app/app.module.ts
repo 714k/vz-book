@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { AtTheBeginningComponent } from './at-the-beginning/at-the-beginning.component';
 import { NobodyKnowsComponent } from './nobody-knows/nobody-knows.component';
 import { TheServerComponent } from './nobody-knows/the-server/the-server.component';
+import { TheNavigatorComponent } from './nobody-knows/the-navigator/the-navigator.component';
+import { TheFixerComponent } from './nobody-knows/the-fixer/the-fixer.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { TheServerComponent } from './nobody-knows/the-server/the-server.compone
     AtTheBeginningComponent,
     NobodyKnowsComponent,
     TheServerComponent,
+    TheNavigatorComponent,
+    TheFixerComponent,
   ],
   imports: [
     BrowserModule,

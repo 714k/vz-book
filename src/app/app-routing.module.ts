@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AtTheBeginningComponent } from './at-the-beginning/at-the-beginning.component';
 import { NobodyKnowsComponent } from './nobody-knows/nobody-knows.component';
+import { TheFixerComponent } from './nobody-knows/the-fixer/the-fixer.component';
+import { TheNavigatorComponent } from './nobody-knows/the-navigator/the-navigator.component';
 import { TheServerComponent } from './nobody-knows/the-server/the-server.component';
 
 const routes: Routes = [
@@ -26,7 +28,15 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows/the-server",
     component: TheServerComponent,
-  }
+  },
+  {
+    path: "at-the-beginning/nobody-knows/the-navigator",
+    component: TheNavigatorComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows/the-fixer",
+    component: TheFixerComponent,
+  },
 ];
 
 @NgModule({
