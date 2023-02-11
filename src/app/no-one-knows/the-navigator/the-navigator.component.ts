@@ -2,7 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-the-navigator',
+  selector: 'vz-the-navigator',
   templateUrl: './the-navigator.component.html',
   styleUrls: ['./the-navigator.component.scss']
 })

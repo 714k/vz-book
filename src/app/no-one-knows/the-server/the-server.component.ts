@@ -2,7 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-the-server',
+  selector: 'vz-the-server',
   templateUrl: './the-server.component.html',
   styleUrls: ['./the-server.component.scss']
 })

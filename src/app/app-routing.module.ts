@@ -6,6 +6,7 @@ import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component'
 import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigator.component';
 import { TheServerComponent } from './no-one-knows/the-server/the-server.component';
 import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.component';
+import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on",
     component: NobodyKnowsHeWorkedOnComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/seccion-amarilla",
+    component: SeccionAmarillaComponent,
   },
 ];
 

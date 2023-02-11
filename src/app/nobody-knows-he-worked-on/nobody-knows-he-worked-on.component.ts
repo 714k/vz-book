@@ -2,11 +2,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-nobody-knows-he-worked-on',
+  selector: 'vz-nobody-knows-he-worked-on',
   templateUrl: './nobody-knows-he-worked-on.component.html',
   styleUrls: ['./nobody-knows-he-worked-on.component.scss']
 })
-export class NobodyKnowsHeWorkedOnComponent {
+export class NobodyKnowsHeWorkedOnComponent implements OnInit, AfterViewInit {
   constructor(private meta: Meta, private title: Title) {}
 
   ngOnInit(): void {
@@ -19,7 +19,7 @@ export class NobodyKnowsHeWorkedOnComponent {
     
     this.meta.updateTag({ 
       name: 'keywords',
-      content: 'book, projects, portfoilio, mexican, web, ui, developer'
+      content: 'book, projects, portfolio, mexican, web, ui, developer'
     });
   }
 

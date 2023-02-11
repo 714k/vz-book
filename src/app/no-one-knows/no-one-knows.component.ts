@@ -2,7 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-no-one-knows',
+  selector: 'vz-no-one-knows',
   templateUrl: './no-one-knows.component.html',
   styleUrls: ['./no-one-knows.component.scss']
 })

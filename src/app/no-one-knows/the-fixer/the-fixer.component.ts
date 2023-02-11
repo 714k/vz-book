@@ -2,7 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-the-fixer',
+  selector: 'vz-the-fixer',
   templateUrl: './the-fixer.component.html',
   styleUrls: ['./the-fixer.component.scss']
 })
