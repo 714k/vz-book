@@ -9,6 +9,7 @@ import { TheServerComponent } from './no-one-knows/the-server/the-server.compone
 import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigator.component';
 import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component';
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
+import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-am
     TheNavigatorComponent,
     TheFixerComponent,
     SeccionAmarillaComponent,
+    NorWhereToFindHimComponent,
   ],
   imports: [
     BrowserModule,

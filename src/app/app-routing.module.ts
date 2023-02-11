@@ -7,6 +7,7 @@ import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigato
 import { TheServerComponent } from './no-one-knows/the-server/the-server.component';
 import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.component';
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
+import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/seccion-amarilla",
     component: SeccionAmarillaComponent,
+  },
+  {
+    path: "at-the-beginning/nor-where-to-find-him",
+    component: NorWhereToFindHimComponent,
   },
 ];
 
