@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NobodyKnowsComponent } from './nobody-knows.component';
+import { NoOneKnowsComponent } from './no-one-knows.component';
 
-describe('NobodyKnowsComponent', () => {
-  let component: NobodyKnowsComponent;
-  let fixture: ComponentFixture<NobodyKnowsComponent>;
+describe('NoOneKnowsComponent', () => {
+  let component: NoOneKnowsComponent;
+  let fixture: ComponentFixture<NoOneKnowsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NobodyKnowsComponent ]
+      declarations: [ NoOneKnowsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NobodyKnowsComponent);
+    fixture = TestBed.createComponent(NoOneKnowsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

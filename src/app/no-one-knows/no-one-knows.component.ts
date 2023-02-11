@@ -2,15 +2,15 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-nobody-knows',
-  templateUrl: './nobody-knows.component.html',
-  styleUrls: ['./nobody-knows.component.scss']
+  selector: 'app-no-one-knows',
+  templateUrl: './no-one-knows.component.html',
+  styleUrls: ['./no-one-knows.component.scss']
 })
-export class NobodyKnowsComponent implements OnInit, AfterViewInit {
+export class NoOneKnowsComponent implements OnInit, AfterViewInit {
   constructor(private meta: Meta, private title: Title) {}
 
   ngOnInit(): void {
-    this.title.setTitle("Nobody knows... - Victor Zamudio"); 
+    this.title.setTitle("No one knows... - Victor Zamudio"); 
     
     this.meta.updateTag({ 
       name: 'description',
@@ -24,6 +24,6 @@ export class NobodyKnowsComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    document.querySelector('body')?.classList.add('nobody-knows');
+    document.querySelector('body')?.classList.add('no-one-knows');
   }
 }
