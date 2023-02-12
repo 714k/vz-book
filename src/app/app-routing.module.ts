@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import { AtTheBeginningComponent } from './at-the-beginning/at-the-beginning.component';
 import { NoOneKnowsComponent } from './no-one-knows/no-one-knows.component';
 import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component';
@@ -9,12 +9,13 @@ import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobo
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
+const routerOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled',
+  anchorScrolling: 'enabled',
+  scrollOffset: [0, 16],
+};
+
 const routes: Routes = [
-  {
-    path: "", 
-    redirectTo: 'at-the-beginning', 
-    pathMatch: "full"
-  },
   {
     path: "at-the-beginning",
     component: AtTheBeginningComponent,
@@ -52,10 +53,15 @@ const routes: Routes = [
     path: "at-the-beginning/nor-where-to-find-him",
     component: NorWhereToFindHimComponent,
   },
+  {
+    path: "", 
+    redirectTo: 'at-the-beginning', 
+    pathMatch: "full"
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

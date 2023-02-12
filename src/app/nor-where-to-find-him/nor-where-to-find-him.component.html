@@ -3,14 +3,14 @@
     <nav role="navigation">
       In this section
       <ul>
-        <li><a href="#datos-contacto" title="Datos de Contacto"><span>Datos<span class="hide"> de Contacto</span></span></a></li>
-        <li><a href="#mensaje" title="Deja un mensaje"><span>Mensaje</span></a></li>
-        <li><a href="#redes-sociales" title="S&iacute;gueme en las redes sociales"><span>Redes<span class="hide"> Sociales</span></span></a></li>
+        <li><a [routerLink]='"."' [fragment]='"contact-information"' title="Datos de Contacto"><span>Datos<span class="hide"> de Contacto</span></span></a></li>
+        <li><a [routerLink]='"."' [fragment]='"message"' title="Deja un message"><span>Mensaje</span></a></li>
+        <li><a [routerLink]='"."' [fragment]='"social-media"' title="S&iacute;gueme en las redes sociales"><span>Redes<span class="hide"> Sociales</span></span></a></li>
        </ul>
     </nav>    
 </header>
 
-<section id="datos-contacto" class="subseccion vcard">
+<section id="contact-information" class="subseccion vcard">
 
   <h3 class="sprite">Datos de Contacto</h3>
   <p class="nombre sprite">
@@ -37,8 +37,8 @@
   <p class="vinculos-seccion">
   <span class="hide">Saltar a: </span>
   <em><span>Datos<span class="hide"> de Contacto</span></span><span class="icon datos"></span></em><span class="hide"> &#124; </span>
-  <a href="#mensaje" title="Deja un mensaje"><span class="before"></span><span>Mensaje</span><span class="icon mensaje"></span><span class="after"></span></a><span class="hide"> &#124; </span>
-  <a href="#redes-sociales" title="S&iacute;gueme en las redes sociales"><span class="before"></span><span>Redes<span class="hide"> Sociales</span></span><span class="icon redes"></span><span class="after"></span></a>
+  <a [routerLink]='"."' [fragment]='"message"' title="Deja un message"><span class="before"></span><span>Mensaje</span><span class="icon message"></span><span class="after"></span></a><span class="hide"> &#124; </span>
+  <a [routerLink]='"."' [fragment]='"social-media"' title="S&iacute;gueme en las redes sociales"><span class="before"></span><span>Redes<span class="hide"> Sociales</span></span><span class="icon redes"></span><span class="after"></span></a>
   </p>
   <span class="decorative">
    <span class="sonda">&nbsp;</span>
@@ -58,9 +58,9 @@
   </span>
  </section>
 
- <section id="mensaje" class="subseccion">
+ <section id="message" class="subseccion">
   <h3>Mensaje</h3>
-  <form name="formMensaje" id="formMensaje" action="#mensaje" method="post">
+  <form name="formMensaje" id="formMensaje" action="#message" method="post">
   <p>
   <label for="nombre">Nombre:</label><br>
   <input type="text" name="nombre" id="nombre" class="texto" value=""/>
@@ -120,16 +120,16 @@
   <span class="error"></span>   </p>
   <p class="col1">
   <input type="reset" name="limpiar" id="limpiar" value="Limpiar campos"/>
-  <input type="submit" name="enviar" id="enviar" value="Enviar mensaje"/>
+  <input type="submit" name="enviar" id="enviar" value="Enviar message"/>
   </p>
   </form>
   
   
   <p class="vinculos-seccion">
   <span class="hide">Saltar a: </span>
-  <a href="#datos-contacto" title="Ve mis datos de contacto"><span class="before"></span><span>Datos<span class="hide"> de contacto</span></span><span class="icon datos"></span><span class="after"></span></a><span class="hide"> &#124; </span>
-  <em><span>Mensaje</span><span class="icon mensaje"></span></em><span class="hide"> &#124; </span>
-  <a href="#redes-sociales" title="S&iacute;gueme en las redes sociales"><span class="before"></span><span>Redes<span class="hide"> Sociales</span></span><span class="icon redes"></span><span class="after"></span></a>
+  <a [routerLink]='"."' [fragment]='"contact-information"' title="Ve mis datos de contacto"><span class="before"></span><span>Datos<span class="hide"> de contacto</span></span><span class="icon datos"></span><span class="after"></span></a><span class="hide"> &#124; </span>
+  <em><span>Mensaje</span><span class="icon message"></span></em><span class="hide"> &#124; </span>
+  <a [routerLink]='"."' [fragment]='"social-media"' title="S&iacute;gueme en las redes sociales"><span class="before"></span><span>Redes<span class="hide"> Sociales</span></span><span class="icon redes"></span><span class="after"></span></a>
   </p>
  <span class="decorative">
    <span class="posicion_nave">&nbsp;</span>
@@ -148,7 +148,7 @@
  </span>
 </section>
 
-<section id="redes-sociales" class="subseccion">
+<section id="social-media" class="subseccion">
   <h3>Redes Sociales</h3>
  <!--fB-->
  <div id="facebook" class="red-social sprite">
@@ -265,8 +265,8 @@
  <!--Pi-->
  <p class="vinculos-seccion">
    <span class="hide">Saltar a: </span>
-   <a href="#datos-contacto" title="Ve mis datos de contacto"><span class="before"></span><span>Datos<span class="hide"> de contacto</span></span><span class="icon datos"></span><span class="after"></span></a><span class="hide"> &#124; </span>
-   <a href="#mensaje" title="Envíame un mensaje"><span class="before"></span><span>Mensaje</span><span class="icon mensaje"></span><span class="after"></span></a><span class="hide"> &#124; </span>
+   <a [routerLink]='"."' [fragment]='"contact-information"' title="Ve mis datos de contacto"><span class="before"></span><span>Datos<span class="hide"> de contacto</span></span><span class="icon datos"></span><span class="after"></span></a><span class="hide"> &#124; </span>
+   <a [routerLink]='"."' [fragment]='"message"' title="Envíame un message"><span class="before"></span><span>Mensaje</span><span class="icon message"></span><span class="after"></span></a><span class="hide"> &#124; </span>
    <em><span>Redes<span class="hide"> Sociales</span></span><span class="icon redes"></span></em>
    </p>
    <span class="decorative">
