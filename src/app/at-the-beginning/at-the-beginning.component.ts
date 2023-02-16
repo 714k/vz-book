@@ -1,6 +1,6 @@
 import { Component, OnInit, ElementRef, AfterViewInit, Input } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import atTheBeginningNavigationData from './at-the-beginning-component.json'
+import atTheBeginningData from './at-the-beginning-component.json'
 @Component({
   selector: 'vz-at-the-beginning',
   templateUrl: './at-the-beginning.component.html',
@@ -8,8 +8,8 @@ import atTheBeginningNavigationData from './at-the-beginning-component.json'
 })
 export class AtTheBeginningComponent implements OnInit, AfterViewInit {
   titleHeaderNavigation = "In this section";
-  anchorsHeaderNavigation = atTheBeginningNavigationData;
-  anchorsSectionNavigation = atTheBeginningNavigationData.seccionNavigation;
+  anchorsHeaderNavigation = atTheBeginningData;
+  anchorsSectionNavigation = atTheBeginningData.seccionNavigation;
 
   constructor(private meta: Meta, private title: Title, private elementRef: ElementRef) {}
 
