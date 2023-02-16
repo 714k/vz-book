@@ -10,11 +10,12 @@ type Anchors = {
 } []
 
 @Component({
-  selector: 'vz-header-navigation',
-  templateUrl: './header-navigation.component.html',
-  styleUrls: ['./header-navigation.component.scss']
+  selector: 'vz-fragment-link',
+  templateUrl: './fragment-link.component.html',
+  styleUrls: ['./fragment-link.component.scss']
 })
-export class HeaderNavigationComponent {
-  @Input() title: string = "";
+export class FragmentLinkComponent {
   @Input() anchors: Anchors = [];
+  @Input() active: number = 1;
+  @Input() classes: string = "";
 }

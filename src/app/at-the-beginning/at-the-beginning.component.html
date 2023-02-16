@@ -2,7 +2,7 @@
   <h1>At the beginning...</h1>
   <vz-header-navigation
     [title]="titleHeaderNavigation"
-    [anchors]="anchorsHeaderNavigation"/>
+    [anchors]="anchorsSectionNavigation"/>
 </header>
 
 <section id="profile">
@@ -19,14 +19,7 @@
   </span>
   </p>
 
-  <p class="section-navigation sprite">
-    <strong>01<span class="hide"> The Server</span></strong><span class="hide">&nbsp;&bull;</span>
-    <a [routerLink]='"."' [fragment]='"laboral-experience"' class="teaser2" title="The Navigator">02<span class="hide"> The Navigator</span></a><span class="hide">&nbsp;&bull;</span>
-    <a [routerLink]='"."' [fragment]='"skills"' class="teaser3" title="The Fixer">03<span class="hide"> The Fixer</span></a><span class="hide">&nbsp;&bull;</span>
-    <a [routerLink]='"."' [fragment]='"project1"' class="teaser4" title="Project 1">04<span class="hide"> Project 1</span></a><span class="hide">&nbsp;&bull;</span>
-    <a [routerLink]='"."' [fragment]='"project2"' class="teaser5" title="Project 2">05<span class="hide"> Project 2</span></a><span class="hide">&nbsp;&bull;</span>
-    <a [routerLink]='"."' [fragment]='"project3"' class="teaser6" title="Project 3">06<span class="hide"> Project 3</span></a> 
-   </p>
+  <vz-fragment-link classes="sprite" [anchors]="anchorsSectionNavigation" [active]="1"/>
 </section>
 
 <section id="laboral-experience">
@@ -40,14 +33,7 @@
       </span>
     </p>
 
-    <p class="section-navigation sprite">
-      <a [routerLink]='"."' [fragment]='"profile"' class="teaser1" title="The Server">01 <span class="hide">The Server</span></a><span class="hide">&nbsp;&bull;</span>
-      <strong>02 <span class="hide">The Navigator</span></strong><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"skills"' class="teaser3" title="The Fixer">03 <span class="hide">The Fixer</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project1"' class="teaser4" title="Project1">04 <span class="hide">Project1</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project2"' class="teaser5" title="Project2">05 <span class="hide">Project2</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project3"' class="teaser6" title="Project3">06 <span class="hide">Project3</span></a> 
-     </p>
+    <vz-fragment-link classes="sprite" [anchors]="anchorsSectionNavigation" [active]="2"/>
 </section>
 
 <section id="skills">
@@ -62,14 +48,7 @@
       </span>
     </p>
 
-    <p class="section-navigation sprite">
-      <a [routerLink]='"."' [fragment]='"profile"' class="teaser1" title="The Server">01 <span class="hide">The Server</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"laboral-experience"' class="teaser2" title="The Navigator">02 <span class="hide">The Navigator</span></a><span class="hide">&nbsp;&bull;</span>
-      <strong>03 <span class="hide">The Fixer</span></strong><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project1"' class="teaser4" title="Project1">04 <span class="hide">Project1</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project2"' class="teaser5" title="Project2">05 <span class="hide">Project2</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project3"' class="teaser6" title="Project3">06 <span class="hide">Project3</span></a> 
-     </p>
+    <vz-fragment-link classes="sprite" [anchors]="anchorsSectionNavigation" [active]="03"/>
 </section>
 
 <section id="project1">
@@ -91,14 +70,7 @@
       </figure>
      </div>
 
-    <p class="section-navigation sprite">
-      <a [routerLink]='"."' [fragment]='"profile"' class="teaser1" title="The Server">01 <span class="hide">The Server</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"laboral-experience"' class="teaser2" title="The Navigator">02 <span class="hide">The Navigator</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"skills"' class="teaser3" title="The Fixer">03 <span class="hide">The Fixer</span></a><span class="hide">&nbsp;&bull;</span>
-      <strong>04 <span class="hide">Project1</span></strong><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project2"' class="teaser5" title="Project2">05 <span class="hide">Project2</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project3"' class="teaser6" title="Project3">06 <span class="hide">Project3</span></a> 
-     </p>
+     <vz-fragment-link classes="sprite" [anchors]="anchorsSectionNavigation" [active]="04"/>
 </section>
 
 <section id="project2">
@@ -120,14 +92,7 @@
     </figure>
    </div>
 
-    <p class="section-navigation sprite">
-      <a [routerLink]='"."' [fragment]='"profile"' class="teaser1" title="The Server">01 <span class="hide">The Server</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"laboral-experience"' class="teaser2" title="The Navigator">02 <span class="hide">The Navigator</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"skills"' class="teaser3" title="The Fixer">03 <span class="hide">The Fixer</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project1"' class="teaser4" title="Project1">04 <span class="hide">Project1</span></a><span class="hide">&nbsp;&bull;</span>
-      <strong>05 <span class="hide">Project2</span></strong><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project3"' class="teaser6" title="Project3">06 <span class="hide">Project3</span></a> 
-     </p>
+   <vz-fragment-link classes="sprite" [anchors]="anchorsSectionNavigation" [active]="05"/>
 </section>
 
 <section id="project3">
@@ -149,12 +114,5 @@
     </figure>
    </div>
 
-    <p class="section-navigation sprite">
-      <a [routerLink]='"."' [fragment]='"profile"' class="teaser1" title="The Server">01 <span class="hide">The Server</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"laboral-experience"' class="teaser2" title="The Navigator">02 <span class="hide">The Navigator</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"skills"' class="teaser3" title="The Fixer">03 <span class="hide">The Fixer</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project1"' class="teaser4" title="Project1">04 <span class="hide">Project1</span></a><span class="hide">&nbsp;&bull;</span>
-      <a [routerLink]='"."' [fragment]='"project2"' class="teaser5" title="Project2">05 <span class="hide">Project2</span></a> 
-      <strong>06&nbsp;<span class="hide">Project3</span></strong>
-   </p>
+   <vz-fragment-link classes="sprite" [anchors]="anchorsSectionNavigation" [active]="06"/>
 </section>

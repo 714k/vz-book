@@ -9,6 +9,7 @@ import atTheBeginningNavigationData from './at-the-beginning-component.json'
 export class AtTheBeginningComponent implements OnInit, AfterViewInit {
   titleHeaderNavigation = "In this section";
   anchorsHeaderNavigation = atTheBeginningNavigationData;
+  anchorsSectionNavigation = atTheBeginningNavigationData.seccionNavigation;
 
   constructor(private meta: Meta, private title: Title, private elementRef: ElementRef) {}
 

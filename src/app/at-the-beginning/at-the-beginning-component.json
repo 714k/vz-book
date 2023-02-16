@@ -1,41 +1,43 @@
-[
-  {
-    "title": "The profile of Victor Zamudio",
-    "href": "profile",
-    "classes": "anchor-class",
-    "prefixLabel": "01",
-    "sufixLabel": "",
-    "label": "The Server"
-  },
-  {
-    "title": "The laboral experience of Victor Zamudio",
-    "href": "laboral-experience",
-    "prefixLabel": "02",
-    "label": "The Navigator"
-  },
-  {
-    "title": "The skills of Victor Zamudio",
-    "href": "skills",
-    "classes": "active",
-    "prefixLabel": "03",
-    "label": "The Fixer"
-  },
-  {
-    "title": "The Project 1",
-    "href": "project1",
-    "prefixLabel": "04",
-    "label": "Project 1"
-  },
-  {
-    "title": "The Project 2",
-    "href": "project2",
-    "prefixLabel": "05",
-    "label": "Project 2"
-  },
-  {
-    "title": "The Project 3",
-    "href": "project3",
-    "prefixLabel": "06",
-    "label": "Project 3"
-  }
-]
+{
+  "seccionNavigation": [
+    {
+      "title": "The profile of Victor Zamudio",
+      "href": "profile",
+      "classes": "anchor-class",
+      "prefixText": "01",
+      "sufixText": "",
+      "text": "The Server"
+    },
+    {
+      "title": "The laboral experience of Victor Zamudio",
+      "href": "laboral-experience",
+      "prefixText": "02",
+      "text": "The Navigator"
+    },
+    {
+      "title": "The skills of Victor Zamudio",
+      "href": "skills",
+      "classes": "active",
+      "prefixText": "03",
+      "text": "The Fixer"
+    },
+    {
+      "title": "The Project 1",
+      "href": "project1",
+      "prefixText": "04",
+      "text": "Project 1"
+    },
+    {
+      "title": "The Project 2",
+      "href": "project2",
+      "prefixText": "05",
+      "text": "Project 2"
+    },
+    {
+      "title": "The Project 3",
+      "href": "project3",
+      "prefixText": "06",
+      "text": "Project 3"
+    }
+  ]
+}

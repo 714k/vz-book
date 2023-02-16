@@ -11,9 +11,9 @@
         [fragment]="anchor.href"
         [class]="anchor.classes" 
         [title]="anchor.title">
-        <span *ngIf="anchor.prefixLabel" class="prefix-label">{{ anchor.prefixLabel }} </span> 
-        <span class="label">{{ anchor.label }}</span>
-        <span *ngIf="anchor.sufixLabel" class="sufix-label">{{ anchor.sufixLabel }} </span> 
+        <span *ngIf="anchor.prefixText" class="prefix-text">{{ anchor.prefixText }} </span> 
+        <span class="text">{{ anchor.text }}</span>
+        <span *ngIf="anchor.sufixText" class="sufix-text">{{ anchor.sufixText }} </span> 
       </a>
     </li>
    </ul>

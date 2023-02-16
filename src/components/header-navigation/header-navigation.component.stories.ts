@@ -89,3 +89,51 @@ Default.args = {
     },
   ]
 };
+
+const a = {
+  headerNavigation: [
+    {
+      title: 'Anchor 1',
+      href: 'anchor1',
+      classes: 'anchor-class',
+      prefixLabel: '',
+      label: 'Anchor 1'
+    }, {
+      title: 'Anchor 1',
+      href: 'anchor2',
+      classes: 'anchor-class',
+      prefixLabel: '001',
+      label: 'Anchor 2'
+    }, { 
+      title: 'Anchor 1',
+      href: 'anchor3',
+      classes: 'active',
+      prefixLabel: '',
+      label: 'Anchor 3'
+    },
+  ],
+  skipLinks: [
+    {
+      title: 'Anchor 1',
+      href: 'anchor1',
+      classes: 'anchor-class',
+      prefixText: '',
+      sufixText: '',
+      text: 'Anchor 1'
+    }, {
+      title: 'Anchor 1',
+      href: 'anchor2',
+      classes: 'anchor-class',
+      prefixText: '001',
+      sufixText: '001',
+      text: 'Anchor 2'
+    }, { 
+      title: 'Anchor 1',
+      href: 'anchor3',
+      classes: 'active',
+      prefixText: '',
+      sufixText: '',
+      text: 'Anchor 3'
+    },
+  ]
+}
