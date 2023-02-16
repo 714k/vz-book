@@ -1,0 +1,20 @@
+<nav role="navigation" class="vz-header-navigation">
+  <p>{{ title }}</p>
+
+  <ul>
+    <li 
+      role="list"
+      *ngFor="let anchor of anchors"
+      >
+      <a 
+        [routerLink]='"."' 
+        [fragment]="anchor.href"
+        [class]="anchor.classes" 
+        [title]="anchor.title">
+        <span *ngIf="anchor.prefixLabel" class="prefix-label">{{ anchor.prefixLabel }} </span> 
+        <span class="label">{{ anchor.label }}</span>
+        <span *ngIf="anchor.sufixLabel" class="sufix-label">{{ anchor.sufixLabel }} </span> 
+      </a>
+    </li>
+   </ul>
+</nav> 

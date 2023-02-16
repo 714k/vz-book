@@ -1,5 +1,5 @@
 {
-  "name": "vz",
+  "name": "vz-book",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,8 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@714k/vz-angular-design-system": "^0.3.0",
     "@angular/animations": "^15.1.0",
     "@angular/common": "^15.1.0",
     "@angular/compiler": "^15.1.0",
