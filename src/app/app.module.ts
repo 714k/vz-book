@@ -1,6 +1,12 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule, Meta } from '@angular/platform-browser';
-import {RouterModule} from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+
+// import { AngularComponentsModule } from '@714k/vz-angular-design-system';
+// import {HeaderNavigationComponent } from '@714k/vz-angular-design-system/components/header-navigation/header-navigation.component';
+
+import { HeaderNavigationComponent } from '../components/header-navigation/header-navigation.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +19,7 @@ import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobo
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
+// console.warn(AngularComponentsModule.toString());
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,12 +31,16 @@ import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to
     NobodyKnowsHeWorkedOnComponent,
     SeccionAmarillaComponent,
     NorWhereToFindHimComponent,
+    HeaderNavigationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
+    // AngularComponentsModule,
     RouterModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [Meta],
   bootstrap: [AppComponent]
 })
