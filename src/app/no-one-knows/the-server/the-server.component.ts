@@ -10,6 +10,8 @@ import theServerData from './the-server.component.json';
 })
 export class TheServerComponent implements OnInit, AfterViewInit {
   courses = theServerData.courses;
+  titleHeaderNavigation = "In this section";
+  anchorsSectionNavigation = theServerData.seccionNavigation;
 
   constructor(private meta: Meta, private title: Title) {}
 
