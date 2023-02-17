@@ -1,0 +1,62 @@
+<section
+  *ngFor="let adventure of adventures; let idx = index"
+  id="adventure-{{ adventure.adventureNumber }}" 
+  class="adventure view">
+
+  <h2>Adventure #{{ adventure.adventureNumber }}</h2>
+
+  <p class="period">
+   <span><strong>Period</strong></span><br />
+   <span>{{ adventure.period }}</span>				
+  </p>
+
+  <p class="company">
+   <span><strong>Company</strong></span><br />
+   <span>{{ adventure.company }}</span>				
+  </p>
+
+  <p class="industry">
+   <span><strong>Industry</strong></span><br />
+   <span>{{ adventure.industry }}</span>
+  </p>
+      
+  <p class="position">
+    <span><strong>Position</strong></span><br />
+    <span>{{ adventure.position }}</span><br />
+  </p>
+
+  <div class="summary">
+    <p class="activities">
+      <span><strong>Activities</strong></span><br />
+      <span [innerHTML]="adventure.activities"></span>
+    </p>
+    
+    <p class="accounts">
+      <span>
+        <strong>Assigned Accounts</strong>
+      </span><br />
+      <span [innerHTML]="adventure.accounts"></span>
+    </p>
+  </div>
+
+  <vz-fragment-link 
+    classes="sprite nav-adventures controls-mode-view" 
+    [anchors]="fragmentLinks" 
+    [active]="(idx+1)"
+  />
+
+  <span class="decorative">
+    <span class="sp sprite sparrow">&nbsp;</span>
+    <span class="sp sprite barco perlaNegra">&nbsp;</span>
+    <span class="sp sprite islaTortuga">&nbsp;</span>
+    <span class="sp sprite luna">&nbsp;</span>
+    <span class="sp sprite nubes nube1">&nbsp;</span>
+    <span class="sp sprite nubes nube2">&nbsp;</span>
+    <span class="sp sprite nubes nube3">&nbsp;</span>
+    <span class="sp sprite aves ave1">&nbsp;</span>
+    <span class="sp sprite aves ave2">&nbsp;</span>
+    <span class="sp sprite aves ave3">&nbsp;</span>
+  </span>
+
+  <hr>
+</section>

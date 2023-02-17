@@ -1,14 +1,8 @@
 <header>
   <h1>The Server</h1>
-  <nav role="navigation">
-    In this section
-    <ul>
-      <li><a [routerLink]='"."' [fragment]='"profile"'><span>has a pitch</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"professional-interest"'><span>has passion</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"academic-formation"'><span>has credentials</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"courses"'><span>has training</span></a></li>
-    </ul>
-  </nav>    
+  <vz-header-navigation
+    [title]="titleHeaderNavigation"
+    [anchors]="anchorsSectionNavigation"/>    
 </header>
 
 <section id="profile" class="vcard"> 

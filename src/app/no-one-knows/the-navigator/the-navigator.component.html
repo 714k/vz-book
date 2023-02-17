@@ -1,21 +1,14 @@
 <header>
   <h1>The Navigator</h1>
-  <nav role="navigation">
-    In this section
-    [Update Adventures]
-    <ul>
-      <li><a [routerLink]='"."' [fragment]='"adventure0"'><span>Oct 2013 - </span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"adventure1"'><span>Ene 2012 - Sep 2013</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"adventure2"'><span>Jun 2009 - Dic 2011</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"adventure3"'><span>Ene - May 2009</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"adventure4"'><span>Jun 2006 - Ene 2009</span></a></li>
-    </ul>
-  </nav>    
+  <vz-header-navigation
+    [title]="titleHeaderNavigation"
+    [anchors]="anchorsSectionNavigation"/>
 </header>
 
-<section id="adventure0" class="adventure vista">
-  [Update]
-  <p class="navAdventures sp controlesModoVista">
+<vz-adventures [adventures]="[]"/>
+
+<section id="adventure-5" class="adventure vista">
+  <!-- <p class="navAdventures sp controlesModoVista">
   <span class="container">
    <a [routerLink]='"."' [fragment]='"adventure4"' title="Junio de 2006 a Enero de 2009">Jun 2006 - Ene 2009</a> |
    <a [routerLink]='"."' [fragment]='"adventure3"' title="Enero a Mayo de 2009">Ene - May 2009</a> |
@@ -23,8 +16,14 @@
    <a [routerLink]='"."' [fragment]='"adventure1"' title="Enero de 2012 a Septiembre de 2013">Ene 2012 - Sep 2013</a> |
   <strong>Sep 2013 - </strong>
   </span>
-  </p>
-<h2>Adventure #5</h2>
+  </p> -->
+  
+  <vz-adventures 
+    [adventures]="adventures"
+    [fragmentLinks]="anchorsSectionNavigation"
+  />
+
+  <!-- <h2>Adventure #5</h2>
 
   <p class="periodo">
    <span><strong>Periodo</strong></span><br/>
@@ -43,7 +42,7 @@
       
 <p class="cargo">
  <span><strong>Puesto</strong></span><br/>
- <span>Dise&ntilde;ador y Desarrollador Web Senior</span><br/>
+ <span></span><br/>
 </p>
 <div class="ficha">
   <p class="actividades">
@@ -318,4 +317,4 @@ de Portales con Prioridad 1, 2 y 3 (Ver <a href="el-depurador#conocimientos" tit
 
    <span class="decorative sprite">
     <span class="sprite mar">&nbsp;</span>
-   </span>
+   </span> -->

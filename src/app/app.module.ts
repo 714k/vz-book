@@ -21,6 +21,7 @@ import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
 import { FragmentLinkComponent } from '../components/fragment-link/fragment-link.component';
 import { CoursesComponent } from '../components/courses/courses.component';
+import { AdventuresComponent } from '../components/adventures/adventures.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CoursesComponent } from '../components/courses/courses.component';
     HeaderNavigationComponent,
     SkipLinksComponent,
     FragmentLinkComponent,
-    CoursesComponent
+    CoursesComponent,
+    AdventuresComponent
   ],
   imports: [
     BrowserModule,
