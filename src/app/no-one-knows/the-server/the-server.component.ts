@@ -1,12 +1,16 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
+import theServerData from './the-server.component.json';
+
 @Component({
   selector: 'vz-the-server',
   templateUrl: './the-server.component.html',
   styleUrls: ['./the-server.component.scss']
 })
 export class TheServerComponent implements OnInit, AfterViewInit {
+  courses = theServerData.courses;
+
   constructor(private meta: Meta, private title: Title) {}
 
   ngOnInit(): void {
@@ -26,5 +30,4 @@ export class TheServerComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     document.querySelector('body')?.classList.add('the-server');
   }
-
 }
