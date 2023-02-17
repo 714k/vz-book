@@ -20,8 +20,8 @@ import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-am
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
 import { FragmentLinkComponent } from '../components/fragment-link/fragment-link.component';
+import { CoursesComponent } from '../components/courses/courses.component';
 
-// console.warn(AngularComponentsModule.toString());
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +35,8 @@ import { FragmentLinkComponent } from '../components/fragment-link/fragment-link
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,
     SkipLinksComponent,
-    FragmentLinkComponent
+    FragmentLinkComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,

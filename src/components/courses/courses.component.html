@@ -1,0 +1,22 @@
+<section id="courses" class="vz-courses" *ngIf="courses">
+  <h3>Courses</h3>
+  <p>These are some of the most significant courses I've taken  :</p>
+
+  <div class="course" *ngFor="let course of courses">
+    <h4>{{course.title}}</h4>
+    <p>
+      <strong class="who">
+        Who:
+      </strong>
+      <span class="text">{{ course.who }}</span><br>
+      <strong class="when">
+        When:
+      </strong>
+      <span class="text">{{ course.when }}</span><br>
+      <strong class="where">
+        Where:
+      </strong>
+      <span class="text">{{ course.where }}</span><br>
+    </p>
+  </div>
+</section>
