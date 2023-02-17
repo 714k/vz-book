@@ -1,0 +1,125 @@
+{
+  "seccionNavigation":[
+     {
+        "title":"The current adventure",
+        "href":"adventure-7",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Sep 2022 -"
+     },
+     {
+        "title":"The sixth adventure",
+        "href":"adventure-6",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Nov 2015 - Sep 2022"
+     },
+     {
+        "title":"The fifth adventure",
+        "href":"adventure-5",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Oct 2013 - Nov 2015"
+     },
+     {
+        "title":"The fourth adventure",
+        "href":"adventure-4",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ene 2012 - Sep 2013"
+     },
+     {
+        "title":"The third adventure",
+        "href":"adventure-3",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Jun 2009 - Dic 2011"
+     },
+     {
+        "title":"The second adventure",
+        "href":"adventure-2",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ene - May 2009"
+     },
+     {
+        "title":"The first adventure",
+        "href":"adventure-1",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Jun 2006 - Ene 2009"
+     }
+  ],
+  "adventures":[
+     {
+        "adventureNumber": 7,
+        "period": "Sep 2022 -",
+        "company": "Thomson Reuters",
+        "industry": "Legal, Tax and Accounting, and News & Media",
+        "position": "UX Engineer Senior",
+        "activities": "<span><a href='#'>Test Link</a></span>",
+        "accounts": "<span></span>"
+     },
+     {
+        "adventureNumber": 6,
+        "period": "Nov 2015 - Sep 2022",
+        "company": "Globant",
+        "industry": "Technology",
+        "position": "UI Developer Senior",
+        "activities": "<span><a href='#'>Test Link</a></span>",
+        "accounts": "<span></span>"
+     },
+     {
+        "adventureNumber": 5,
+        "period": "Sep 2013 - Nov 2015",
+        "company": "Seccion Amarilla",
+        "industry": "Advertising",
+        "position": "Web Designer & Developer Senior",
+        "activities": "<span>Wireframes y Prototypes (Ver <a href=\"el-depurador#conocimientos\" title=\"Ve mis conocimientos sobre Arquitectura de Informaci&oacute;n\">Arquitectura de Informaci&oacute;n</a>). Maquetaci&oacute;n Sem&aacute;ntica y Responsiva, Accesibilidad Web, Microformatos, animaciones y funcionalidades(Ver <a href=\"el-depurador#conocimientos\" title=\"Ve mis conocimientos sobre Arquitectura Visual\">Arquitectura Visual</a>). Administraci&oacute;n, mantenimiento y desarrollo de plugins y temas para Wordpress. Gesti&oacute;n de bases de datos y contenidos. Desarrollo e implementaci&oacute;n de Web Service. Mantenimiento de Apps (Android, Windows Phone y iOS) y Web Apps. (Ver <a href=\"el-depurador#conocimientos\" title=\"Ve mis conocimientos sobre Arquitectura de Soluciones\">Arquitectura de Soluciones</a>). Optimizaci&oacute;n para buscadores (Ver <a href=\"el-depurador#conocimientos\" title=\"Ve mis conocimientos sobre SEO\">SEO</a>).</span>",
+        "accounts": "<span></span>"
+     },
+     {
+        "adventureNumber": 4,
+        "period": "Jan 2012 - Sep 2013",
+        "company": "EC Global Network",
+        "industry": "Advertising",
+        "position": "Web Designer & Developer Senior",
+        "activities": "This is a <span><a href='#'>Test Link</a></span>",
+        "accounts": "<span></span>"
+     },
+     {
+        "adventureNumber": 3,
+        "period": "Jun 2009 - Dec 2011",
+        "company": "Infotec",
+        "industry": "Research Center",
+        "position": "Web Designer Senior",
+        "activities": "<span><a href='#'>Test Link</a></span>",
+        "accounts": "<span></span>"
+     },
+     {
+        "adventureNumber": 2,
+        "period": "Jan 2009 - May 2009",
+        "company": "Cacto Arte e Ideas",
+        "industry": "Advertising",
+        "position": "Web Designer",
+        "activities": "<span><a href='#'>Test Link</a></span>",
+        "accounts": "<span></span>"
+     },
+     {
+        "adventureNumber": 1,
+        "period": "Nov 2015 - Sep 2022",
+        "company": "Red Enlaces",
+        "industry": "Technology",
+        "position": "Web Designer Junior",
+        "activities": "<span><a href='#'>Test Link</a></span>",
+        "accounts": "<span></span>"
+     }
+  ]
+}

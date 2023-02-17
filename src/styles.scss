@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #101318;
+  background-color: #0f1114;
   color: #bbd0f3;
   font-size: 18px;
   font-family:'Exo 2 Regular', 'Arial Narrow', Arial, sans-serif;
@@ -54,8 +54,20 @@ h1 {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
-  color: #ff6600;
+h1{
+  color: #b3ff00;
+}
+
+h2 {
+  color: #ffd400;
+}
+
+h3 {
+  color: rgb(0, 149, 255);
+}
+
+h4 {
+  color: yellow;
 }
 
 h2, h3, h4, a {

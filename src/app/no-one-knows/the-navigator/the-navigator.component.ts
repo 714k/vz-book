@@ -1,12 +1,18 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
+import theNavigatorData from './the-navigator.component.json'
+
 @Component({
   selector: 'vz-the-navigator',
   templateUrl: './the-navigator.component.html',
   styleUrls: ['./the-navigator.component.scss']
 })
 export class TheNavigatorComponent {
+  titleHeaderNavigation = "In this section";
+  anchorsSectionNavigation = theNavigatorData.seccionNavigation;
+  adventures = theNavigatorData.adventures;
+
   constructor(private meta: Meta, private title: Title) {}
 
   ngOnInit(): void {

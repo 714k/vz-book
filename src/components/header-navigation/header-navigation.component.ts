@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-type Anchors = {
+export type Anchors = {
   title: string;
   href: string;
   classes?: string;
