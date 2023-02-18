@@ -25,18 +25,34 @@
     <span>{{ adventure.position }}</span><br />
   </p>
 
+  <!-- <div class="summary" [innerHTML]="adventure.summary"></div> -->
   <div class="summary">
-    <p class="activities">
-      <span><strong>Activities</strong></span><br />
-      <span [innerHTML]="adventure.activities"></span>
-    </p>
+    <div class="activities">
+      <h3>Activities</h3>
+      <span *ngFor="let activity of adventure.summary.activities">
+        <span>{{ activity.title }}&nbsp;</span>
+          (See <a 
+            *ngFor="let link of activity.links" 
+            [href]="link.href"
+            [title]="link.title"
+            [innerHTML]="link.text"></a>).&nbsp;
+      </span>
+    </div>
+
+    <div class="accounts">
+      <h3>Accounts</h3>
+      <span *ngFor="let account of adventure.summary.accounts">
+        <strong [class]="account.title | lowercase">{{ account.title }}: </strong>
+          <span *ngIf="!account.links">{{ account.text}}</span>
+          <a
+            *ngFor="let link of account.links; last as isLast"
+            [href]="link.href"
+            [title]="link.title"
+            innerHTML="{{ link.text }}{{isLast ? '.' : ', '}}">
+          </a><br />
+      </span>
+    </div>
     
-    <p class="accounts">
-      <span>
-        <strong>Assigned Accounts</strong>
-      </span><br />
-      <span [innerHTML]="adventure.accounts"></span>
-    </p>
   </div>
 
   <vz-fragment-link 
