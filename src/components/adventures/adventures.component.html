@@ -20,9 +20,9 @@
    <span>{{ adventure.industry }}</span>
   </p>
       
-  <p class="position">
-    <span><strong>Position</strong></span><br />
-    <span>{{ adventure.position }}</span><br />
+  <p class="role">
+    <span><strong>Role</strong></span><br />
+    <span>{{ adventure.role }}</span><br />
   </p>
 
   <!-- <div class="summary" [innerHTML]="adventure.summary"></div> -->
@@ -30,7 +30,7 @@
     <div class="activities">
       <h3>Activities</h3>
       <span *ngFor="let activity of adventure.summary.activities">
-        <span>{{ activity.title }}&nbsp;</span>
+        <span [innerHTML]="activity.title&nbsp;"></span>
           (See <a 
             *ngFor="let link of activity.links" 
             [href]="link.href"

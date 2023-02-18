@@ -29,7 +29,7 @@ type Adventure = {
   period: string;
   company: string;
   industry: string;
-  position: string;
+  role: string;
   summary: Summary;
 }
 

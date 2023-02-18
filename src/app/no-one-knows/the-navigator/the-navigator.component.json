@@ -63,50 +63,96 @@
         "period": "Sep 2022 -",
         "company": "Thomson Reuters",
         "industry": "Legal, Tax and Accounting, and News & Media",
-        "position": "UX Engineer Senior",
+        "role": "UX Engineer Senior",
         "summary": {
             "activities": [
                {
-                  "title": "Wireframes and Prototypes",
+                  "title": "Leading members of pods",
                   "links": [
                      {
-                        "title": "See my knowledge about Information Architecture",
-                        "text": "Information Architecture",
-                        "href": "/the-fixer#knowledges"
+                        "title": "See my knowledge about Leading",
+                        "text": "Leading",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                     }
+                  ]
+               }, 
+               {
+                  "title": "Mentoring Junior, and Semi-Senior Engineers",
+                  "links": [
+                     {
+                        "title": "See my knowledge about Mentoring",
+                        "text": "Mentoring",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
                      }
                   ]
                },
                {
-                  "title": "Semantic and Responsive Layout, Web Accessibility, Microformats, animations and functionalities",
+                  "title": "Practicing Agile Methodlogy (Kanban & Scrum)",
                   "links": [
                      {
-                        "title": "See my knowledge about Visual Architecture",
-                        "text": "Visual Architecture",
-                        "href": "at-the-beginning/no-one-knows/the-fixer#knowledges"
+                        "title": "See my knowledge about Agile Methodlogy",
+                        "text": "Agile Methodlogy",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
                      }
                   ]
                },
                {
-                  "title": "Administration, maintenance and development of plugins and themes for Wordpress. Database and content management",
-                  "links": []
-               },
-               {
-                  "title": "Development and implementation of Web Service. App Maintenance (Android, Windows Phone and iOS) and Web Apps.",
+                  "title": "Developing with good practices",
                   "links": [
                      {
-                        "title": "See my knowledge about Solution Architecture",
-                        "text": "Solution Architecture",
-                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledges"
+                        "title": "See my knowledge about Good Practices & Design Patters",
+                        "text": "Design Patters",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
                      }
                   ]
                },
                {
-                  "title": "Search Engine Optimization",
+                  "title": "Creating WebApps with Angular, React, and Vue",
                   "links": [
                      {
-                        "title": "See my knowledge about SEO",
-                        "text": "SEO",
-                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledges"
+                        "title": "See my knowledge about Frameworks & Libraries",
+                        "text": "Frameworks & Libraries",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                     }
+                  ]
+               },
+               {
+                  "title": "Building Accessible Features",
+                  "links": [
+                     {
+                        "title": "See my knowledge about Accessibility",
+                        "text": "Accessibility",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                     }
+                  ]
+               },
+               {
+                  "title": "Creation of Design system for the Company",
+                  "links": [
+                     {
+                        "title": "See my knowledge about Design Systems",
+                        "text": "Design Systems",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                     }
+                  ]
+               },
+               {
+                  "title": "Performing Unit, Integration, and e2e Testing",
+                  "links": [
+                     {
+                        "title": "See my knowledge about Software Testing",
+                        "text": "Software Testing",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                     }
+                  ]
+               },
+               {
+                  "title": "Supporting the <abbr title='User Experience'>UX</abbr> with fullstack topics",
+                  "links": [
+                     {
+                        "title": "See my knowledge about Fullstack",
+                        "text": "Fullstack",
+                        "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
                      }
                   ]
                }
@@ -117,9 +163,9 @@
                   "text": "All of the above",
                   "links": [
                      {
-                        "title": "See Projects from Thomson Reuters",
-                        "text": "Projects from Thomson Reuters",
-                        "href": "/at-the-beginning/nobody-knows-he-worked-on/projects-from-thomson-reuters"
+                        "title": "See Project of Saffron",
+                        "text": "Saffron",
+                        "href": "/at-the-beginning/nobody-knows-he-worked-on/saffron"
                      }
                   ]
                },
@@ -128,10 +174,10 @@
                   "text": "All of the above",
                   "links": [
                      {
-                        "title": "See Projects from Thomson Reuters",
-                        "text": "Projects from Thomson Reuters",
-                        "href": "/at-the-beginning/nobody-knows-he-worked-on/projects-from-thomson-reuters"
-                     }
+                        "title": "See Project of NextGen",
+                        "text": "NextGen",
+                        "href": "/at-the-beginning/nobody-knows-he-worked-on/next-gen"
+                     }                     
                   ]
                },
                {
@@ -139,9 +185,14 @@
                   "text": "All of the above",
                   "links": [
                      {
-                        "title": "See my knowledge about Information Architecture",
-                        "text": "Projects from Thomson Reuters",
-                        "href": "/at-the-beginning/nobody-knows-he-worked-on/projects-from-thomson-reuters"
+                        "title": "See Project of Maverick",
+                        "text": "Maverick",
+                        "href": "/at-the-beginning/nobody-knows-he-worked-on/maverick"
+                     },
+                     {
+                        "title": "See Project of Open Banking",
+                        "text": "Open Banking",
+                        "href": "/at-the-beginning/nobody-knows-he-worked-on/open-banking"
                      }
                   ]
                }
@@ -153,19 +204,119 @@
         "period": "Nov 2015 - Sep 2022",
         "company": "Globant",
         "industry": "Technology",
-        "position": "UI Developer Senior",
+        "role": "UI Developer Senior",
         "summary": {
          "activities": [
             {
-               "title": "Wireframes and Prototypes",
+               "title": "Leading members of pods",
                "links": [
                   {
-                     "title": "See my knowledge about Information Architecture",
-                     "text": "Information Architecture",
-                     "href": "/the-fixer#knowledges"
+                     "title": "See my knowledge about Leading",
+                     "text": "Leading",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
                   }
                ]
-            }         
+            }, 
+            {
+               "title": "Mentoring Junior, and Semi-Senior Engineers",
+               "links": [
+                  {
+                     "title": "See my knowledge about Mentoring",
+                     "text": "Mentoring",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Practicing Agile Methodlogy (Kanban & Scrum)",
+               "links": [
+                  {
+                     "title": "See my knowledge about Agile Methodlogy",
+                     "text": "Agile Methodlogy",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Developing with good practices",
+               "links": [
+                  {
+                     "title": "See my knowledge about Good Practices & Design Patters",
+                     "text": "Design Patters",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Creating WebApps with React",
+               "links": [
+                  {
+                     "title": "See my knowledge about Frameworks & Libraries",
+                     "text": "Frameworks & Libraries",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Performing Unit, and Integration Testing",
+               "links": [
+                  {
+                     "title": "See my knowledge about Software Testing",
+                     "text": "Software Testing",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Supporting the product team with <abbr title='User Experience'>UX</abbr> topics",
+               "links": [
+                  {
+                     "title": "See my knowledge about UX",
+                     "text": "UX",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Building NPM Packages",
+               "links": [
+                  {
+                     "title": "See my knowledge about NPM Packages",
+                     "text": "NPM Packages",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Implementing Microservices",
+               "links": [
+                  {
+                     "title": "See my knowledge about Node, Docker & Kubernetes",
+                     "text": "Node, Docker & Kubernetes",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Consuming API services & Databases",
+               "links": [
+                  {
+                     "title": "See my knowledge about MySQL, MongoDB, and GraphQL",
+                     "text": "MySQL, MongoDB, and GraphQL",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            },
+            {
+               "title": "Creation of Add-Ons for Chrome & Firefox",
+               "links": [
+                  {
+                     "title": "See my knowledge about Browser Extensions",
+                     "text": "Browser Extensions",
+                     "href": "/at-the-beginning/no-one-knows/the-fixer#knowledge"
+                  }
+               ]
+            }
            ],
            "accounts": [
             {
@@ -173,9 +324,14 @@
                "text": "All of the above",
                "links": [
                   {
-                     "title": "See Projects from Globant",
-                     "text": "Projects from Globant",
-                     "href": "/at-the-beginning/nobody-knows-he-worked-on/projects-from-globant"
+                     "title": "See Project of HBO Max",
+                     "text": "HBO Max",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/hbo-max"
+                  },
+                  {
+                     "title": "See Project of Aeris",
+                     "text": "Aeris",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/aeris"
                   }
                ]
             },
@@ -184,9 +340,14 @@
                "text": "All of the above",
                "links": [
                   {
-                     "title": "See Projects from Globant",
-                     "text": "Projects from Globant",
-                     "href": "/at-the-beginning/nobody-knows-he-worked-on/projects-from-globant"
+                     "title": "See Project of Plastiq",
+                     "text": "Plastiq",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/plastiq"
+                  },
+                  {
+                     "title": "See Project of Cars.com",
+                     "text": "Cars",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/cars"
                   }
                ]
             },
@@ -195,9 +356,39 @@
                "text": "All of the above",
                "links": [
                   {
-                     "title": "See Projects from Globant",
-                     "text": "Projects from Globant",
-                     "href": "/at-the-beginning/nobody-knows-he-worked-on/projects-from-globant"
+                     "title": "See Project of HBO",
+                     "text": "HBO",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/hbo"
+                  },
+                  {
+                     "title": "See Project of Johnson & Johnson",
+                     "text": "Johnson & Johnson",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/johnson-and-johnson"
+                  },
+                  {
+                     "title": "See Project of American Airlines",
+                     "text": "American Airlines",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/american-airlines"
+                  },
+                  {
+                     "title": "See Project of HipChat",
+                     "text": "HipChat",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/hipchat"
+                  },
+                  {
+                     "title": "See Project of Citi Banamex",
+                     "text": "Citi Banamex",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/citi-banamex"
+                  },
+                  {
+                     "title": "See Project of Scotiabank",
+                     "text": "Scotiabank",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/scotiabank"
+                  },
+                  {
+                     "title": "See Project of Santander",
+                     "text": "Santander",
+                     "href": "/at-the-beginning/nobody-knows-he-worked-on/santander"
                   }
                ]
             }
@@ -209,7 +400,7 @@
         "period": "Sep 2013 - Nov 2015",
         "company": "Seccion Amarilla",
         "industry": "Advertising",
-        "position": "Web Designer & Developer Senior",
+        "role": "Web Designer & Developer Senior",
         "summary": {
          "activities": [
             {
@@ -340,7 +531,7 @@
         "period": "Jan 2012 - Sep 2013",
         "company": "EC Global Network",
         "industry": "Advertising",
-        "position": "Web Designer & Developer Senior",
+        "role": "Web Designer & Developer Senior",
         "summary": {
          "activities": [
             {
@@ -474,7 +665,7 @@
         "period": "Jun 2009 - Dec 2011",
         "company": "Infotec",
         "industry": "Research Center",
-        "position": "Web Designer Senior",
+        "role": "Web Designer Senior",
         "summary": {
          "activities": [
             {
@@ -608,7 +799,7 @@
         "period": "Jan 2009 - May 2009",
         "company": "Cacto Arte e Ideas",
         "industry": "Advertising",
-        "position": "Web Designer",
+        "role": "Web Designer",
         "summary": {
          "activities": [
             {
@@ -682,7 +873,7 @@
         "period": "Nov 2015 - Sep 2022",
         "company": "Red Enlaces",
         "industry": "Technology",
-        "position": "Web Designer Junior",
+        "role": "Web Designer Junior",
         "summary": {
          "activities": [
             {
