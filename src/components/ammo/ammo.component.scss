@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+
+  thead {
+    background-color: #ffff00;
+    color: #010916;
+
+    th:nth-child(3) {
+      display: none;
+    }
+  }
+
+  tbody {
+    font-size: 0.9rem;
+
+    td {
+      line-height: 1.15rem;
+      padding: 0.25rem 0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #062556;
+    }
+
+    tr:nth-child(odd) {
+      background-color: transparent;
+    }
+
+    td:nth-child(3) {
+      display: none;
+    }  
+  } 
+}

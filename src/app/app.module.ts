@@ -22,6 +22,7 @@ import { SkipLinksComponent } from '../components/skip-links/skip-links.componen
 import { FragmentLinkComponent } from '../components/fragment-link/fragment-link.component';
 import { CoursesComponent } from '../components/courses/courses.component';
 import { AdventuresComponent } from '../components/adventures/adventures.component';
+import { AmmoComponent } from '../components/ammo/ammo.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { AdventuresComponent } from '../components/adventures/adventures.compone
     SkipLinksComponent,
     FragmentLinkComponent,
     CoursesComponent,
-    AdventuresComponent
+    AdventuresComponent,
+    AmmoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,177 @@
+{
+  "sectionNavigation": {
+    "title": "In this section",
+    "sections": [
+      {
+        "title":"The Knowledge I have",
+        "href":"knowledge",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of Knowledge"
+      },
+      {
+        "title":"The languages I type",
+        "href":"languages",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of languages"
+      },
+      {
+        "title":"The Engineering I apply",
+        "href":"engineering",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of Engineering"
+      },
+      {
+        "title":"The Techniques I use",
+        "href":"techniques",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of Techniques"
+      },
+      {
+        "title":"The Soft Skills I got",
+        "href":"soft-skills",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of Soft Skills"
+      },
+      {
+        "title":"The Frameworks I implement",
+        "href":"frameworks",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of Frameworks"
+      },
+      {
+        "title":"The <abbr title='Integrated Development Environment'>IDE</abbr>s I work",
+        "href":"ides",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of <abbr title='Integrated Development Environment'>IDE</abbr>s"
+      },
+      {
+        "title":"The CMS I manage",
+        "href":"cms",
+        "classes":"anchor-class",
+        "prefixText":"",
+        "sufixText":"",
+        "text":"Ammo of CMS"
+      }
+    ]
+  },
+  "ammos": {
+    "knowledge": 
+      {
+        "id": "knowledge",
+        "title": "Knowledge",
+        "caption": "The knowledge I have",
+        "data": [
+          {
+            "name": "Accessibility",
+            "years": "15",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Leadership",
+            "years": "5",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Mentoring",
+            "years": "5",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Architectural Design",
+            "years": "5",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Agile Development",
+            "years": "8",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Software testing",
+            "years": "8",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Design Patters",
+            "years": "7",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "<abbr title='User Experience'>UX</abbr>",
+            "years": "5",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Mobile First",
+            "years": "5",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Web Standards",
+            "years": "15",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Web Performance Optimization",
+            "years": "10",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "<abbr title='Search Engineering Optimization'>SEO</abbr>",
+            "years": "9",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Design Systems",
+            "years": "3",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Information Architecture",
+            "years": "12",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Editorial Design",
+            "years": "17",
+            "use": "Frecuent",
+            "percentage": "100%"
+          },
+          {
+            "name": "Terminal",
+            "years": "8",
+            "use": "Frecuent",
+            "percentage": "100%"
+          }
+        ]
+      }
+  }
+}
