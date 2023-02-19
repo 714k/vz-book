@@ -1,6 +1,6 @@
 <p class="vz-fragment-link" [class]="classes">
   <span
-    *ngFor="let anchor of anchors; let idx=index">
+    *ngFor="let anchor of anchors; let idx=index; let isLast = last">
     <a
       *ngIf="idx !== (active-1); else activeLink"
       [routerLink]='"."' 
@@ -12,10 +12,12 @@
       <span *ngIf="anchor.sufixText" class="sufix-text">{{ anchor.sufixText }} </span> 
     </a>
 
+    {{ isLast ? '' : '&nbsp;&bull;&nbsp;'}}
+
     <ng-template #activeLink>
       <strong>
         <span *ngIf="anchor.prefixText" class="prefix-text">{{ anchor.prefixText }} </span> 
-      <span class="text"> {{ anchor.text }} </span>
+      <span class="text"> {{ anchor.text }}</span>
       <span *ngIf="anchor.sufixText" class="sufix-text"> {{ anchor.sufixText }} </span>
       </strong>
     </ng-template>
