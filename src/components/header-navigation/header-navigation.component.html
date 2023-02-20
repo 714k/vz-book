@@ -1,4 +1,4 @@
-<nav role="navigation" class="vz-header-navigation">
+<nav id="top-links" role="navigation" class="vz-header-navigation">
   <p>{{ title }}</p>
 
   <ul>
@@ -12,7 +12,7 @@
         [class]="anchor.classes" 
         [title]="anchor.title">
         <span *ngIf="anchor.prefixText" class="prefix-text">{{ anchor.prefixText }} </span> 
-        <span class="text">{{ anchor.text }}</span>
+        <span class="text" [innerHTML]="anchor.text"></span>
         <span *ngIf="anchor.sufixText" class="sufix-text">{{ anchor.sufixText }} </span> 
       </a>
     </li>

@@ -1,0 +1,92 @@
+table {
+  border-collapse: collapse;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-align: left;
+  width: 100%;
+
+  thead {
+    background-color: #ffff00;
+    color: #010916;
+  }
+
+  tbody {
+  
+    td {
+      line-height: 1.15rem;
+      padding: 0.25rem 0.5rem 0.25rem 0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #062556;
+    }
+
+    tr:nth-child(odd) {
+      background-color: transparent;
+    }
+  } 
+}
+
+#knowledge {
+  th:nth-child(3) {
+    display: none;
+  }
+
+  td:nth-child(3) {
+    display: none;
+  }
+
+  th:nth-child(2) {
+    text-indent: -50000rem;
+
+    &:before {
+      text-indent: 50000rem;
+      content: "%";
+      display: inline-block;
+      background-color: aqua;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}
+
+#programs, 
+#languages,
+#ides,
+#frameworks,
+#techniques,
+#cms {
+  th:nth-child(1) {
+    display: none;
+  }
+
+  td:nth-child(1) {
+    display: none;
+  }
+  th:nth-child(5) {
+    display: none;
+  }
+
+  td:nth-child(5) {
+    display: none;
+  }
+  th:nth-child(4) {
+    display: none;
+  }
+
+  td:nth-child(4) {
+    display: none;
+  }
+
+  th:nth-child(3) {
+    text-indent: -50000rem;
+
+    &:before {
+      text-indent: 50000rem;
+      content: "%";
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}

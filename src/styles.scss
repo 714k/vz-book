@@ -16,6 +16,8 @@
 body {
   background-color: #0f1114;
   color: #eaf2ff;
+  color: #3cb7ff;
+  background-color: #010916;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5rem;
@@ -30,9 +32,9 @@ body {
 }
 
 .main-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
 
   .logo {
     background-image: url('./assets/svg/logo-vz.svg');
@@ -40,12 +42,12 @@ body {
     text-indent: -10000rem;
     height: 4rem;
     width: 5.3rem;
-    display: inline-flex;
+    // display: inline-flex;
     margin: 0;
   }  
 
   nav {
-    display: inline-flex;
+    // display: inline-flex;
   }
 }
 
@@ -62,7 +64,7 @@ h1{
 }
 
 h2 {
-  color: #ffd400;
+  color: #ffff00;
 }
 
 h3 {
@@ -80,12 +82,18 @@ h2, h3, h4, a {
 
 
 a {
-  color: #ff4f6f;
+  color: white;
+  background-color: blue;
   text-decoration: none;
+  padding: 0.025rem;
+  background-color: #1a3600;
+  color: #7bff00;
 
   &:hover {
-    color: #7aff00;
-    text-decoration: underline;
+    color: blue;
+    background-color: white;
+    background-color: #7bff00;
+    color: #1a3600;
   }
 }
 

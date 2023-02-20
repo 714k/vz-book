@@ -1,0 +1,31 @@
+<section id="{{ ammo.id }}" class="vz-ammo classes">
+  <h2 [innerHTML]="ammo.title"></h2>
+  
+  <table class="sprite" >
+    <!-- <caption>{{ ammo.caption }}</caption> -->
+    <thead>
+      <tr>
+         <th scope="col" *ngFor="let item of ammo.data[0] | keyvalue">
+          {{ item.key }}
+         </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr *ngFor="let data of ammo.data">
+        <td *ngFor="let item of data | keyvalue"
+          class="tdClass"
+          [innerHTML]="item.value"
+          >
+        </td>
+      </tr>
+     </tbody>
+  </table>
+
+  <p>
+    <a 
+      [routerLink]='"."' 
+      [fragment]="'top-links'">
+      Back to Top
+    </a>
+  </p> 
+</section>
