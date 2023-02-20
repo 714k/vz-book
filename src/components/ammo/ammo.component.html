@@ -1,5 +1,5 @@
 <section id="{{ ammo.id }}" class="vz-ammo classes">
-  <h2>{{ ammo.title }}</h2>
+  <h2 [innerHTML]="ammo.title"></h2>
   
   <table class="sprite" >
     <!-- <caption>{{ ammo.caption }}</caption> -->
@@ -20,4 +20,12 @@
       </tr>
      </tbody>
   </table>
+
+  <p>
+    <a 
+      [routerLink]='"."' 
+      [fragment]="'top-links'">
+      Back to Top
+    </a>
+  </p> 
 </section>
