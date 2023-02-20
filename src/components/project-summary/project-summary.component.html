@@ -8,7 +8,7 @@
         [src]="summary.image.src" 
         [alt]="summary.image.alt"/><br />
       <figcaption class="figcaption">
-          <h3>{{summary.title}}</h3>
+          <h3 [innerHTML]="summary.title"></h3>
           <span 
             class="icon desktop tablet smartphone" 
             title="Project for Desktop, Tablet and Smartphone devices">&nbsp;</span>
