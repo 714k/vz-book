@@ -26,6 +26,7 @@ type Summary = {
 
 type Adventure = {
   adventureNumber: number;
+  title: string;
   period: string;
   company: string;
   industry: string;

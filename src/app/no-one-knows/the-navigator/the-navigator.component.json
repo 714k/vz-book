@@ -6,7 +6,7 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Sep 2022 -"
+        "text":"The current adventure"
      },
      {
         "title":"The sixth adventure",
@@ -14,7 +14,7 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Nov 2015 - Sep 2022"
+        "text":"The sixth adventure"
      },
      {
         "title":"The fifth adventure",
@@ -22,7 +22,7 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Oct 2013 - Nov 2015"
+        "text":"The fifth adventure"
      },
      {
         "title":"The fourth adventure",
@@ -30,7 +30,7 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Ene 2012 - Sep 2013"
+        "text":"The fourth adventure"
      },
      {
         "title":"The third adventure",
@@ -38,7 +38,7 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Jun 2009 - Dic 2011"
+        "text":"The third adventure"
      },
      {
         "title":"The second adventure",
@@ -46,7 +46,7 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Ene - May 2009"
+        "text":"The second adventure"
      },
      {
         "title":"The first adventure",
@@ -54,12 +54,13 @@
         "classes":"anchor-class",
         "prefixText":"",
         "sufixText":"",
-        "text":"Jun 2006 - Ene 2009"
+        "text":"The first adventure"
      }
   ],
   "adventures":[
      {
         "adventureNumber": 7,
+        "title":"The current adventure",
         "period": "Sep 2022 -",
         "company": "Thomson Reuters",
         "industry": "Legal, Tax and Accounting, and News & Media",
@@ -206,6 +207,7 @@
      },
      {
         "adventureNumber": 6,
+        "title":"The sixth adventure",
         "period": "Nov 2015 - Sep 2022",
         "company": "Globant",
         "industry": "Technology",
@@ -402,6 +404,7 @@
      },
      {
         "adventureNumber": 5,
+        "title":"The fifth adventure",
         "period": "Sep 2013 - Nov 2015",
         "company": "Seccion Amarilla",
         "industry": "Advertising",
@@ -533,6 +536,7 @@
      },
      {
         "adventureNumber": 4,
+        "title":"The fourth adventure",
         "period": "Jan 2012 - Sep 2013",
         "company": "EC Global Network",
         "industry": "Advertising",
@@ -667,6 +671,7 @@
      },
      {
         "adventureNumber": 3,
+        "title":"The third adventure",
         "period": "Jun 2009 - Dec 2011",
         "company": "Infotec",
         "industry": "Research Center",
@@ -801,6 +806,7 @@
      },
      {
         "adventureNumber": 2,
+        "title":"The second adventure",
         "period": "Jan 2009 - May 2009",
         "company": "Cacto Arte e Ideas",
         "industry": "Advertising",
@@ -875,6 +881,7 @@
      },
      {
         "adventureNumber": 1,
+        "title":"The first adventure",
         "period": "Nov 2015 - Sep 2022",
         "company": "Red Enlaces",
         "industry": "Technology",
