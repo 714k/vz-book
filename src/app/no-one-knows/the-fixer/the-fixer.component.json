@@ -290,7 +290,7 @@
       },
       "ides": {
         "id": "ides",
-        "title": "IDEs",
+        "title": "<abbr title='Integrated Development Environment'>IDE</abbr>s",
         "caption": "The IDEs I use",
         "data": [
           {

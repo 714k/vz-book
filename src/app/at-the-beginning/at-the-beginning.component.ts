@@ -1,17 +1,22 @@
-import { Component, OnInit, ElementRef, AfterViewInit, Input } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
+import { DOCUMENT } from '@angular/common';
 import atTheBeginningData from './at-the-beginning-component.json'
 @Component({
   selector: 'vz-at-the-beginning',
   templateUrl: './at-the-beginning.component.html',
   styleUrls: ['./at-the-beginning.component.scss']
 })
-export class AtTheBeginningComponent implements OnInit, AfterViewInit {
+export class AtTheBeginningComponent implements OnInit, OnDestroy {
   titleHeaderNavigation = "In this section";
   anchorsHeaderNavigation = atTheBeginningData;
   anchorsSectionNavigation = atTheBeginningData.seccionNavigation;
 
-  constructor(private meta: Meta, private title: Title, private elementRef: ElementRef) {}
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private meta: Meta, 
+    private title: Title
+  ) {}
 
   ngOnInit(): void {
     this.title.setTitle("At the beginning... - Victor Zamudio"); 
@@ -25,9 +30,11 @@ export class AtTheBeginningComponent implements OnInit, AfterViewInit {
       name: 'keywords',
       content: 'beginning, web, ui, developer'
     });
+
+    this.document.body.classList.add('at-the-beginning');
   }
 
-  ngAfterViewInit(): void {
-    document.querySelector('body')?.classList.add('at-the-beginning');
+  ngOnDestroy(): void {
+    this.document.body.classList.remove('at-the-beginning');
   }
 }

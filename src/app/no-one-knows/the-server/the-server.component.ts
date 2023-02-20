@@ -1,4 +1,5 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
 import theServerData from './the-server.component.json';
@@ -8,12 +9,16 @@ import theServerData from './the-server.component.json';
   templateUrl: './the-server.component.html',
   styleUrls: ['./the-server.component.scss']
 })
-export class TheServerComponent implements OnInit, AfterViewInit {
+export class TheServerComponent implements OnInit, OnDestroy {
   courses = theServerData.courses;
   titleHeaderNavigation = "In this section";
   anchorsSectionNavigation = theServerData.seccionNavigation;
 
-  constructor(private meta: Meta, private title: Title) {}
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private meta: Meta, 
+    private title: Title
+  ) {}
 
   ngOnInit(): void {
     this.title.setTitle("The Server - Victor Zamudio"); 
@@ -27,9 +32,11 @@ export class TheServerComponent implements OnInit, AfterViewInit {
       name: 'keywords',
       content: 'profile, mexican, web, ui, developer'
     });
+    
+    this.document.body.classList.add('the-server');
   }
 
-  ngAfterViewInit(): void {
-    document.querySelector('body')?.classList.add('the-server');
+  ngOnDestroy(): void {
+    this.document.body.classList.remove('the-server');
   }
 }

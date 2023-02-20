@@ -43,7 +43,7 @@ import { AmmoComponent } from '../components/ammo/ammo.component';
     AmmoComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     CommonModule,
     // AngularComponentsModule,

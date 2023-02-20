@@ -1,4 +1,5 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
@@ -6,8 +7,12 @@ import { Meta, Title } from '@angular/platform-browser';
   templateUrl: './seccion-amarilla.component.html',
   styleUrls: ['./seccion-amarilla.component.scss']
 })
-export class SeccionAmarillaComponent implements OnInit, AfterViewInit {
-  constructor(private meta: Meta, private title: Title) {}
+export class SeccionAmarillaComponent implements OnInit, OnDestroy {
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private meta: Meta, 
+    private title: Title
+  ) {}
 
   ngOnInit(): void {
     this.title.setTitle("Sección Amarilla - Víctor Zamudio"); 
@@ -21,10 +26,11 @@ export class SeccionAmarillaComponent implements OnInit, AfterViewInit {
       name: 'keywords',
       content: 'Secci&oacute;n Amarilla, Proyecto, Portafolio, Dise&ntilde;o, Dise&ntilde;ador, Web, C# 5.0, XAML 1.0, Java 1.7, Objective-C 5.0, PHP, .NET 4.0, Est&aacute;ndares Web, Accesibilidad, Usabilidad, UX, Responsive Web Design, Microformatos, Optimizaci&oacute;n Web, SEO, Photoshop CS6, Fireworks CS6, Illustrator CS6, Dreamweaver CS6, Visual Studio 2013, XCode 5, Eclipse Juno, Cocoa 10.4.'
     });
+
+    this.document.body.classList.add('seccion-amarilla');
   }
 
-  ngAfterViewInit(): void {
-    document.querySelector('body')?.classList.add('seccion-amarilla');
+  ngOnDestroy(): void {
+    this.document.body.classList.remove('seccion-amarilla');
   }
-
 }

@@ -1,4 +1,5 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
@@ -6,8 +7,12 @@ import { Meta, Title } from '@angular/platform-browser';
   templateUrl: './no-one-knows.component.html',
   styleUrls: ['./no-one-knows.component.scss']
 })
-export class NoOneKnowsComponent implements OnInit, AfterViewInit {
-  constructor(private meta: Meta, private title: Title) {}
+export class NoOneKnowsComponent implements OnInit, OnDestroy {
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private meta: Meta, 
+    private title: Title    
+  ) {}
 
   ngOnInit(): void {
     this.title.setTitle("No one knows... - Victor Zamudio"); 
@@ -21,9 +26,11 @@ export class NoOneKnowsComponent implements OnInit, AfterViewInit {
       name: 'keywords',
       content: 'info, web, ui, developer'
     });
+
+    this.document.body.classList.add('no-one-knows');
   }
 
-  ngAfterViewInit(): void {
-    document.querySelector('body')?.classList.add('no-one-knows');
+  ngOnDestroy(): void {
+    this.document.body.classList.remove('no-one-knows');
   }
 }

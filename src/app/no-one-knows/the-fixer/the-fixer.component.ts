@@ -1,4 +1,5 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
 import theFixerData from './the-fixer.component.json'
@@ -8,12 +9,16 @@ import theFixerData from './the-fixer.component.json'
   templateUrl: './the-fixer.component.html',
   styleUrls: ['./the-fixer.component.scss']
 })
-export class TheFixerComponent {
+export class TheFixerComponent implements OnInit, OnDestroy {
   titleHeaderNavigation = theFixerData.sectionNavigation.title;
   anchorsSectionNavigation = theFixerData.sectionNavigation.sections;
   ammos = theFixerData.ammos;
 
-  constructor(private meta: Meta, private title: Title) {}
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private meta: Meta, 
+    private title: Title
+  ) {}
 
   ngOnInit(): void {
     this.title.setTitle("The Fixer - Victor Zamudio"); 
@@ -27,9 +32,11 @@ export class TheFixerComponent {
       name: 'keywords',
       content: 'debugger, skills, mexican, web, ui, developer'
     });
+
+    this.document.body.classList.add('the-fixer');
   }
 
-  ngAfterViewInit(): void {
-    document.querySelector('body')?.classList.add('the-fixer');
+  ngOnDestroy(): void {
+    this.document.body.classList.remove('the-fixer');
   }
 }
