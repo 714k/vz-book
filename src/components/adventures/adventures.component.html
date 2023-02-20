@@ -3,7 +3,7 @@
   id="adventure-{{ adventure.adventureNumber }}" 
   class="adventure view">
 
-  <h2>Adventure #{{ adventure.adventureNumber }}</h2>
+  <h2>{{ adventure.title }}</h2>
 
   <p class="period">
    <span><strong>Period</strong></span><br />
@@ -60,6 +60,8 @@
     [anchors]="fragmentLinks" 
     [active]="(idx+1)"
   />
+
+  <vz-back-to-top />
 
   <span class="decorative">
     <span class="sp sprite sparrow">&nbsp;</span>

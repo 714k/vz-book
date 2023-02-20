@@ -23,6 +23,7 @@ import { FragmentLinkComponent } from '../components/fragment-link/fragment-link
 import { CoursesComponent } from '../components/courses/courses.component';
 import { AdventuresComponent } from '../components/adventures/adventures.component';
 import { AmmoComponent } from '../components/ammo/ammo.component';
+import { BackToTopComponent } from '../components/back-to-top/back-to-top.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { AmmoComponent } from '../components/ammo/ammo.component';
     CoursesComponent,
     AdventuresComponent,
     AmmoComponent,
+    BackToTopComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
