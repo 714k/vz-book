@@ -1,0 +1,32 @@
+<section
+  *ngFor="let summary of summaries"
+  [id]="summary.id"
+  [class]="summary.classes">
+  <figure class="figure">
+      <img 
+        [id]="summary.image.id" 
+        [src]="summary.image.src" 
+        [alt]="summary.image.alt"/><br />
+      <figcaption class="figcaption">
+          <h3>{{summary.title}}</h3>
+          <span 
+            class="icon desktop tablet smartphone" 
+            title="Project for Desktop, Tablet and Smartphone devices">&nbsp;</span>
+          <p>
+            <strong class="year">Year: </strong>
+              <em class="year" [innerHTML]="summary.year"></em><br />
+            <strong class="industry">Industry: </strong>
+              <em class="industry" [innerHTML]="summary.industry"></em><br />
+            <strong class="technologies">Technologies: </strong>
+              <em class="technologies" [innerHTML]="summary.technologies"></em>
+          </p>
+          <a 
+            [href]="summary.link.href" 
+            [title]="summary.link.title">
+              See project
+          </a>
+        </figcaption>
+    </figure>
+
+  <vz-back-to-top />
+</section>

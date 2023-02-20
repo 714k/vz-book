@@ -10,7 +10,6 @@ import theNavigatorData from './the-navigator.component.json'
   styleUrls: ['./the-navigator.component.scss']
 })
 export class TheNavigatorComponent implements OnInit, OnDestroy {
-  titleHeaderNavigation = "In this section";
   anchorsSectionNavigation = theNavigatorData.seccionNavigation;
   adventures = theNavigatorData.adventures;
 

@@ -8,7 +8,6 @@ import atTheBeginningData from './at-the-beginning-component.json'
   styleUrls: ['./at-the-beginning.component.scss']
 })
 export class AtTheBeginningComponent implements OnInit, OnDestroy {
-  titleHeaderNavigation = "In this section";
   anchorsHeaderNavigation = atTheBeginningData;
   anchorsSectionNavigation = atTheBeginningData.seccionNavigation;
 

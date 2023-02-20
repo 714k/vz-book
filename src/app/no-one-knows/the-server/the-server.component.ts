@@ -11,7 +11,6 @@ import theServerData from './the-server.component.json';
 })
 export class TheServerComponent implements OnInit, OnDestroy {
   courses = theServerData.courses;
-  titleHeaderNavigation = "In this section";
   anchorsSectionNavigation = theServerData.seccionNavigation;
 
   constructor(
