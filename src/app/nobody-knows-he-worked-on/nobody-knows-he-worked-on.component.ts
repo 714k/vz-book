@@ -2,12 +2,18 @@ import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
+import nobodyKnowsData  from './nobody-knows-he-worked-on.component.json';
+
+
 @Component({
   selector: 'vz-nobody-knows-he-worked-on',
   templateUrl: './nobody-knows-he-worked-on.component.html',
   styleUrls: ['./nobody-knows-he-worked-on.component.scss']
 })
 export class NobodyKnowsHeWorkedOnComponent implements OnInit, OnDestroy {
+  anchorsSectionNavigation = nobodyKnowsData.sectionNavigation.sections;
+  summaries = nobodyKnowsData.summaries;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private meta: Meta, 

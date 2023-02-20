@@ -10,7 +10,6 @@ import theFixerData from './the-fixer.component.json'
   styleUrls: ['./the-fixer.component.scss']
 })
 export class TheFixerComponent implements OnInit, OnDestroy {
-  titleHeaderNavigation = theFixerData.sectionNavigation.title;
   anchorsSectionNavigation = theFixerData.sectionNavigation.sections;
   ammos = theFixerData.ammos;
 

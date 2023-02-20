@@ -1,13 +1,6 @@
 <header>
   <h1>No one knows...</h1>
-  <nav role="navigation">
-    In this section
-    <ul>
-      <li><a [routerLink]='"."' [fragment]='"profile"'><span>The Server</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"laboral-experiences"'><span>The Navigator</span></a></li>
-      <li><a [routerLink]='"."' [fragment]='"skills"'><span>The Fixer</span></a></li>
-    </ul>
-  </nav>    
+  <vz-header-navigation [anchors]="anchorsSectionNavigation"/>    
 </header>
 
 <section id="profile" class="sprite teaser"> 
@@ -16,6 +9,8 @@
     <a href="/at-the-beginning/no-one-knows/the-server">See my full profile</a>
   </p>
 </section>
+
+<vz-back-to-top />
 
 <section id="laboral-experiences" class="sprite teaser">
   <h2 class="sprite">The Navigator</h2>
@@ -32,6 +27,8 @@
   </span>
 </section>
 
+<vz-back-to-top />
+
 <section id="skills" class="sprite teaser">
   <h2 class="sprite">The Fixer</h2>
   <p class="sprite">It bugs me that developers do not follow the standards.<br>
@@ -41,3 +38,5 @@
     <span class="hitmanB sprite"><span class="sprite firegun">&nbsp;</span></span>
   </span>	
 </section>
+
+<vz-back-to-top />

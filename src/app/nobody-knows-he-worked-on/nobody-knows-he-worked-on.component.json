@@ -1,0 +1,728 @@
+{
+  "sectionNavigation": {
+    "title": "In this section",
+    "sections": [
+      {
+        "title": "See the Saffrolote project",
+        "href": "saffrolote",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Saffrolote"
+      },
+      {
+        "title": "See the NextGen project",
+        "href": "nextgen",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "NextGen"
+      },
+      {
+        "title": "See the HBO project",
+        "href": "hbo",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "HBO"
+      },
+      {
+        "title": "See the HBO Max project",
+        "href": "hbo-max",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "HBO Max"
+      },
+      {
+        "title": "See the Johnson & Johnson project",
+        "href": "jonhnson-and-jonhnson",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Johnson & Johnson"
+      },
+      {
+        "title": "See the American Airlines project",
+        "href": "american-airlines",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "American Airlines"
+      },
+      {
+        "title": "See the HipChat project",
+        "href": "hipchat",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "HipChat"
+      },
+      {
+        "title": "See the Plastiq project",
+        "href": "plastiq",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Plastiq"
+      },
+      {
+        "title": "See the Aeris project",
+        "href": "aeris",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Aeris"
+      },
+      {
+        "title": "See the Citi Banamex project",
+        "href": "citi-banamex",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Citi Banamex"
+      },
+      {
+        "title": "See the Cars project",
+        "href": "cars",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Cars"
+      },
+      {
+        "title": "See the Seccion Amarilla project",
+        "href": "seccion-amarilla",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Seccion Amarilla"
+      },
+      {
+        "title": "See the Menumania project",
+        "href": "menumania",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Menumania"
+      },
+      {
+        "title": "See the CMLL project",
+        "href": "cmll",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "CMLL"
+      },
+      {
+        "title": "See the Aventuras Enmascaradas project",
+        "href": "aventuras-enmascaradas",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Aventuras Enmascaradas"
+      },
+      {
+        "title": "See the Club Atletico de Madrid project",
+        "href": "club-atletico-de-madrid",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Club Atletico de Madrid"
+      },
+      {
+        "title": "See the Skiny project",
+        "href": "skiny",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Skiny"
+      },
+      {
+        "title": "See the Tops & Bottoms project",
+        "href": "tops-and-bottoms",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Tops & Bottoms"
+      },
+      {
+        "title": "See the Optima Cotton Wear project",
+        "href": "optima-cotton-wear",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Optima Cotton Wear"
+      },
+      {
+        "title": "See the Rutas de México project",
+        "href": "rutas-de-mexico",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Rutas de México"
+      },
+      {
+        "title": "See the El Máscara project",
+        "href": "el-mascara",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "El Máscara"
+      },
+      {
+        "title": "See the PJDF project",
+        "href": "pjdf",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "PJDF"
+      },
+      {
+        "title": "See the Infotec project",
+        "href": "infotec",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Infotec"
+      },
+      {
+        "title": "See the Sonora project",
+        "href": "sonora",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Sonora"
+      },
+      {
+        "title": "See the Tulum project",
+        "href": "tulum",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Tulum"
+      },
+      {
+        "title": "See the Reynosa project",
+        "href": "reynosa",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Reynosa"
+      },
+      {
+        "title": "See the Pymes Turísticas project",
+        "href": "pymes-turisticas",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Pymes Turísticas"
+      },
+      {
+        "title": "See the Nissan Latinoamérica project",
+        "href": "nissan-latinoamerica",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Nissan Latinoamérica"
+      },
+      {
+        "title": "See the Query Technologies project",
+        "href": "query-technologies",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Query Technologies"
+      },
+      {
+        "title": "See the Honda Miramontes project",
+        "href": "honda-miramontes",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Honda Miramontes"
+      },
+      {
+        "title": "See the Concesionarios Peugeot project",
+        "href": "concesionarios-peugeot",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Concesionarios Peugeot"
+      },
+      {
+        "title": "See the Toyota Universidad project",
+        "href": "toyota-universidad",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "Toyota Universidad"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "id": "saffrolote",
+      "title": "Saffrolote",
+      "year": 2023,
+      "industry": "Entertainment",
+      "technologies": [
+        "<span>Technology 1</span>",
+        "<strong>Technology 2</strong>",
+        "<span>Technology 3</span>"
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Saffrolote",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "seccion-amarilla",
+      "title": "Sección Amarilla",
+      "year": 2014,
+      "industry": "Advertising",
+      "technologies": [
+        "Microformats",
+        " C# 5.0",
+        " <abbr title='Xtensible Application Markup Language'>XAML</abbr> 1.0",
+        " <abbr title='Hypertext Pre-procesor'>PHP</abbr>..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Menumania",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "menumania",
+      "title": "Menumania",
+      "year": 2017,
+      "industry": "Food Services",
+      "technologies": [
+        "Website",
+        " Blog",
+        " WebApp",
+        " C# 5.0",
+        " Visual..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Menumania",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "cmll",
+      "title": "CMLL",
+      "year": 2013,
+      "industry": "Entertainment",
+      "technologies": [
+        "C# 5.0",
+        " <abbr title='Xtensible Application Markup Language'>XAML</abbr> 1.0",
+        " Visual Studio 2012",
+        " XCode 4",
+        " Eclipse..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of CMLL",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "aventuras-enmascaradas",
+      "title": "Aventuras Enmascaradas",
+      "year": 2013,
+      "industry": "Entertainment",
+      "technologies": [
+        "<abbr title='HyperText Markup Languaje'>HTML</abbr> 5",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 3",
+        " JQuery 1.9",
+        " C# 5.0",
+        " <abbr title='Xtensible Application Markup Language'>XAML</abbr> 1.0",
+        " Apache Cord..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Aventuras Enmascaradas",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "club-atletico-de-madrid",
+      "title": "Club Atlético de Madrid",
+      "year": 2013,
+      "industry": "Entertainment",
+      "technologies": [
+        "<abbr title='HyperText Markup Languaje'>HTML</abbr> 5",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 3",
+        " JQuery 1.8",
+        " Joomla 2.5",
+        " Web standards..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Club Atlético de Madrid",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "skiny",
+      "title": "Skiny",
+      "year": 2012,
+      "industry": "Underwear",
+      "technologies": [
+        "<abbr title='HyperText Markup Languaje'>HTML</abbr> 5",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 3",
+        " JQuery 1.8",
+        " Web standards..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Skiny",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "optima-cotton-wear",
+      "title": "Optima Cotton Wear",
+      "year": 2012,
+      "industry": "Manufacturing General",
+      "technologies": [
+        "<abbr title='eXtensible HyperText Markup Language'>XHTML</abbr> 1.0",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+        " Java..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Optima Cotton Wear",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "rutas-de-mexico",
+      "title": "Rutas de México",
+      "year": 2011,
+      "industry": "Tourism",
+      "technologies": [
+        "<abbr title='HyperText Markup Languaje'>HTML</abbr> 4.0",
+        " <abbr title='eXtensible Markup Language'>XML</abbr> 1.0",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1 ..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Rutas de México",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "el-mascara",
+      "title": "El Máscara",
+      "year": 2013,
+      "industry": "e-Learning",
+      "technologies": [
+        "<abbr title='eXtensible HyperText Markup Language'>XHTML</abbr> 1.0 strict",
+        " Illustration",
+        " Usability",
+        " <abbr title='User Experience'>UX</abbr> ..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of El Máscara",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "pjdf",
+      "title": "<abbr title='Poder Judicial del Distrito Federal - Federal District Judiciary'>PJDF</abbr>",
+      "year": 2010,
+      "industry": "Government",
+      "technologies": [
+        "Accessibility",
+        " Usability",
+        " Photoshop CS4 ..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of PJDF",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "infotec",
+      "title": "Infotec",
+      "year": 2010,
+      "industry": "Research and Technological Development",
+      "technologies": [
+        "<abbr title='Semantic Web Builder'>SWB</abbr> 4.0",
+        " Photoshop CS4",
+        " Accessibility",
+        " Usability",
+        " Web standards..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Infotec",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "sonora",
+      "title": "Sonora",
+      "year": 2010,
+      "industry": "Government",
+      "technologies": [
+        "<abbr title='eXtensible Hypertext Markup Languaje'>XHTML</abbr>",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+        " Accessibility",
+        " Usability",
+        " Web standards..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Sonora",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "tulum",
+      "title": "Tulum",
+      "year": 2010,
+      "industry": "Government",
+      "technologies": [
+        "<abbr title='eXtensible HyperText Markup Languaje'>XHTML</abbr> 1.0",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+        " JavaScript 1.5",
+        " Dojo..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Tulum",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "reynosa",
+      "title": "Reynosa",
+      "year": 2010,
+      "industry": "Government",
+      "technologies": [
+        "<abbr title='eXtensible HyperText Markup Languaje'>XHTML</abbr> 1.0 strict",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+        " Web standards..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Reynosa",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "nissan-latinoamerica",
+      "title": "Nissan Latinoamérica",
+      "year": 2009,
+      "industry": "Automotive",
+      "technologies": [
+        "<abbr title='eXtensible HyperText Markup Languaje'>XHTML</abbr> 1.0",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+        " ActionScript 3.0",
+        " <abbr title='Content Management System'>CMS</abbr>..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Nissan Latinoamérica",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "query-technologies",
+      "title": "Query Technologies",
+      "year": 2009,
+      "industry": "Telecommunications",
+      "technologies": [
+        "Information Architecture",
+        " <abbr title='User Experience'>UX</abbr>",
+        " Actionscript 2.0",
+        " Flash CS2",
+        " Web standards..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Query Technologies",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "honda-miramontes",
+      "title": "Honda Miramontes",
+      "year": 2008,
+      "industry": "Automotive",
+      "technologies": [
+        "Information Architecture",
+        " <abbr title='Hypertext Preprocessor'>PHP</abbr> 5",
+        " MySQL 5",
+        " Actionscript 2.0 ..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Honda Miramontes",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "concesionarios-peugeot",
+      "title": "Concesionarios Peugeot",
+      "year": 2008,
+      "industry": "Automotive",
+      "technologies": [
+        "Information Architecture",
+        " <abbr title='Hypertext Preprocessor'>PHP</abbr> 4",
+        " MySQL 4",
+        " Actionscript 2.0 ..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Concesionarios Peugeot",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    },
+    {
+      "id": "toyota-universidad",
+      "title": "Toyota Universidad",
+      "year": 2007,
+      "industry": "Automotive",
+      "technologies": [
+        "Information Architecture",
+        " <abbr title='eXtensible HyperText Markup Language'>XHTML</abbr> 1.0",
+        " <abbr title='Hypertext Preprocessor'>PHP</abbr> 4",
+        " MySQL 4 ..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "http://",
+        "title": "See project of Toyota Universidad",
+        "text": "See project"
+      },
+      "image": {
+        "id": "imageId",
+        "src": "https://",
+        "alt": "Image alt text"
+      }
+    }
+  ]
+}
