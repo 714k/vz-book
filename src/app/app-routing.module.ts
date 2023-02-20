@@ -10,6 +10,7 @@ import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-am
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
 const routerOptions: ExtraOptions = {
+  initialNavigation: 'enabledBlocking',
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
   scrollOffset: [0, 16],
@@ -61,9 +62,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabledBlocking'
-})],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
