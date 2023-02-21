@@ -211,14 +211,6 @@
         "text": "Reynosa"
       },
       {
-        "title": "See the Pymes Turísticas project",
-        "href": "pymes-turisticas",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Pymes Turísticas"
-      },
-      {
         "title": "See the Nissan Latinoamérica project",
         "href": "nissan-latinoamerica",
         "classes": "anchor-class",
@@ -546,14 +538,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
-        "title": "See project of Menumania",
+        "href": "seccion-amarilla",
+        "title": "See project of Seccion Amarilla",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-seccion-amarilla",
+        "src": "seccionamarilla-thumb-b.jpg",
+        "alt": "Seccion Amarilla Black & White"
       }
     },
     {
@@ -570,14 +562,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "menumania",
         "title": "See project of Menumania",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-menumania",
+        "src": "menumania-thumb-b.jpg",
+        "alt": "Menumania Black & White"
       }
     },
     {
@@ -594,14 +586,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "cmll",
         "title": "See project of CMLL",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-cmll",
+        "src": "cmll-thumb-b.jpg",
+        "alt": "CMLL Black & White"
       }
     },
     {
@@ -619,14 +611,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "aventuras-enmascaradas",
         "title": "See project of Aventuras Enmascaradas",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-aventuras-enmascaradas",
+        "src": "aventuras-thumb-b.jpg",
+        "alt": "Aventuras Enmascaradas Black & White"
       }
     },
     {
@@ -643,14 +635,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "club-atletico-de-madrid",
         "title": "See project of Club Atlético de Madrid",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-club-atletico-de-madrid",
+        "src": "atleticomadrid-thumb-b.jpg",
+        "alt": "Club Atlético de Madrid Black & White"
       }
     },
     {
@@ -666,14 +658,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "skiny",
         "title": "See project of Skiny",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-skiny",
+        "src": "skiny-thumb-b.jpg",
+        "alt": "Skiny Black & White"
       }
     },
     {
@@ -688,14 +680,36 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "optima-cotton-wear",
         "title": "See project of Optima Cotton Wear",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-optima-cotton-wear",
+        "src": "optima-thumb-b.jpg",
+        "alt": "Optima Cotton Wear Black & White"
+      }
+    },
+    {
+      "id": "tops-and-bottoms",
+      "title": "Tops & Bottoms",
+      "year": 2012,
+      "industry": "Lingerie",
+      "technologies": [
+        "<abbr title='eXtensible HyperText Markup Language'>XHTML</abbr> 1.0",
+        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+        " Java..."
+      ],
+      "classes": "class 1 class 2 class 3",
+      "link": {
+        "href": "tops-and-bottoms",
+        "title": "See project of Tops & Bottoms",
+        "text": "See project"
+      },
+      "image": {
+        "id": "image-tops-and-bottoms",
+        "src": "topsandbottoms-thumb-a.jpg",
+        "alt": "Tops & Bottoms Black & White"
       }
     },
     {
@@ -710,14 +724,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "rutas-de-mexico",
         "title": "See project of Rutas de México",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-rutas-de-mexico",
+        "src": "rutasdemexico-thumb-b.jpg",
+        "alt": "Rutas de México Black & White"
       }
     },
     {
@@ -733,14 +747,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "el-mascara",
         "title": "See project of El Máscara",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-el-mascara",
+        "src": "elmascara-thumb-b.jpg",
+        "alt": "El Máscara Black & White"
       }
     },
     {
@@ -755,14 +769,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "pjdf",
         "title": "See project of PJDF",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-pjdf",
+        "src": "pjdf-thumb-b.jpg",
+        "alt": "PJDF Black & White"
       }
     },
     {
@@ -779,14 +793,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "infotec",
         "title": "See project of Infotec",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-infotec",
+        "src": "infotec-thumb-b.jpg",
+        "alt": "Infotec Black & White"
       }
     },
     {
@@ -803,14 +817,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "sonora",
         "title": "See project of Sonora",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-sonora",
+        "src": "sonora-thumb-b.jpg",
+        "alt": "Sonora Black & White"
       }
     },
     {
@@ -826,14 +840,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "tulum",
         "title": "See project of Tulum",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-tulum",
+        "src": "tulum-thumb-b.jpg",
+        "alt": "Tulum Black & White"
       }
     },
     {
@@ -848,14 +862,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "reynosa",
         "title": "See project of Reynosa",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-reynosa",
+        "src": "reynosa-thumb-b.jpg",
+        "alt": "Reynosa Black & White"
       }
     },
     {
@@ -871,14 +885,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "nissan-latinoamerica",
         "title": "See project of Nissan Latinoamérica",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-nissan-latinoamerica",
+        "src": "nissanlac-thumb-b.jpg",
+        "alt": "Nissan Latinoamérica Black & White"
       }
     },
     {
@@ -895,14 +909,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "query-technologies",
         "title": "See project of Query Technologies",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-query-technologies",
+        "src": "query-thumb-b.jpg",
+        "alt": "Query Black & White"
       }
     },
     {
@@ -918,14 +932,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "honda-miramontes",
         "title": "See project of Honda Miramontes",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-honda-miramontes",
+        "src": "hondamiramontes-thumb-b.jpg",
+        "alt": "Honda Miramontes Black & White"
       }
     },
     {
@@ -941,14 +955,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "concesionarios-peugeot",
         "title": "See project of Concesionarios Peugeot",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-concesionarios-peugeot",
+        "src": "concesionarios-thumb-b.jpg",
+        "alt": "Concesionarios Peugeot Black & White"
       }
     },
     {
@@ -964,14 +978,14 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "toyota-universidad",
         "title": "See project of Toyota Universidad",
         "text": "See project"
       },
       "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
+        "id": "image-toyota-universidad",
+        "src": "toyota-thumb-b.jpg",
+        "alt": "Toyota Universidad Black & White"
       }
     }
   ]

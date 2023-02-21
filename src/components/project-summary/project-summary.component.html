@@ -4,8 +4,8 @@
   [class]="summary.classes">
   <figure class="figure">
       <img 
-        [id]="summary.image.id" 
-        [src]="summary.image.src" 
+        id="image-{{summary.image.id}}" 
+        src="assets/images/projects/{{summary.image.src}}" 
         [alt]="summary.image.alt"/><br />
       <figcaption class="figcaption">
           <h3 [innerHTML]="summary.title"></h3>
@@ -21,7 +21,7 @@
               <em class="technologies" [innerHTML]="summary.technologies"></em>
           </p>
           <a 
-            [href]="summary.link.href" 
+            href="/at-the-beginning/nobody-knows-he-worked-on/{{summary.link.href}}" 
             [title]="summary.link.title">
               See project
           </a>
