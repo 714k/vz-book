@@ -140,6 +140,18 @@
             "percentage": "70%"
           },
           {
+            "name": "Microformats",
+            "years": "10",
+            "use": "Occasionally",
+            "percentage": "90%"
+          },
+          {
+            "name": "Open Graph",
+            "years": "10",
+            "use": "Occasionally",
+            "percentage": "80%"
+          },
+          {
             "name": "Editorial Design",
             "years": "17",
             "use": "Frecuent",
@@ -221,6 +233,22 @@
             "use": "Frecuent",
             "level": "Intermediate",
             "percentage": "60%"
+          },
+          {
+            "name": "Java",
+            "type": "Object-Oriented",
+            "years": "8",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "50%"
+          },
+          {
+            "name": "Kotlin",
+            "type": "Object-Oriented",
+            "years": "8",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "50%"
           },
           {
             "name": "<abbr title='Structured Query Language'>SQL</abbr>",
@@ -676,6 +704,14 @@
             "percentage": "75%"
           },
           {
+            "name": "Symfony",
+            "type": "Backend",
+            "years": "6",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "70%"
+          },
+          {
             "name": "MySQL",
             "type": "Relational Database Management",
             "years": "10",
@@ -740,6 +776,30 @@
             "percentage": "70%"
           },
           {
+            "name": "Yeoman",
+            "type": "Scaffolding tool",
+            "years": "8",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "80%"
+          },
+          {
+            "name": "Grunt",
+            "type": "Task Manager",
+            "years": "8",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "70%"
+          },
+          {
+            "name": "Bower",
+            "type": "Package Manager",
+            "years": "8",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "70%"
+          },
+          {
             "name": "<abbr title='React Testing Library'>RTL</abbr>",
             "type": "Testing Platform",
             "years": "4",
@@ -762,6 +822,30 @@
             "use": "Occasionally",
             "level": "Beginner",
             "percentage": "20%"
+          },
+          {
+            "name": "Jasmine",
+            "type": "Testing Platform",
+            "years": "7",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "70%"
+          },
+          {
+            "name": "Mocha",
+            "type": "Testing Platform",
+            "years": "6",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "70%"
+          },
+          {
+            "name": "Chai",
+            "type": "Testing Platform",
+            "years": "6",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "65%"
           },
           {
             "name": "Redux",
@@ -960,6 +1044,14 @@
             "use": "Occasionally",
             "level": "Intermediate",
             "percentage": "75%"
+          },
+          {
+            "name": "Backbase",
+            "type": "CMS",
+            "years": "7",
+            "use": "Occasionally",
+            "level": "Advanced",
+            "percentage": "90%"
           }
         ]
       }
