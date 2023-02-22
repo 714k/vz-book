@@ -1,12 +1,6 @@
 <header>
   <h1>Secci&oacute;n Amarilla</h1>
-    <nav role="navigation">
-      In this section
-      <ul>
-        <li><a [routerLink]='"."' [fragment]='"brief"'><span>Brief</span></a></li>
-        <li><a [routerLink]='"."' [fragment]='"gallery-project"'><span>Gallery</span></a></li>
-      </ul>
-    </nav>    
+  <vz-header-navigation [anchors]="anchorsSectionNavigation"/>       
 </header>
 
 <div id="navegacionSecciones"><span class="hide">&laquo;</span>&nbsp; 
@@ -19,27 +13,9 @@
   </a> 
 </div> 
 
-<section id="brief">
-  <h2>Brief</h2>
-  <p class="goDown"><span>Jump to </span><span class="block">project galleries</span><span>: </span><a href="#galleryDesktop" class="icon_desktop" title="Ver la galería de dispositivos Desktop"><span class="hide">Desktop</span></a><span> &#124; </span><a href="#galleryTablet" class="icon_tablet" title="Ver gallery de dispositivos Tablet"><span class="hide">Tablet</span></a><span> &#124; </span><a href="#gallerySmartphone" class="icon_smartphone" title="Ver gallery de dispositivos Smartphone"><span class="hide">Smartphone</span></a></p>
-  <p>
-   <strong>Project: </strong><em class="titulo_proyecto">Secci&oacute;n Amarilla</em><br>
-   <strong>Year: </strong><em>2014</em><br>
-   <strong>Client: </strong><em>Secci&oacute;n Amarilla</em><br>
-   <strong>Industry </strong><em lang="en-us">Anuncios en Directorios</em><br>
-   <strong>Type: </strong><em>Dise&ntilde;o de Portal, Blog, WebApp, App para iOS, Android, Smart TV y Windows 8</em><br>
-   <strong>Technologies: </strong><em lang="en-us">C# 5.0, <abbr title="Xtensible Application Markup Language - Lenguaje Extensible de Formato para Aplicaciones">XAML</abbr> 1.0, Java 1.7, Objective-C 5.0, <abbr title="Hypertext Pre-procesor - Pre-procesador de hypertextos">PHP</abbr>, .NET 4.0, <span lang="es-mx"> Est&aacute;ndares</span> Web, <br><span lang="es-mx">Accesibilidad, Usabilidad, UX,</span> Responsive Web Design, Microformatos, Optimizaci&oacute;n Web, <abbr title="Search Engine Optimization - Optimización en Motores de Búsqueda">SEO</abbr>,  Photoshop <abbr title="Creative Suite">CS</abbr>6, Fireworks CS6, <br>Illustrator CS6, Dreamweaver CS6, Visual Studio 2013, XCode 5, Eclipse Juno, Cocoa 10.4.</em><br>
-   <strong>Status: </strong><em class="status_proyecto">Activo</em><br>
-   <strong><abbr title="Uniform Resource Locator" lang="en-us">URL</abbr>: </strong><em class="url"><span>Visitar </span><a href="http://www.seccionamarilla.com.mx/" target="_blank" title="Visitar Portal (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">Portal</a>, <a href="http://blog.seccionamarilla.com.mx/" target="_blank" title="Visitar Blog (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">Blog</a>, <a href="http://m.seccionamarilla.com.mx/" target="_blank" title="Visitar WebApp (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">WebApp</a></em><br class="block"> 
-   <strong><abbr title="Aplicaciones informáticas">Apps</abbr>: </strong><em class="url last">Descargar <a href="https://itunes.apple.com/mx/app/seccion-amarilla/id402003747?mt=8" target="_blank" title="Descargar App para iPhone (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">iPhone o iPad</a>,&nbsp;
-   <a href="https://play.google.com/store/apps/details?id=com.seccion.amarilla" target="_blank" title="Descargar App para Android (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">Android</a>,&nbsp; 
-   <a href="http://www.samsung.com/mx/microsite/smarthub/mobile/smartHubMobile/apps/seccionamarilla/" target="_blank" title="Descargar App para Smart TV (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">Smart TV</a>,&nbsp; 
-   <a href="http://apps.microsoft.com/windows/es-mx/app/seccion-amarilla/08dcf586-7b43-4dbf-a6b7-a85837d6103b" target="_blank" title="Descargar App para Windows 8 (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">Windows 8</a>,&nbsp; 
-   <a href="http://www.windowsphone.com/en-us/store/app/secci%C3%B3n-amarilla/f1064a32-d695-40c3-9169-56254b4a37de" target="_blank" title="Descargar App para Windows Phone 8 (Se mostrar&aacute; en otra ventana o pesta&ntilde;a)">Windows Phone 8</a></em>
-  </p>
-</section>
+<vz-project-brief [brief]="brief" />
 
-<section id="gallery-project">
+<section id="gallery">
   <h2>Gallery</h2>
      <div id="galleryDesktop" class="gallery">
      <h4>Desktop</h4>
