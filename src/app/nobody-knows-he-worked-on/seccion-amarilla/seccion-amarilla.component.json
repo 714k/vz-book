@@ -85,7 +85,66 @@
       }
     ]
   },
-  "gallery": {
-    
-  }
+  "galleries": [
+    {
+      "title": "Desktop",
+      "images": [
+        {
+          "src": "image01.jpg"
+        }
+      ],
+      "links": [
+        {
+          "title": "See image 1",
+          "href": "image1",
+          "text": "01",
+          "separator": "~"
+        },
+        {
+          "title": "See image 2",
+          "href": "image2",
+          "text": "02",
+          "separator": "~"
+        },
+        {
+          "title": "See image 3",
+          "href": "image3",
+          "text": "03",
+          "separator": "~"
+        },
+        {
+          "title": "See image 4",
+          "href": "image4",
+          "text": "04",
+          "separator": "~"
+        },
+        {
+          "title": "See image 5",
+          "href": "image5",
+          "text": "05",
+          "separator": ""
+        }
+      ]
+    }
+  ],
+  "galleryTypes": [
+    {
+      "title": "See gallery desktop",
+      "href": "galleryDesktop",
+      "text": "Desktop",
+      "separator": "|"
+    },
+    {
+      "title": "See gallery tablet",
+      "href": "galleryTablet",
+      "text": "Tablet",
+      "separator": "|"
+    },
+    {
+      "title": "See gallery mobile",
+      "href": "galleryMobile",
+      "text": "Mobile",
+      "separator": "|"
+    }
+  ]
 }

@@ -6,6 +6,7 @@ type Anchors = {
   classes?: string;
   prefixText?: string;
   sufixText?: string;
+  separator?: string;
   text: string;
 } []
 

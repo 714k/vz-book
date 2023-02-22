@@ -26,6 +26,7 @@ import { AmmoComponent } from '../components/ammo/ammo.component';
 import { BackToTopComponent } from '../components/back-to-top/back-to-top.component';
 import { ProjectSummaryComponent } from '../components/project-summary/project-summary.component';
 import { ProjectBriefComponent } from '../components/project-brief/project-brief.component';
+import { ProjectGalleryComponent } from '../components/project-gallery/project-gallery.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,8 @@ import { ProjectBriefComponent } from '../components/project-brief/project-brief
     AmmoComponent,
     BackToTopComponent,
     ProjectSummaryComponent,
-    ProjectBriefComponent
+    ProjectBriefComponent,
+    ProjectGalleryComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

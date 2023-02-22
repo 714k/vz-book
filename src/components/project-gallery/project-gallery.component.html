@@ -1,0 +1,23 @@
+<section 
+  id="gallery"
+  *ngFor="let gallery of galleries; let idxGallery=index">
+  <h2>Gallery</h2>
+
+  <div id="gallery{{gallery.title}}" class="gallery">
+    <h3>{{gallery.title | json}}</h3>
+
+    <figure 
+      *ngFor="let image of gallery.images; let idx=index" 
+      id="image{{idx+1}}">
+      <img
+        src="/assets/images/projects/seccion-amarilla/{{image.src}}"
+        alt="Gallery image #{{idx+1}}"><br/>
+      <figcaption>
+        <div class="links">
+          <vz-fragment-link [anchors]="gallery.links" />
+          <vz-fragment-link [anchors]="galleryTypes" />
+        </div>
+      </figcaption>  
+    </figure>
+  </div>
+</section>

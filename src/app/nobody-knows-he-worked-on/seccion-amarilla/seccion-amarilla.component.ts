@@ -11,7 +11,9 @@ import projectData from './seccion-amarilla.component.json';
 export class SeccionAmarillaComponent implements OnInit, OnDestroy {
   anchorsSectionNavigation = projectData.sectionNavigation;
   brief = projectData.brief;
-
+  galleries = projectData.galleries;
+  galleryTypes = projectData.galleryTypes;
+  
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private meta: Meta, 
