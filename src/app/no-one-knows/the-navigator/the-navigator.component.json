@@ -1,60 +1,60 @@
 {
   "seccionNavigation":[
      {
-        "title":"The current adventure",
-        "href":"adventure-7",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"The current adventure"
+        "title": "The current adventure",
+        "href": "adventure-7",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "separator": "§",
+        "text": "The current adventure"
      },
      {
-        "title":"The sixth adventure",
-        "href":"adventure-6",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"The sixth adventure"
+        "title": "The sixth adventure",
+        "href": "adventure-6",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "separator": "§",
+        "text": "The sixth adventure"
      },
      {
-        "title":"The fifth adventure",
-        "href":"adventure-5",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"The fifth adventure"
+        "title": "The fifth adventure",
+        "href": "adventure-5",
+        "classes": "anchor-class",
+        "prefixText" :"",
+        "separator": "§",
+        "text": "The fifth adventure"
      },
      {
-        "title":"The fourth adventure",
-        "href":"adventure-4",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"The fourth adventure"
+        "title": "The fourth adventure",
+        "href": "adventure-4",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "separator": "§",
+        "text": "The fourth adventure"
      },
      {
-        "title":"The third adventure",
-        "href":"adventure-3",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
+        "title": "The third adventure",
+        "href": "adventure-3",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "separator": "§",
         "text":"The third adventure"
      },
      {
-        "title":"The second adventure",
-        "href":"adventure-2",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"The second adventure"
+        "title": "The second adventure",
+        "href": "adventure-2",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "separator": "§",
+        "text": "The second adventure"
      },
      {
-        "title":"The first adventure",
-        "href":"adventure-1",
-        "classes":"anchor-class",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"The first adventure"
+        "title": "The first adventure",
+        "href": "adventure-1",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "The first adventure"
      }
   ],
   "adventures":[

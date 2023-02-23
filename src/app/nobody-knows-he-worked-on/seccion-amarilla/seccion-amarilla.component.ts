@@ -2,12 +2,19 @@ import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
+import projectData from './seccion-amarilla.component.json';
 @Component({
   selector: 'vz-seccion-amarilla',
   templateUrl: './seccion-amarilla.component.html',
   styleUrls: ['./seccion-amarilla.component.scss']
 })
 export class SeccionAmarillaComponent implements OnInit, OnDestroy {
+  anchorsSectionNavigation = projectData.sectionNavigation;
+  brief = projectData.brief;
+  galleries = projectData.galleries;
+  galleryTypes = projectData.galleryTypes;
+  projectsNavigation = projectData.projectsNavigation;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private meta: Meta, 
@@ -28,6 +35,8 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
     });
 
     this.document.body.classList.add('seccion-amarilla');
+
+    console.log('projectsNavigation', this.projectsNavigation)
   }
 
   ngOnDestroy(): void {

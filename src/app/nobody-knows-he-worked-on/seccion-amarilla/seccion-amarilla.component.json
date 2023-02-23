@@ -1,0 +1,220 @@
+{
+  "sectionNavigation": [
+    {
+      "title": "See the Brief of the project",
+      "href": "brief",
+      "classes": "anchor-class",
+      "prefixText": "",
+      "sufixText": "",
+      "text": "Brief"
+    },
+    {
+      "title": "See the Gallery of the project",
+      "href": "gallery",
+      "classes": "anchor-class",
+      "prefixText": "",
+      "sufixText": "",
+      "text": "Gallery"
+    }
+  ],
+  "brief": {
+    "title": "Sección Amarilla",
+    "year": 2014,
+    "company": "Sección Amarilla",
+    "industry": "Advertising",
+    "work": "Design of Portal, Blog, WebApp. App for iOS, Android, Smart TV and Windows 8",
+    "technologies": [
+      "C# 5.0",
+      " <abbr title='Xtensible Application Markup Language'>XAML</abbr> 1.0",
+      " Java 1.7",
+      "Objective-C 5.0",
+      " <abbr title='Hypertext Pre-procesor'>PHP</abbr>",
+      " .Net 4.0",
+      " Web Standards",
+      "Accessibilty",
+      " <abbr title='User Experience'>UX</abbr>",
+      " Usability",
+      " Responsive Web Design",
+      " Microformats",
+      " Web Optimization",
+      " <abbr title='Search Engine Optimization'>SEO</abbr>",
+      " Photoshop <abbr title='Creative Suite'>CS</abbr>6",
+      " Fireworks CS6",
+      " Illustrator CS6, Dreamweaver CS6",
+      " Visual Studio 2013, XCode 5, Eclipse Juno",
+      " Cocoa 10.4"
+    ],
+    "status": "Active",
+    "links": [
+      {
+        "href": "http://www.seccionamarilla.com.mx/",
+        "title": "Visit Portal",
+        "text": "Portal"
+      },
+      {
+        "href": "http://blog.seccionamarilla.com.mx/",
+        "title": "Visit Blog",
+        "text": "Blog"
+      },
+      {
+        "href": "http://m.seccionamarilla.com.mx/",
+        "title": "Visit WebApp",
+        "text": "WebApp"
+      }
+    ],
+    "apps": [
+      {
+        "href": "http://www.samsung.com/mx/microsite/smarthub/mobile/smartHubMobile/apps/seccionamarilla/",
+        "title": "Download App for App for Android",
+        "text": "App for Android"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.seccion.amarilla",
+        "title": "Download App for Smart TV",
+        "text": "Smart TV"
+      },
+      {
+        "href": "http://apps.microsoft.com/windows/es-mx/app/seccion-amarilla/08dcf586-7b43-4dbf-a6b7-a85837d6103b",
+        "title": "Download App for Windows 8",
+        "text": "Windows 8"
+      },
+      {
+        "href": "http://www.windowsphone.com/en-us/store/app/secci%C3%B3n-amarilla/f1064a32-d695-40c3-9169-56254b4a37de",
+        "title": "Download App for Windows Phone 8",
+        "text": "Windows Phone 8"
+      }
+    ]
+  },
+  "galleries": [
+    {
+      "title": "Desktop",
+      "links": [
+        {
+          "title": "See Desktop image 01",
+          "href": "image-desktop-01",
+          "text": "01",
+          "separator": "~"
+        },
+        {
+          "title": "See Desktop image 02",
+          "href": "image-desktop-02",
+          "text": "02",
+          "separator": "~"
+        },
+        {
+          "title": "See Desktop image 03",
+          "href": "image-desktop-03",
+          "text": "03",
+          "separator": "~"
+        },
+        {
+          "title": "See Desktop image 04",
+          "href": "image-desktop-04",
+          "text": "04",
+          "separator": "~"
+        },
+        {
+          "title": "See Desktop image 05",
+          "href": "image-desktop-05",
+          "text": "05",
+          "separator": ""
+        }
+      ]
+    },
+    {
+      "title": "Tablet",
+      "links": [
+        {
+          "title": "See Tablet image 01",
+          "href": "image-tablet-01",
+          "text": "01",
+          "separator": "~"
+        },
+        {
+          "title": "See Tablet image 02",
+          "href": "image-tablet-02",
+          "text": "02",
+          "separator": "~"
+        },
+        {
+          "title": "See Tablet image 03",
+          "href": "image-tablet-03",
+          "text": "03",
+          "separator": "~"
+        },
+        {
+          "title": "See Tablet image 04",
+          "href": "image-tablet-04",
+          "text": "04",
+          "separator": "~"
+        },
+        {
+          "title": "See Tablet image 05",
+          "href": "image-tablet-05",
+          "text": "05",
+          "separator": ""
+        }
+      ]
+    },
+    {
+      "title": "Mobile",
+      "links": [
+        {
+          "title": "See Mobile image 01",
+          "href": "image-mobile-01",
+          "text": "01",
+          "separator": "~"
+        },
+        {
+          "title": "See Mobile image 02",
+          "href": "image-mobile-02",
+          "text": "02",
+          "separator": "~"
+        },
+        {
+          "title": "See Mobile image 03",
+          "href": "image-mobile-03",
+          "text": "03",
+          "separator": "~"
+        },
+        {
+          "title": "See Mobile image 04",
+          "href": "image-mobile-04",
+          "text": "04",
+          "separator": "~"
+        },
+        {
+          "title": "See Mobile image 05",
+          "href": "image-mobile-05",
+          "text": "05",
+          "separator": ""
+        }
+      ]
+    }
+  ],
+  "galleryTypes": [
+    {
+      "title": "See Desktop gallery",
+      "href": "galleryDesktop",
+      "text": "Desktop",
+      "separator": "|"
+    },
+    {
+      "title": "See Tablet gallery",
+      "href": "galleryTablet",
+      "text": "Tablet",
+      "separator": "|"
+    },
+    {
+      "title": "See Mobile gallery",
+      "href": "galleryMobile",
+      "text": "Mobile",
+      "separator": "|"
+    }
+  ],
+  "projectsNavigation": {
+    "current": "Seccion Amarilla",
+    "next": "Cars",
+    "previous": "Menumania"
+  }
+}

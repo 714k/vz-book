@@ -6,6 +6,7 @@ type Anchors = {
   classes?: string;
   prefixText?: string;
   sufixText?: string;
+  separator?: string;
   text: string;
 } []
 
@@ -18,4 +19,5 @@ export class FragmentLinkComponent {
   @Input() anchors: Anchors = [];
   @Input() active: number = 1;
   @Input() classes: string = "";
+  @Input() hideTitle: boolean = false;
 }

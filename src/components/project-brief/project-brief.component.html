@@ -1,0 +1,69 @@
+<section id="brief">
+  <h2>Brief</h2>
+  <div>
+    <p>
+      <strong>Project</strong><br />
+      <em 
+        class="title"
+        [innerHTML]="brief.title">
+      </em>
+    </p>
+    
+    <p>
+      <strong>Year</strong><br />
+      <em [innerHTML]="brief.year"></em>
+    </p>
+
+    <p>
+      <strong>Company</strong><br />
+      <em [innerHTML]="brief.company"></em>
+    </p>
+
+    <p>
+      <strong>Industry</strong><br />
+      <em [innerHTML]="brief.industry"></em>
+    </p>
+
+    <p>
+      <strong>Work</strong><br />
+      <em [innerHTML]="brief.work"></em>
+    </p>
+
+    <p>
+      <strong>Technologies</strong><br />
+      <em [innerHTML]="brief.technologies"></em>
+    </p>
+
+    <p>
+      <strong>Status</strong><br />  
+      <em class="status" [innerHTML]="brief.status"></em>
+    </p>
+
+    <p>
+      <strong><abbr title="Uniform Resource Locator">URL</abbr>s</strong><br />
+      <em class="url"><span>Visit </span>
+        <a
+          *ngFor="let link of brief.links; let isLast=last" 
+          [href]="link.href"
+          target="_blank"
+          title="{{link.title}} (It will be displayed in another window or tab)"
+          innerHTML="{{link.text}}{{isLast ? '.' : ', '}}"></a>
+      </em><br class="block"> 
+    </p>
+
+    <p>
+      <strong><abbr title="Applications">Apps</abbr></strong><br />
+      <em class="url last">Download 
+       <a 
+         *ngFor="let app of brief.apps; let isLast=last" 
+         [href]="app.href"
+         target="_blank"
+         title="{{app.title}} (It will be displayed in another window or tab)"
+         innerHTML="{{app.text}}{{isLast ? '.' : ', '}}">
+       </a>,&nbsp;
+      </em>   
+    </p> 
+  </div>
+</section>
+
+<vz-back-to-top />

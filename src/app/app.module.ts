@@ -25,7 +25,9 @@ import { AdventuresComponent } from '../components/adventures/adventures.compone
 import { AmmoComponent } from '../components/ammo/ammo.component';
 import { BackToTopComponent } from '../components/back-to-top/back-to-top.component';
 import { ProjectSummaryComponent } from '../components/project-summary/project-summary.component';
-
+import { ProjectBriefComponent } from '../components/project-brief/project-brief.component';
+import { ProjectGalleryComponent } from '../components/project-gallery/project-gallery.component';
+import { ProjectsNavigationComponent } from '../components/projects-navigation/projects-navigation.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +47,9 @@ import { ProjectSummaryComponent } from '../components/project-summary/project-s
     AmmoComponent,
     BackToTopComponent,
     ProjectSummaryComponent,
+    ProjectBriefComponent,
+    ProjectGalleryComponent,
+    ProjectsNavigationComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

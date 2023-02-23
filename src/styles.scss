@@ -15,9 +15,10 @@
 
 body {
   background-color: #0f1114;
-  color: #eaf2ff;
   color: #3cb7ff;
+  color: #adb6c5;
   background-color: #010916;
+  background-color: #0f1012;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5rem;
@@ -61,18 +62,22 @@ h1 {
 
 h1{
   color: #7aff00;
+  color: white;
 }
 
 h2 {
   color: #ffff00;
+  color: white;
 }
 
 h3 {
   color: #ff008d;
+  color: white;
 }
 
 h4 {
   color: #ff5e00;
+  color: white;
 }
 
 h2, h3, h4, a {
@@ -99,4 +104,8 @@ a {
 
 p {
   line-height: 1.5rem;
+}
+
+footer {
+  padding-top: 3rem;
 }
