@@ -10,7 +10,7 @@
       *ngFor="let link of gallery.links; let idx=index" 
       id="image-{{gallery.title | lowercase}}-0{{idx+1}}">
       <img
-        src="/assets/images/projects/{{project}}/image-{{gallery.title | lowercase}}-0{{idx+1}}.jpg"
+        src="/assets/images/projects/{{projectsNavigation.current.split(' ').join('-') | lowercase}}/image-{{gallery.title | lowercase}}-0{{idx+1}}.jpg"
         alt="Gallery {{gallery.title}} image #{{idx+1}}"><br/>
       <figcaption>
         <div class="links">
@@ -27,7 +27,7 @@
       [active]="(idxGallery+1)"
       [hideTitle]="true"
     />
+
+    <vz-back-to-top />
   </div>
 </section>
-
-<vz-back-to-top />

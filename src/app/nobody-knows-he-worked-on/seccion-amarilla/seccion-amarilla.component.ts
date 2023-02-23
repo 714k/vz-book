@@ -13,8 +13,8 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
   brief = projectData.brief;
   galleries = projectData.galleries;
   galleryTypes = projectData.galleryTypes;
-  project = projectData.project;
-  
+  projectsNavigation = projectData.projectsNavigation;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private meta: Meta, 
@@ -35,7 +35,8 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
     });
 
     this.document.body.classList.add('seccion-amarilla');
-    console.log('brief: ', this.brief);
+
+    console.log('projectsNavigation', this.projectsNavigation)
   }
 
   ngOnDestroy(): void {

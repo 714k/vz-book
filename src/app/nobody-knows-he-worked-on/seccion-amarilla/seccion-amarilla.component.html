@@ -3,22 +3,19 @@
   <vz-header-navigation [anchors]="anchorsSectionNavigation"/>       
 </header>
 
-<div id="navegacionSecciones"><span class="hide">&laquo;</span>&nbsp; 
-  <a href="menumania" class="anterior menumania" title="Presentaci&oacute;n del proyecto Menumania">
-    <span class="icon-wrap"></span>
-    <span class="info_wrap">
-      <em>Previous project:</em>
-      <strong>Menumania</strong>
-    </span>
-  </a> 
-</div> 
+<vz-projects-navigation
+   [projectsNavigation]="projectsNavigation"
+/>
 
 <vz-project-brief [brief]="brief" />
 
 <vz-project-gallery
    [galleries]="galleries"
    [galleryTypes]="galleryTypes"
-   [project]="project"
+   [projectsNavigation]="projectsNavigation"
 />
 
-<p id="navegacionSeccionesInf">&laquo; <a href="cmll" title="Presentaci&oacute;n de CMLL" class="navegacion_proyectos_b"><em>Proyecto anterior:</em> <strong>CMLL</strong></a>&nbsp;<span class="div-vert">|</span>&nbsp;<a href="seccion-amarilla" title="Presentaci&oacute;n de Sección Amarilla" class="navegacion_proyectos_b"><em>Proyecto siguiente:</em> <strong>Secci&oacute;n Amarilla</strong></a> &gt;  </p>
+<vz-projects-navigation 
+   [projectsNavigation]="projectsNavigation"
+   [isBottom]="true"
+/>

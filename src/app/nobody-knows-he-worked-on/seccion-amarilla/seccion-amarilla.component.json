@@ -194,23 +194,27 @@
   ],
   "galleryTypes": [
     {
-      "title": "See gallery desktop",
+      "title": "See Desktop gallery",
       "href": "galleryDesktop",
       "text": "Desktop",
       "separator": "|"
     },
     {
-      "title": "See gallery tablet",
+      "title": "See Tablet gallery",
       "href": "galleryTablet",
       "text": "Tablet",
       "separator": "|"
     },
     {
-      "title": "See gallery mobile",
+      "title": "See Mobile gallery",
       "href": "galleryMobile",
       "text": "Mobile",
       "separator": "|"
     }
   ],
-  "project": "seccion-amarilla"
+  "projectsNavigation": {
+    "current": "Seccion Amarilla",
+    "next": "Cars",
+    "previous": "Menumania"
+  }
 }

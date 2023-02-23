@@ -1,0 +1,41 @@
+<div id="projects-navigation-{{isBottom ? 'bottom' : 'top'}}">
+  <span
+    *ngIf="projectsNavigation.previous" 
+    class="left-angle-qoute">
+    &laquo;
+  </span>&nbsp;
+  <a 
+    *ngIf="projectsNavigation.previous"
+    class="previous {{projectsNavigation.previous.split(' ').join('-') | lowercase}}"
+    href="/at-the-beginning/nobody-knows-he-worked-on/{{projectsNavigation.previous.split(' ').join('-') | lowercase}}"
+    title="Presentation of {{projectsNavigation.previous}} project">
+    <span class="icon-wrap"></span>
+    <span class="info-wrap">
+      <em>Previous project: </em>
+      <strong>
+        {{projectsNavigation.previous}}
+      </strong>
+    </span>
+  </a>
+  
+  <span *ngIf="projectsNavigation.previous">&nbsp;|&nbsp;</span>
+
+  <a 
+    *ngIf="projectsNavigation.next"
+    class="next {{projectsNavigation.next.split(' ').join('-') | lowercase}}"
+    href="/at-the-beginning/nobody-knows-he-worked-on/{{projectsNavigation.next.split(' ').join('-') | lowercase}}"
+    title="Presentation of {{projectsNavigation.next}} project">
+    <span class="icon-wrap"></span>
+    <span class="info-wrap">
+      <em>Next project: </em>
+      <strong>
+        {{projectsNavigation.next}}
+      </strong>
+    </span>
+  </a>&nbsp;
+  <span 
+    *ngIf="projectsNavigation.next"
+    class="left-angle-qoute">
+    &raquo;
+  </span>
+</div>
