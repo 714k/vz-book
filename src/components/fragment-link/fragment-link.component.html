@@ -1,5 +1,5 @@
 <p class="vz-fragment-link" [class]="classes">
-  <span>Navigate to:</span><br />
+  <span *ngIf="!hideTitle">Navigate to:</span><br *ngIf="!hideTitle" />
   <span
     *ngFor="let anchor of anchors; let idx=index; let isLast = last">
     <a

@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 export class ProjectGalleryComponent {
   @Input() galleries: any;
   @Input() galleryTypes: any;
+  @Input() project: string = "";
 }

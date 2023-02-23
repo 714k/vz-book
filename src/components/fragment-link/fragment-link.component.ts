@@ -19,4 +19,5 @@ export class FragmentLinkComponent {
   @Input() anchors: Anchors = [];
   @Input() active: number = 1;
   @Input() classes: string = "";
+  @Input() hideTitle: boolean = false;
 }

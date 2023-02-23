@@ -13,6 +13,7 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
   brief = projectData.brief;
   galleries = projectData.galleries;
   galleryTypes = projectData.galleryTypes;
+  project = projectData.project;
   
   constructor(
     @Inject(DOCUMENT) private document: Document,
