@@ -19,6 +19,7 @@ import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobo
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 import { MenumaniaComponent } from './nobody-knows-he-worked-on/menumania/menumania.component';
 import { CMLLComponent } from './nobody-knows-he-worked-on/cmll/cmll.component';
+import { AventurasEnmascaradasComponent } from './nobody-knows-he-worked-on/aventuras-enmascaradas/aventuras-enmascaradas.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
@@ -43,6 +44,7 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     SeccionAmarillaComponent,
     MenumaniaComponent,
     CMLLComponent,
+    AventurasEnmascaradasComponent,
 
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,
