@@ -3,13 +3,14 @@ import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
 import projectsData from '../projects.data.json';
-import projectData from './seccion-amarilla.component.json';
+import projectData from './menumania.component.json';
+
 @Component({
-  selector: 'vz-seccion-amarilla',
-  templateUrl: './seccion-amarilla.component.html',
-  styleUrls: ['./seccion-amarilla.component.scss']
+  selector: 'app-menumania',
+  templateUrl: './menumania.component.html',
+  styleUrls: ['./menumania.component.scss']
 })
-export class SeccionAmarillaComponent implements OnInit, OnDestroy {
+export class MenumaniaComponent implements OnInit, OnDestroy {
   anchorsSectionNavigation = projectsData.sectionNavigation;
   galleries = projectsData.galleries;
   galleryTypes = projectsData.galleryTypes;
@@ -23,11 +24,11 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    this.title.setTitle("Sección Amarilla - Víctor Zamudio"); 
+    this.title.setTitle("Menumania - Víctor Zamudio"); 
     
     this.meta.updateTag({ 
       name: 'description',
-      content: 'Design of Portal, Blog, WebApp, App for iOS, Android, Smart TV and Windows 8 for the Search Engine and ads in Sección Amarilla directories.'
+      content: 'Design of Portal, Blog, WebApp, App for iOS, Android, Smart TV and Windows 8 for the Search Engine and ads in Menumania.'
     });
     
     this.meta.updateTag({ 
@@ -35,10 +36,10 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
       content: 'Menumania, Project, Portfolio, Design, Designer, Web, C# 5.0, XAML 1.0, Java 1.7, Objective-C 5.0, PHP, .NET 4.0, Web Standards, Accessibility, Usability, UX, Responsive Web Design, Microformats, Web Optimization, SEO, Photoshop CS6, Fireworks CS6, Illustrator CS6, Dreamweaver CS6, Visual Studio 2013, XCode 5, Eclipse Juno, Cocoa 10.4.'
     });
 
-    this.document.body.classList.add('seccion-amarilla');
+    this.document.body.classList.add('menumania');
   }
 
   ngOnDestroy(): void {
-    this.document.body.classList.remove('seccion-amarilla');
+    this.document.body.classList.remove('menumania');
   }
 }

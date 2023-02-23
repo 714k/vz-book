@@ -17,6 +17,7 @@ import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigato
 import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component';
 import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.component';
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
+import { MenumaniaComponent } from './nobody-knows-he-worked-on/menumania/menumania.component';
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
 import { FragmentLinkComponent } from '../components/fragment-link/fragment-link.component';
@@ -38,6 +39,7 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     TheFixerComponent,
     NobodyKnowsHeWorkedOnComponent,
     SeccionAmarillaComponent,
+    MenumaniaComponent,
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,
     SkipLinksComponent,
