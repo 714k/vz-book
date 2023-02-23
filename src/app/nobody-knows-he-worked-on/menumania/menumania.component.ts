@@ -6,7 +6,7 @@ import projectsData from '../projects.data.json';
 import projectData from './menumania.component.json';
 
 @Component({
-  selector: 'app-menumania',
+  selector: 'vz-menumania',
   templateUrl: './menumania.component.html',
   styleUrls: ['./menumania.component.scss']
 })

@@ -8,6 +8,8 @@ import { TheServerComponent } from './no-one-knows/the-server/the-server.compone
 import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.component';
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 import { MenumaniaComponent } from './nobody-knows-he-worked-on/menumania/menumania.component';
+import { CMLLComponent } from './nobody-knows-he-worked-on/cmll/cmll.component';
+
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
 const routerOptions: ExtraOptions = {
@@ -54,6 +56,10 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/menumania",
     component: MenumaniaComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/cmll",
+    component: CMLLComponent,
   },
   {
     path: "at-the-beginning/nor-where-to-find-him",
