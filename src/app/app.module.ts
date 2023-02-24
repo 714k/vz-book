@@ -24,6 +24,9 @@ import { ClubAtleticoDeMadridComponent } from './nobody-knows-he-worked-on/club-
 import { SkinyComponent } from './nobody-knows-he-worked-on/skiny/skiny.component';
 import { TopsAndBottomsComponent } from './nobody-knows-he-worked-on/tops-and-bottoms/tops-and-bottoms.component';
 import { OptimaCottonWearComponent } from './nobody-knows-he-worked-on/optima-cotton-wear/optima-cotton-wear.component';
+import { RutasDeMexicoComponent } from './nobody-knows-he-worked-on/rutas-de-mexico/rutas-de-mexico.component';
+import { ElMascaraComponent } from './nobody-knows-he-worked-on/el-mascara/el-mascara.component';
+import { PJDFComponent } from './nobody-knows-he-worked-on/pjdf/pjdf.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
@@ -53,6 +56,9 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     TopsAndBottomsComponent,
     SkinyComponent,
     OptimaCottonWearComponent,
+    RutasDeMexicoComponent,
+    ElMascaraComponent,
+    PJDFComponent,
 
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,
