@@ -20,6 +20,10 @@ import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-am
 import { MenumaniaComponent } from './nobody-knows-he-worked-on/menumania/menumania.component';
 import { CMLLComponent } from './nobody-knows-he-worked-on/cmll/cmll.component';
 import { AventurasEnmascaradasComponent } from './nobody-knows-he-worked-on/aventuras-enmascaradas/aventuras-enmascaradas.component';
+import { ClubAtleticoDeMadridComponent } from './nobody-knows-he-worked-on/club-atletico-de-madrid/club-atletico-de-madrid.component';
+import { SkinyComponent } from './nobody-knows-he-worked-on/skiny/skiny.component';
+import { TopsAndBottomsComponent } from './nobody-knows-he-worked-on/tops-and-bottoms/tops-and-bottoms.component';
+import { OptimaCottonWearComponent } from './nobody-knows-he-worked-on/optima-cotton-wear/optima-cotton-wear.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
@@ -45,6 +49,10 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     MenumaniaComponent,
     CMLLComponent,
     AventurasEnmascaradasComponent,
+    ClubAtleticoDeMadridComponent,
+    TopsAndBottomsComponent,
+    SkinyComponent,
+    OptimaCottonWearComponent,
 
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,

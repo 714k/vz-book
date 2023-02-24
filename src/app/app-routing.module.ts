@@ -10,6 +10,10 @@ import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-am
 import { MenumaniaComponent } from './nobody-knows-he-worked-on/menumania/menumania.component';
 import { CMLLComponent } from './nobody-knows-he-worked-on/cmll/cmll.component';
 import { AventurasEnmascaradasComponent } from './nobody-knows-he-worked-on/aventuras-enmascaradas/aventuras-enmascaradas.component';
+import { ClubAtleticoDeMadridComponent } from './nobody-knows-he-worked-on/club-atletico-de-madrid/club-atletico-de-madrid.component';
+import { SkinyComponent } from './nobody-knows-he-worked-on/skiny/skiny.component';
+import { TopsAndBottomsComponent } from './nobody-knows-he-worked-on/tops-and-bottoms/tops-and-bottoms.component';
+import { OptimaCottonWearComponent } from './nobody-knows-he-worked-on/optima-cotton-wear/optima-cotton-wear.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
@@ -65,6 +69,22 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/aventuras-enmascaradas",
     component: AventurasEnmascaradasComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/club-atletico-de-madrid",
+    component: ClubAtleticoDeMadridComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/skiny",
+    component: SkinyComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/tops-and-bottoms",
+    component: TopsAndBottomsComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/optima-cotton-wear",
+    component: OptimaCottonWearComponent,
   },
   {
     path: "at-the-beginning/nor-where-to-find-him",
