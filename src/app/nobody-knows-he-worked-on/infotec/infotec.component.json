@@ -1,35 +1,36 @@
 {
   "brief": {
-    "title": "PJDF",
+    "title": "<abbr title='Centro de Investigación e Innovación en Tecnologías de la Información y Comunicación'>Infotec</abbr>",
     "year": 2010,
-    "company": "Poder Judicial del Distrito Federal",
-    "industry": "Government",
-    "work": "Portal Redesign & Maintenance",
+    "company": "Infotec",
+    "industry": "Research and Technological Development",
+    "work": "Standardization, accessibility and maintenance of the Portal",
     "technologies": [
       "<abbr title='Extensible Hypertext Markup Languaje'>XHTML</abbr> 1.0 strict",
       " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
       " Javascript 1.5",
+      " Dojo",
       " <abbr title='Content Management System'>CMS</abbr> (<abbr title='Semantic Web Builder'>SWB</abbr> 4.0)",
       " Web Standards",
       " Accessibilty",
       " Usability",
       " <abbr title='Search Engine Optimization'>SEO</abbr>",
       " Photoshop <abbr title='Creative Suite'>CS</abbr>4",
-      " Fireworks CS4",
+      " Flash CS4, Fireworks CS4",
       " Illustrator CS4, Dreamweaver CS4"
     ],
     "status": "Active",
     "links": [
       {
-        "href": "https://www.poderjudicialcdmx.gob.mx/",
+        "href": "https://www.infotec.mx/",
         "title": "Visit Website",
         "text": "Website"
       }
     ]
   },
   "projectsNavigation": {
-    "current": "PJDF",
-    "next": "El Mascara",
-    "previous": "Infotec"
+    "current": "Infotec",
+    "next": "PJDF",
+    "previous": "Sonora"
   }
 }

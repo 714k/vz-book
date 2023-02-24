@@ -17,6 +17,8 @@ import { OptimaCottonWearComponent } from './nobody-knows-he-worked-on/optima-co
 import { RutasDeMexicoComponent } from './nobody-knows-he-worked-on/rutas-de-mexico/rutas-de-mexico.component';
 import { ElMascaraComponent } from './nobody-knows-he-worked-on/el-mascara/el-mascara.component';
 import { PJDFComponent } from './nobody-knows-he-worked-on/pjdf/pjdf.component';
+import { InfotecComponent } from './nobody-knows-he-worked-on/infotec/infotec.component';
+import { SonoraComponent } from './nobody-knows-he-worked-on/sonora/sonora.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
@@ -100,6 +102,14 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/pjdf",
     component: PJDFComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/infotec",
+    component: InfotecComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/sonora",
+    component: SonoraComponent,
   },
   {
     path: "at-the-beginning/nor-where-to-find-him",
