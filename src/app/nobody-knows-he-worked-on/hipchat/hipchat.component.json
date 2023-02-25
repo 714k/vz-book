@@ -1,0 +1,29 @@
+{
+  "brief": {
+    "title": "Hipchat",
+    "year": 2016,
+    "company": "Hipchat",
+    "industry": "Instant Messaging and Video Calling",
+    "work": "Custom extension to connect Facebook in Google Chrome",
+    "technologies": [
+      "Agile",
+      " Design Patterns",
+      " Usability",
+      " Javascript 1.8.5",
+      " NodeJS",
+      " Sass",
+      " Postman",
+      " MongoDB, Compass",
+      " Ruby, Python",
+      " Unit Testing",
+      " Jasmine, Mocha, Chai",
+      " IntelliJ IDEA, Sublime Text",
+      " Git, NPM"
+    ]
+  },
+  "projectsNavigation": {
+    "current": "Hipchat",
+    "next": "Johnson and Johnson",
+    "previous": "American Airlines"
+  }
+}

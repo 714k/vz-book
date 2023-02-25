@@ -122,6 +122,12 @@
             "percentage": "100%"
           },
           {
+            "name": "<abbr title='Search Engineering Marketing'>SEM</abbr>",
+            "years": "8",
+            "use": "Frecuent",
+            "percentage": "70%"
+          },
+          {
             "name": "Design Systems",
             "years": "3",
             "use": "Frecuent",
@@ -267,6 +273,22 @@
             "percentage": "40%"
           },
           {
+            "name": "Apollo client",
+            "type": "Schema and Query Language",
+            "years": "4",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "75%"
+          },
+          {
+            "name": "Apollo Server",
+            "type": "Schema and Query Language",
+            "years": "4",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "60%"
+          },
+          {
             "name": "C#",
             "type": "Object-Oriented, Component-Oriented",
             "years": "10",
@@ -379,6 +401,14 @@
           },
           {
             "name": "Sublime Text",
+            "type": "<abbr title='Graphical User Interface'>IDE</abbr>",
+            "years": "8",
+            "use": "Occasionally",
+            "level": "Intermediate",
+            "percentage": "60%"
+          },
+          {
+            "name": "Atom",
             "type": "<abbr title='Graphical User Interface'>IDE</abbr>",
             "years": "8",
             "use": "Occasionally",
@@ -596,8 +626,8 @@
       },
       "frameworks": {
         "id": "frameworks",
-        "title": "Frameworks",
-        "caption": "Frameworks I Implement",
+        "title": "Libraries & Frameworks",
+        "caption": "Libraries & Frameworks I Implement",
         "data": [
           {
             "name": "ReactJS",
@@ -694,6 +724,14 @@
             "use": "Occasionally",
             "level": "Intermediate",
             "percentage": "65%"
+          },
+          {
+            "name": "NodeJS",
+            "type": "Backend",
+            "years": "5",
+            "use": "Very Frecuent",
+            "level": "Advanced",
+            "percentage": "90%"
           },
           {
             "name": "Express",
@@ -949,14 +987,6 @@
             "use": "Very Frecuent",
             "level": "Intermediate",
             "percentage": "70%"
-          },
-          {
-          "name": "Usability",
-          "type": "Software Development",
-          "years": "12",
-            "use": "Very Frecuent",
-            "level": "Advanced",
-            "percentage": "100%"
           },
           {
             "name": "Code Conventions & Best Practices",
