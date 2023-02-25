@@ -38,6 +38,17 @@ import { QueryTechnologiesComponent } from './nobody-knows-he-worked-on/query-te
 import { HondaMiramontesComponent } from './nobody-knows-he-worked-on/honda-miramontes/honda-miramontes.component';
 import { ConcesionariosPeugeotComponent } from './nobody-knows-he-worked-on/concesionarios-peugeot/concesionarios-peugeot.component';
 import { ToyotaUniversidadComponent } from './nobody-knows-he-worked-on/toyota-universidad/toyota-universidad.component';
+import { CarsComponent } from './nobody-knows-he-worked-on/cars/cars.component';
+import { AmericanAirlinesComponent } from './nobody-knows-he-worked-on/american-airlines/american-airlines.component';
+import { HipchatComponent } from './nobody-knows-he-worked-on/hipchat/hipchat.component';
+import { JohnsonAndJohnsonComponent } from './nobody-knows-he-worked-on/johnson-and-johnson/johnson-and-johnson.component';
+import { CitiBanamexComponent } from './nobody-knows-he-worked-on/citi-banamex/citi-banamex.component';
+import { AerisComponent } from './nobody-knows-he-worked-on/aeris/aeris.component';
+import { HBOComponent } from './nobody-knows-he-worked-on/hbo/hbo.component';
+import { HBOMaxComponent } from './nobody-knows-he-worked-on/hbo-max/hbo-max.component';
+import { PlastiqComponent } from './nobody-knows-he-worked-on/plastiq/plastiq.component';
+import { NextGenComponent } from './nobody-knows-he-worked-on/next-gen/next-gen.component';
+import { SaffroloteComponent } from './nobody-knows-he-worked-on/saffrolote/saffrolote.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
@@ -79,6 +90,17 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     HondaMiramontesComponent,
     ConcesionariosPeugeotComponent,
     ToyotaUniversidadComponent,
+    CarsComponent,
+    AmericanAirlinesComponent,
+    HipchatComponent,
+    JohnsonAndJohnsonComponent,
+    CitiBanamexComponent,
+    AerisComponent,
+    HBOComponent,
+    HBOMaxComponent,
+    PlastiqComponent,
+    NextGenComponent,
+    SaffroloteComponent,
 
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,

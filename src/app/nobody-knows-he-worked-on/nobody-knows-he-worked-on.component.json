@@ -12,7 +12,7 @@
       },
       {
         "title": "See the NextGen project",
-        "href": "nextgen",
+        "href": "next-gen",
         "classes": "anchor-class",
         "prefixText": "",
         "sufixText": "",
@@ -27,20 +27,20 @@
         "text": "Plastiq"
       },
       {
-        "title": "See the HBO project",
-        "href": "hbo",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "HBO"
-      },
-      {
         "title": "See the HBO Max project",
         "href": "hbo-max",
         "classes": "anchor-class",
         "prefixText": "",
         "sufixText": "",
         "text": "HBO Max"
+      },
+      {
+        "title": "See the HBO project",
+        "href": "hbo",
+        "classes": "anchor-class",
+        "prefixText": "",
+        "sufixText": "",
+        "text": "HBO"
       },
       {
         "title": "See the Aeris project",
@@ -268,7 +268,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "saffrolote",
         "title": "See project of Saffrolote",
         "text": "See project"
       },
@@ -280,8 +280,8 @@
     },
     {
       "id": "next-gen",
-      "title": "Next Gen",
-      "year": 2023,
+      "title": "NextGen",
+      "year": 2022,
       "industry": "Legal; Tax and Accounting; and News & Media",
       "technologies": [
         "Agile Development",
@@ -293,7 +293,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "next-gen",
         "title": "See project of Next Gen",
         "text": "See project"
       },
@@ -318,7 +318,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "plastiq",
         "title": "See project of Plastiq",
         "text": "See project"
       },
@@ -343,7 +343,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "hbo-max",
         "title": "See project of HBO Max",
         "text": "See project"
       },
@@ -368,7 +368,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "hbo",
         "title": "See project of HBO",
         "text": "See project"
       },
@@ -393,7 +393,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "aeris",
         "title": "See project of Aeris",
         "text": "See project"
       },
@@ -418,7 +418,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "citi-banamex",
         "title": "See project of Citi Banamex",
         "text": "See project"
       },
@@ -442,7 +442,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "johnson-and-johnson",
         "title": "See project of Johnson & Johnson",
         "text": "See project"
       },
@@ -466,7 +466,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "hipchat",
         "title": "See project of HipChat",
         "text": "See project"
       },
@@ -490,7 +490,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "american-airlines",
         "title": "See project of American Airlines",
         "text": "See project"
       },
@@ -515,7 +515,7 @@
       ],
       "classes": "class 1 class 2 class 3",
       "link": {
-        "href": "http://",
+        "href": "cars",
         "title": "See project of Cars",
         "text": "See project"
       },
