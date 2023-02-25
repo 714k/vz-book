@@ -1,0 +1,21 @@
+<header>
+  <h1>{{projectsNavigation.current}}</h1>
+  <vz-header-navigation [anchors]="anchorsSectionNavigation"/>       
+</header>
+
+<vz-projects-navigation
+   [projectsNavigation]="projectsNavigation"
+/>
+
+<vz-project-brief [brief]="brief" />
+
+<vz-project-gallery
+   [galleries]="galleries"
+   [galleryTypes]="galleryTypes"
+   [projectsNavigation]="projectsNavigation"
+/>
+
+<vz-projects-navigation 
+   [projectsNavigation]="projectsNavigation"
+   [isBottom]="true"
+/>

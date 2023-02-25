@@ -34,12 +34,12 @@
       <em [innerHTML]="brief.technologies"></em>
     </p>
 
-    <p>
+    <p *ngIf="brief.status">
       <strong>Status</strong><br />  
       <em class="status" [innerHTML]="brief.status"></em>
     </p>
 
-    <p>
+    <p *ngIf="brief.links">
       <strong><abbr title="Uniform Resource Locator">URL</abbr>s</strong><br />
       <em class="url"><span>Visit </span>
         <a
@@ -51,7 +51,7 @@
       </em><br class="block"> 
     </p>
 
-    <p>
+    <p *ngIf="brief.apps">
       <strong><abbr title="Applications">Apps</abbr></strong><br />
       <em class="url last">Download 
        <a 

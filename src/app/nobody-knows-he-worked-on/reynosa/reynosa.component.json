@@ -1,0 +1,23 @@
+{
+  "brief": {
+    "title": "Reynosa",
+    "year": 2009,
+    "company": "Municipality of Reynosa Tamaulipas",
+    "industry": "Government",
+    "work": "Redesign of Microsite",
+    "technologies": [
+      "<abbr title='Extensible Hypertext Markup Languaje'>XHTML</abbr> 1.0 strict",
+      " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+      " Web Standards",
+      " Accessibilty",
+      " Usability",
+      " Photoshop <abbr title='Creative Suite'>CS</abbr>3",
+      " Illustrator CS3, Dreamweaver CS3"
+    ]
+  },
+  "projectsNavigation": {
+    "current": "Reynosa",
+    "next": "Tulum",
+    "previous": "Nissan Latinoamerica"
+  }
+}

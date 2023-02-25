@@ -1,0 +1,35 @@
+{
+  "brief": {
+    "title": "Tops & Bottoms",
+    "year": 2012,
+    "company": "Avante Textil",
+    "industry": "Youth Clothing",
+    "work": "Website Redesign",
+    "technologies": [
+      "<abbr title='eXtensible HyperText Markup Languaje'>XHTML</abbr> 1.0",
+      " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+      " Javascript 1.4",
+      " Web Standards",
+      " Accessibilty",
+      " Usability",
+      " <abbr title='Search Engine Optimization'>SEO</abbr>",
+      " Photoshop <abbr title='Creative Suite'>CS</abbr>6",
+      " Fireworks CS5",
+      " Illustrator CS5, Dreamweaver CS5",
+      " Visual Studio 2010, and Wordpress"
+    ],
+    "status": "Active",
+    "links": [
+      {
+        "href": "https://www.infotec.mx/",
+        "title": "Visit Website",
+        "text": "Website"
+      }
+    ]
+  },
+  "projectsNavigation": {
+    "current": "Tops & Bottoms",
+    "next": "Skiny",
+    "previous": "Optima Cotton Wear"
+  }
+}

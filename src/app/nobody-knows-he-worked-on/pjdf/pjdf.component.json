@@ -1,0 +1,35 @@
+{
+  "brief": {
+    "title": "PJDF",
+    "year": 2010,
+    "company": "Poder Judicial del Distrito Federal",
+    "industry": "Government",
+    "work": "Portal Redesign & Maintenance",
+    "technologies": [
+      "<abbr title='Extensible Hypertext Markup Languaje'>XHTML</abbr> 1.0 strict",
+      " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
+      " Javascript 1.5",
+      " <abbr title='Content Management System'>CMS</abbr> (<abbr title='Semantic Web Builder'>SWB</abbr> 4.0)",
+      " Web Standards",
+      " Accessibilty",
+      " Usability",
+      " <abbr title='Search Engine Optimization'>SEO</abbr>",
+      " Photoshop <abbr title='Creative Suite'>CS</abbr>4",
+      " Fireworks CS4",
+      " Illustrator CS4, Dreamweaver CS4"
+    ],
+    "status": "Active",
+    "links": [
+      {
+        "href": "https://www.poderjudicialcdmx.gob.mx/",
+        "title": "Visit Website",
+        "text": "Website"
+      }
+    ]
+  },
+  "projectsNavigation": {
+    "current": "PJDF",
+    "next": "El Mascara",
+    "previous": "Infotec"
+  }
+}
