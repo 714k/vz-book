@@ -15,6 +15,8 @@ import { NoOneKnowsComponent } from './no-one-knows/no-one-knows.component';
 import { TheServerComponent } from './no-one-knows/the-server/the-server.component';
 import { TheNavigatorComponent } from './no-one-knows/the-navigator/the-navigator.component';
 import { TheFixerComponent } from './no-one-knows/the-fixer/the-fixer.component';
+
+// import { NobodyKnowsHeWorkedOnModule } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.module';
 import { NobodyKnowsHeWorkedOnComponent } from './nobody-knows-he-worked-on/nobody-knows-he-worked-on.component';
 import { SeccionAmarillaComponent } from './nobody-knows-he-worked-on/seccion-amarilla/seccion-amarilla.component';
 import { MenumaniaComponent } from './nobody-knows-he-worked-on/menumania/menumania.component';
@@ -29,6 +31,13 @@ import { ElMascaraComponent } from './nobody-knows-he-worked-on/el-mascara/el-ma
 import { PJDFComponent } from './nobody-knows-he-worked-on/pjdf/pjdf.component';
 import { InfotecComponent } from './nobody-knows-he-worked-on/infotec/infotec.component';
 import { SonoraComponent } from './nobody-knows-he-worked-on/sonora/sonora.component';
+import { TulumComponent } from './nobody-knows-he-worked-on/tulum/tulum.component';
+import { ReynosaComponent } from './nobody-knows-he-worked-on/reynosa/reynosa.component';
+import { NissanLatinoamericaComponent } from './nobody-knows-he-worked-on/nissan-latinoamerica/nissan-latinoamerica.component';
+import { QueryTechnologiesComponent } from './nobody-knows-he-worked-on/query-technologies/query-technologies.component';
+import { HondaMiramontesComponent } from './nobody-knows-he-worked-on/honda-miramontes/honda-miramontes.component';
+import { ConcesionariosPeugeotComponent } from './nobody-knows-he-worked-on/concesionarios-peugeot/concesionarios-peugeot.component';
+import { ToyotaUniversidadComponent } from './nobody-knows-he-worked-on/toyota-universidad/toyota-universidad.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 import { SkipLinksComponent } from '../components/skip-links/skip-links.component';
@@ -63,6 +72,13 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     PJDFComponent,
     InfotecComponent,
     SonoraComponent,
+    TulumComponent,
+    ReynosaComponent,
+    NissanLatinoamericaComponent,
+    QueryTechnologiesComponent,
+    HondaMiramontesComponent,
+    ConcesionariosPeugeotComponent,
+    ToyotaUniversidadComponent,
 
     NorWhereToFindHimComponent,
     HeaderNavigationComponent,
@@ -80,6 +96,7 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
+    // NobodyKnowsHeWorkedOnModule,
     CommonModule,
     // AngularComponentsModule,
     RouterModule

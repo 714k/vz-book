@@ -19,6 +19,13 @@ import { ElMascaraComponent } from './nobody-knows-he-worked-on/el-mascara/el-ma
 import { PJDFComponent } from './nobody-knows-he-worked-on/pjdf/pjdf.component';
 import { InfotecComponent } from './nobody-knows-he-worked-on/infotec/infotec.component';
 import { SonoraComponent } from './nobody-knows-he-worked-on/sonora/sonora.component';
+import { TulumComponent } from './nobody-knows-he-worked-on/tulum/tulum.component';
+import { ReynosaComponent } from './nobody-knows-he-worked-on/reynosa/reynosa.component';
+import { NissanLatinoamericaComponent } from './nobody-knows-he-worked-on/nissan-latinoamerica/nissan-latinoamerica.component';
+import { QueryTechnologiesComponent } from './nobody-knows-he-worked-on/query-technologies/query-technologies.component';
+import { HondaMiramontesComponent } from './nobody-knows-he-worked-on/honda-miramontes/honda-miramontes.component';
+import { ConcesionariosPeugeotComponent } from './nobody-knows-he-worked-on/concesionarios-peugeot/concesionarios-peugeot.component';
+import { ToyotaUniversidadComponent } from './nobody-knows-he-worked-on/toyota-universidad/toyota-universidad.component';
 
 import { NorWhereToFindHimComponent } from './nor-where-to-find-him/nor-where-to-find-him.component';
 
@@ -110,6 +117,34 @@ const routes: Routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/sonora",
     component: SonoraComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/tulum",
+    component: TulumComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/reynosa",
+    component: ReynosaComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/nissan-latinoamerica",
+    component: NissanLatinoamericaComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/query-technologies",
+    component: QueryTechnologiesComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/honda-miramontes",
+    component: HondaMiramontesComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/concesionarios-peugeot",
+    component: ConcesionariosPeugeotComponent,
+  },
+  {
+    path: "at-the-beginning/nobody-knows-he-worked-on/toyota-universidad",
+    component: ToyotaUniversidadComponent,
   },
   {
     path: "at-the-beginning/nor-where-to-find-him",
