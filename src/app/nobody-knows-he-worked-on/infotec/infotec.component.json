@@ -32,5 +32,10 @@
     "current": "Infotec",
     "next": "PJDF",
     "previous": "Sonora"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

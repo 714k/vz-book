@@ -29,5 +29,10 @@
     "current": "Nissan Latinoamerica",
     "next": "Reynosa",
     "previous": "Query Technologies"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

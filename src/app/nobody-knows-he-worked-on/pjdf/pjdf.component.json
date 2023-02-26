@@ -31,5 +31,10 @@
     "current": "PJDF",
     "next": "El Mascara",
     "previous": "Infotec"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

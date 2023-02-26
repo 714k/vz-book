@@ -22,5 +22,10 @@
     "current": "Concesionarios Peugeot",
     "next": "Honda MIramontes",
     "previous": "Toyota Universidad"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

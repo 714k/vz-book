@@ -23,5 +23,10 @@
     "current": "Query Technologies",
     "next": "Nissan Latinoamerica",
     "previous": "Honda Miramontes"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

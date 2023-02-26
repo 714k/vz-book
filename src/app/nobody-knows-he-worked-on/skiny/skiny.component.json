@@ -33,5 +33,10 @@
     "current": "Skiny",
     "next": "Club Atletico de Madrid",
     "previous": "Tops and Bottoms"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

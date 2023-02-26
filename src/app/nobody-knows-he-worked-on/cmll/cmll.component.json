@@ -31,5 +31,10 @@
     "current": "CMLL",
     "next": "Menumania",
     "previous": "Aventuras Enmascaradas"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

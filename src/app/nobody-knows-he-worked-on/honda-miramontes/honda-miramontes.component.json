@@ -37,5 +37,10 @@
     "current": "Honda Miramontes",
     "next": "Query Technologies",
     "previous": "Concesionarios Peugeot"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

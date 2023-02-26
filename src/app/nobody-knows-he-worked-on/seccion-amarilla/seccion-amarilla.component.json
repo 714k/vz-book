@@ -70,5 +70,16 @@
     "current": "Seccion Amarilla",
     "next": "Cars",
     "previous": "Menumania"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    },
+    {
+      "title": "Tablet"
+    },
+    {
+      "title": "Mobile"
+    }
+  ]
 }

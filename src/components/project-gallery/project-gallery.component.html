@@ -1,6 +1,6 @@
 <section id="gallery">
   <h2>Gallery</h2>
-
+  
   <div
     *ngFor="let gallery of galleries; let idxGallery=index"
     id="gallery{{gallery.title}}" class="gallery">
@@ -10,8 +10,10 @@
       *ngFor="let link of gallery.links; let idx=index" 
       id="image-{{gallery.title | lowercase}}-0{{idx+1}}">
       <img
-        src="/assets/images/projects/{{projectsNavigation.current.split(' ').join('-') | lowercase}}/image-{{gallery.title | lowercase}}-0{{idx+1}}.jpg"
-        alt="Gallery {{gallery.title}} image #{{idx+1}}"><br/>
+        src="/assets/images/projects/{{projectsNavigation.current.split(' ').join('-') | lowercase}}-{{gallery.title | lowercase}}-0{{idx+1}}.jpg"
+        alt="Gallery {{gallery.title}} image #{{idx+1}}"
+        width="100%"
+        height="auto"><br />
       <figcaption>
         <div class="links">
           <vz-fragment-link 
