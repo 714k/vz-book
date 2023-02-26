@@ -2,12 +2,15 @@ import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
+import norWhereToFindHimData from './nor-where-to-find-him.component.json';
 @Component({
   selector: 'app-nor-where-to-find-him',
   templateUrl: './nor-where-to-find-him.component.html',
   styleUrls: ['./nor-where-to-find-him.component.scss']
 })
 export class NorWhereToFindHimComponent implements OnInit, OnDestroy {
+  anchorsSectionNavigation = norWhereToFindHimData.seccionNavigation;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private meta: Meta, 
