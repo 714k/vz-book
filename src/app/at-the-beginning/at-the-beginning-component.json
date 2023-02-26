@@ -22,22 +22,22 @@
       "text": "The Fixer"
     },
     {
-      "title": "The Project 1",
-      "href": "project1",
+      "title": "The HBO Project",
+      "href": "hbo",
       "prefixText": "04",
-      "text": "Project 1"
+      "text": "HBO"
     },
     {
-      "title": "The Project 2",
-      "href": "project2",
+      "title": "The HBO Max Project",
+      "href": "hbo-max",
       "prefixText": "05",
-      "text": "Project 2"
+      "text": "HBO Max"
     },
     {
-      "title": "The Project 3",
-      "href": "project3",
+      "title": "The Aeris Project",
+      "href": "aeris",
       "prefixText": "06",
-      "text": "Project 3"
+      "text": "Aeris"
     }
   ]
 }
