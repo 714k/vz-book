@@ -25,5 +25,10 @@
     "current": "Aventuras Enmascaradas",
     "next": "CMLL",
     "previous": "Club Atletico de Madrid"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

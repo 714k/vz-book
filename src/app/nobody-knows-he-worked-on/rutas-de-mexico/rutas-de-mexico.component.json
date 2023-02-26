@@ -32,5 +32,10 @@
     "current": "Rutas de Mexico",
     "next": "Optima Cotton Wear",
     "previous": "El Mascara"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

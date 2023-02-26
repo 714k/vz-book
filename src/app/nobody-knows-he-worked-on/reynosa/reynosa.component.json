@@ -19,5 +19,10 @@
     "current": "Reynosa",
     "next": "Tulum",
     "previous": "Nissan Latinoamerica"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

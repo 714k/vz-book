@@ -26,5 +26,10 @@
     "current": "El Mascara",
     "next": "Rutas de Mexico",
     "previous": "PJDF"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

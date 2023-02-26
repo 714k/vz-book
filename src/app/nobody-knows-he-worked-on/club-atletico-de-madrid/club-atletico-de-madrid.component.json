@@ -32,5 +32,10 @@
     "current": "Club Atletico de Madrid",
     "next": "Aventuras Enmascaradas",
     "previous": "Skiny"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

@@ -38,5 +38,10 @@
     "current": "Toyota Universidad",
     "next": "Concesionarios Peugeot",
     "previous": ""
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

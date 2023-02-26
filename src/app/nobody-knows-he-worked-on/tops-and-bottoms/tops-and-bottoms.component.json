@@ -28,8 +28,13 @@
     ]
   },
   "projectsNavigation": {
-    "current": "Tops & Bottoms",
+    "current": "Tops and Bottoms",
     "next": "Skiny",
     "previous": "Optima Cotton Wear"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

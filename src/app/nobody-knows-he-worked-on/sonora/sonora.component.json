@@ -33,5 +33,10 @@
     "current": "Sonora",
     "next": "Infotec",
     "previous": "Tulum"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

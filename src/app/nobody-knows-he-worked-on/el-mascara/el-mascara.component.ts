@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';
 
+import { ProjectsUtils } from '../utils';
 import projectsData from '../projects.data.json';
 import projectData from './el-mascara.component.json';
 
@@ -12,10 +13,10 @@ import projectData from './el-mascara.component.json';
 })
 export class ElMascaraComponent implements OnInit, OnDestroy {
   anchorsSectionNavigation = projectsData.sectionNavigation;
-  galleries = projectsData.galleries;
-  galleryTypes = projectsData.galleryTypes;
   projectsNavigation = projectData.projectsNavigation;
   brief = projectData.brief;
+  galleries = ProjectsUtils.getProjectGalleries(projectsData.galleries, projectData?.galleries)
+  galleryTypes = ProjectsUtils.getGalleryTypes(projectsData.galleryTypes, projectData?.galleries)
 
   constructor(
     @Inject(DOCUMENT) private document: Document,

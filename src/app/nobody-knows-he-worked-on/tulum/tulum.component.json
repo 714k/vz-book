@@ -25,5 +25,10 @@
     "current": "Tulum",
     "next": "Sonora",
     "previous": "Reynosa"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

@@ -31,5 +31,10 @@
     "current": "Optima Cotton Wear",
     "next": "Tops & Bottoms",
     "previous": "Rutas de Mexico"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

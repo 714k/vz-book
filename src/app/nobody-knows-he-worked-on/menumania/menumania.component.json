@@ -71,5 +71,16 @@
     "current": "Menumania",
     "next": "Seccion Amarilla",
     "previous": "CMLL"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    },
+    {
+      "title": "Tablet"
+    },
+    {
+      "title": "Mobile"
+    }
+  ]
 }
