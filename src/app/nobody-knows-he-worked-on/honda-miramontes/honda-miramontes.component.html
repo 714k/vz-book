@@ -1,21 +1,25 @@
-<header>
-  <h1>{{projectsNavigation.current}}</h1>
-  <vz-header-navigation [anchors]="anchorsSectionNavigation"/>       
-</header>
+<vz-main-header 
+  color="#ffffff"
+  secondaryColor="#333333" />
 
-<vz-projects-navigation
-   [projectsNavigation]="projectsNavigation"
-/>
+<vz-main-article
+  [titleSection]="projectsNavigation.current"
+  [anchorsSection]="anchorsSectionNavigation">
 
-<vz-project-brief [brief]="brief" />
 
-<vz-project-gallery
-   [galleries]="galleries"
-   [galleryTypes]="galleryTypes"
-   [projectsNavigation]="projectsNavigation"
-/>
+   <vz-projects-navigation 
+      [projectsNavigation]="projectsNavigation" />
 
-<vz-projects-navigation 
-   [projectsNavigation]="projectsNavigation"
-   [isBottom]="true"
-/>
+   <vz-project-brief [brief]="brief" />
+
+   <vz-project-gallery
+      [galleries]="galleries"
+      [galleryTypes]="galleryTypes"
+      [projectsNavigation]="projectsNavigation"
+   />
+
+   <vz-projects-navigation 
+      [projectsNavigation]="projectsNavigation"
+      [isBottom]="true"
+   />   
+</vz-main-article>

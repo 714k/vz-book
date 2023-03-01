@@ -1,6 +1,12 @@
-<header>
-  <h1>Nobody knows he worked on...</h1>
-  <vz-header-navigation [anchors]="anchorsSectionNavigation"/>   
-</header>
+<vz-main-header 
+  color="#ffffff"
+  secondaryColor="#333333" />
 
-<vz-project-summary [summaries]="summaries" />
+<vz-main-article
+  titleSection="Nobody knows he worked on..."
+  [anchorsSection]="anchorsSectionNavigation">
+
+  <vz-project-summary [summaries]="summaries" />  
+</vz-main-article>
+
+

@@ -5,8 +5,13 @@ import { CommonModule } from '@angular/common';
 
 // import { AngularComponentsModule } from '@714k/vz-angular-design-system';
 // import {HeaderNavigationComponent } from '@714k/vz-angular-design-system/components/header-navigation/header-navigation.component';
+// import VueLibrary from '@714k/vz-vue-design-system';
 
 import { HeaderNavigationComponent } from '../components/header-navigation/header-navigation.component';
+import { LogoComponent } from '../components/logo/logo.component';
+import { MainNavigationComponent } from '../components/main-navigation/main-navigation.component';
+import { MainHeaderComponent } from '../components/main-header/main-header.component';
+import { MainArticleComponent } from '../components/main-article/main-article.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -103,7 +108,12 @@ import { ProjectsNavigationComponent } from '../components/projects-navigation/p
     SaffroloteComponent,
 
     NorWhereToFindHimComponent,
+    
     HeaderNavigationComponent,
+    LogoComponent,
+    MainNavigationComponent,
+    MainHeaderComponent,
+    MainArticleComponent,
     SkipLinksComponent,
     FragmentLinkComponent,
     CoursesComponent,
