@@ -92,6 +92,12 @@
             "percentage": "100%"
           },
           {
+            "name": "Web Components",
+            "years": "2",
+            "use": "Frecuent",
+            "percentage": "70%"
+          },
+          {
             "name": "Agile Development",
             "years": "8",
             "use": "Frecuent",
