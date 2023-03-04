@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-navigation.component.scss']
 })
 export class MainNavigationComponent {
-
+  colorIcon: string = 'black';
 }

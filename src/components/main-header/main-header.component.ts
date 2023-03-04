@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class MainHeaderComponent {
   @Input() color: string = '#ff6600';
   @Input() secondaryColor: string | undefined;
+  @Input() colorIcon: string = '#ff6600';
 }
