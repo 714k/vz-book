@@ -5,48 +5,54 @@
         "href": "adventure-7",
         "classes": "anchor-class",
         "prefixText": "",
+        "sufixText": " ",
         "separator": "§",
-        "text": "The current adventure"
+        "text": "And his current adventure"
      },
      {
         "title": "The sixth adventure",
         "href": "adventure-6",
         "classes": "anchor-class",
         "prefixText": "",
+        "sufixText": " ",
         "separator": "§",
-        "text": "The sixth adventure"
+        "text": "And his sixth adventure"
      },
      {
         "title": "The fifth adventure",
         "href": "adventure-5",
         "classes": "anchor-class",
-        "prefixText" :"",
+        "prefixText": "",
+        "sufixText": "",
         "separator": "§",
-        "text": "The fifth adventure"
+        "text": "And his fifth adventure"
      },
      {
         "title": "The fourth adventure",
         "href": "adventure-4",
         "classes": "anchor-class",
         "prefixText": "",
+        "sufixText": "",
         "separator": "§",
-        "text": "The fourth adventure"
+        "text": "And his fourth adventure"
      },
      {
         "title": "The third adventure",
         "href": "adventure-3",
         "classes": "anchor-class",
         "prefixText": "",
+        "sufixText": "",
         "separator": "§",
-        "text":"The third adventure"
+        "text":"And his third adventure"
      },
      {
         "title": "The second adventure",
         "href": "adventure-2",
         "classes": "anchor-class",
         "prefixText": "",
+        "sufixText": "",
         "separator": "§",
-        "text": "The second adventure"
+        "text": "And his second adventure"
      },
      {
         "title": "The first adventure",
@@ -54,7 +60,7 @@
         "classes": "anchor-class",
         "prefixText": "",
         "sufixText": "",
-        "text": "The first adventure"
+        "text": "And his first adventure"
      }
   ],
   "adventures":[
@@ -68,7 +74,7 @@
         "summary": {
             "activities": [
                {
-                  "title": "Leadership <abbr title='Point Of Delivery - A small group of people to deliver a product'>POD</abbr> members",
+                  "title": "Leading <abbr title='Point Of Delivery - A small group of people to deliver a product'>POD</abbr> members",
                   "links": [
                      {
                         "title": "See my knowledge about Leadership",
@@ -215,7 +221,7 @@
         "summary": {
          "activities": [
             {
-               "title": "Leadership <abbr title='Point Of Delivery - A small group of people to deliver a product'>POD</abbr> members",
+               "title": "Leading <abbr title='Point Of Delivery - A small group of people to deliver a product'>POD</abbr> members",
                "links": [
                   {
                      "title": "See my knowledge about Leadership",

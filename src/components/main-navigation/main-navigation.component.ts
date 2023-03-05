@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'vz-main-navigation',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-navigation.component.scss']
 })
 export class MainNavigationComponent {
-  colorIcon: string = 'black';
+  @Input() colorIcon: string | undefined;
 }

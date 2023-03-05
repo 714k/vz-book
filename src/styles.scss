@@ -14,13 +14,13 @@
 }
 
 @font-face {
-  font-family: 'Hooverville';
-  src: url('/assets/fonts/hooverville.ttf');
+  font-family: 'Skulls and Crossbones';
+  src: url('/assets/fonts/Skullsandcrossbones-RppKM.ttf');
 }
 
 @font-face {
-  font-family: 'Ardagh';
-  src: url('/assets/fonts/ardagh.ttf');
+  font-family: 'Pirata One Regular';
+  src: url('/assets/fonts/PirataOne-Regular.ttf');
 }
 
 body {
@@ -52,25 +52,36 @@ body {
   &.the-navigator {
     background-color: #f3f3e6;
     color: #333333;
-    font-family: Ardagh, "Arial", sans-serif;
+    font-family: "Pirata One Regular", "Arial", sans-serif;
+    background-image: url('/assets/images/information/the-navigator-bg.png');
+    background-repeat: repeat-x;
+    background-position: center 21rem;
+    background-attachment: fixed;
 
     h1 {
-      font-family: Hooverville, "Times New Roman", serif;
-      color: #333333;
+      font-family: "Skulls and Crossbones", "Times New Roman", serif;
+      font-size: 4rem;
+      margin-top: 8rem;
+      // text-shadow: 0 0 5px #6c2626;
+      color: #000;
     }
 
     h2 {
-      font-size: 3rem;
-      font-family: Ardagh, "Arial", sans-serif;
+      font-size: 2.7rem;
+      font-family: "Pirata One Regular", "Arial", sans-serif;
+      // text-shadow: 0 0 5px #6c2626;
       color: #6c2626;
+      color: #141414;
       text-align: center;
       line-height: 2rem;
     }
 
     h3 {
       color: #1e3a4e;
+      color: #252525;
       font-size: 2rem;
-      font-family: Ardagh, "Arial", sans-serif;
+      font-family: "Pirata One Regular", "Arial", sans-serif;
+      // text-shadow: 0 0 5px #1e3a4e;
       margin-bottom: 0.5rem;
     }
   
@@ -78,12 +89,13 @@ body {
       font-family: "Share Tech Mono", "Arial", sans-serif;
       font-size: 1rem;
       color: #434f56;
-      background-color: #1d484e29;
+      color: #444444;
+      background-color: #a8a8a86e;
       text-decoration: none;
   
       &:hover {
         color: white;
-        background-color: #00262aa8;
+        background-color: rgb(60, 60, 60);
       }
     }
 
@@ -94,43 +106,42 @@ body {
 
     .vz-header-navigation {
       font-size: 1.5rem;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color: rgb(209 209 194 / 90%); 
-      color:#73736a;
       
       p {
         margin: 0;
         padding:0.5em 1em;
         background-color: #2d3b44;
         color: white;
+        display: none;
       }
 
       ul, li {
         list-style: none;
-        margin: 0;
+        margin: 0.25rem 0;
         padding: 0;
-      }
-
-      ul {
-        display: none;
       }
 
       a {
         display: inline-block;
-        font-family: Ardagh, "Arial", sans-serif;
-        font-size: 1.5rem;
+        font-family: "Pirata One Regular", "Arial", sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 2rem;
         letter-spacing: 2px;
         margin: 0;
-        padding: 0.75rem 1.5rem;
+        padding: 0.75rem 0;
         background-color: transparent;
         width: 100%;
+        text-align: center;
+        color:#19565c;
+        color:#5c5c5c;
+        text-shadow: 0 0 2px #0000003d;
 
         &:hover {
-          background-color: #2d3b4421;
+          // background-color: #2d3b4421;
           color: #6c2626;
+          color: black;
+          // text-shadow: 0 0 5px #6c2626;
         }
       }
 
@@ -141,11 +152,11 @@ body {
 
     .back-to-top {
       a {
-        background-color: #2d3b44b8;
+        background-color: #444444;
         color: white;
 
         &:hover {
-          background-color: #6c2626;
+          background-color: #000000;
         }
       }
     }
@@ -176,9 +187,9 @@ h1 {
   font-family: 'Share Tech Mono';
   line-height: 2.5rem;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 h1{
