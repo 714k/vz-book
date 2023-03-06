@@ -121,9 +121,16 @@ body {
         padding: 0;
       }
 
+      li {
+        background-image: url('/assets/svg/divider.svg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding-bottom: 1rem;
+      }
+
       a {
         display: inline-block;
-        font-family: "Pirata One Regular", "Arial", sans-serif;
+        font-family: "Skulls and Crossbones", "Arial", sans-serif;
         font-size: 1.75rem;
         font-weight: 700;
         line-height: 2rem;
@@ -134,7 +141,7 @@ body {
         width: 100%;
         text-align: center;
         color:#19565c;
-        color:#5c5c5c;
+        color:#727272;
         text-shadow: 0 0 2px #0000003d;
 
         &:hover {

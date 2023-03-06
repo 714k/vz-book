@@ -1,41 +1,7 @@
-<div style="display:none">
-  <label class="toggle">
-    <input type="checkbox">
-    <div>
-        <div>
-            <span></span>
-            <span></span>
-        </div>
-        <svg>
-            <use xlink:href="#path" />
-        </svg>
-        <svg>
-            <use xlink:href="#path" />
-        </svg>
-    </div>
-  </label>
-        
-  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
-        <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
-    </symbol>
-  </svg>
-  
-</div>
-      
-
-<input type="checkbox" id="active" />
-<label for="active" class="menu-btn" >
-  <div id="nav-icon2" onClick="this.classList.toggle('open')">
-    <span [style.background-color]="colorIcon"></span>
-    <span [style.background-color]="colorIcon"></span>
-    <span [style.background-color]="colorIcon"></span>
-    <span [style.background-color]="colorIcon"></span>
-    <span [style.background-color]="colorIcon"></span>
-    <span [style.background-color]="colorIcon"></span>
-  </div>
-</label>
-<nav role="navigation" class="main-navigation wrapper">
+<input type="checkbox" id="menuToggle" />
+<label for="menuToggle" class="menu-icon" [style]="'--bgColorMenuIcon:' + colorMenuIcon"></label>
+    
+<nav role="navigation" class="main-navigation">
   <ul class="nav">
     <li class="nav-item">
       <a class="nav-link" routerLink="/at-the-beginning">At the beginning...</a>

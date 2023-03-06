@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./main-navigation.component.scss']
 })
 export class MainNavigationComponent {
-  @Input() colorIcon: string | undefined;
+  @Input() colorMenuIcon: string | undefined;
 }
