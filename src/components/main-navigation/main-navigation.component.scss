@@ -9,11 +9,13 @@
     &::before {
       transform: rotate(-45deg) translateY(8px);
       animation: 0.75s linear bar1;
+      background-color: var(--bgColorMenuIcon);
     }
 
     &::after {
       transform: rotate(45deg) translateY(-9px);
       animation: 0.75s linear bar2;
+      background-color: var(--bgColorMenuIcon);
     }
   }
 }
@@ -24,7 +26,7 @@
   position: fixed;
   padding: 0.5rem;
   z-index: 2;
-  top: 1rem;
+  top: 1.25rem;
   right: 1rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -58,7 +60,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .75);
   backdrop-filter: blur(5px);
   clip-path: circle(0px at calc(100% - 45px) 45px);
   transition: all 0.5s ease-in-out;
@@ -69,27 +71,29 @@
     left: 50%;
     transform: translate(-50%, -50%);
     list-style: none;
-    text-align: center;
+    text-align: left;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0  0 0 1rem;
 
     li {
-      margin: 1rem 0;
+      margin: 3rem 0;
 
       a {
-        color: none;
+        background-color: transparent;
         text-decoration: none;
+        // font-family: "Codystar";
         font-size: 3rem;
         font-weight: 500;
-        padding: 1rem 3rem;
-        color: #000;
-        line-height: 4rem;
+        padding: 1rem 0;
+        color: #fff;
+        line-height: 3.2rem;
         transition: all 0.3s ease;
 
         &:hover{
-          color: #fff;
-          background: #000000b7;
+          text-decoration: line-through;
+          // color: var(--bgColorMenuIcon);
+          // background: #000000b7;
         }
       }
     }
@@ -115,6 +119,7 @@
 
   100% {
     transform: rotate(-45deg) translateY(8px);
+    background-color: white;
   }
 }
 

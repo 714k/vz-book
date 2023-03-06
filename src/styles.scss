@@ -1,16 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: 'Share Tech Mono';
-  src: url('./assets/fonts/ShareTechMono-Regular.ttf');
+  src: url('/assets/fonts/ShareTechMono-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Exo 2 Regular';
-  src: url('./assets/fonts/Exo2-Regular.ttf');
+  src: url('/assets/fonts/Exo2-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Lobster Regular';
-  src: url('./assets/fonts/LobsterTwo-Regular.ttf');
+  src: url('/assets/fonts/LobsterTwo-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Codystar';
+  src: url('/assets/fonts/ShareTechMono-Regular.ttf');
 }
 
 @font-face {
@@ -176,7 +182,7 @@ body {
   // justify-content: space-between;
 
   .logo {
-    background-image: url('./assets/svg/logo-vz.svg');
+    background-image: url('/assets/svg/logo-vz.svg');
     background-repeat: no-repeat;
     text-indent: -10000rem;
     height: 4rem;
