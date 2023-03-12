@@ -1,57 +1,136 @@
+$arrow-duration: .4s;
+$arrow-timing: ease-out;
+$arrow-width: 60px;
+$arrow-height: 60px;
+$arrow-mask: url(/assets/svg/logo-vz.svg);
+$arrow-color: rgba(0, 0, 255, 0.5);
+
+@mixin arrow {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: $arrow-width;
+  height: $arrow-height;
+  mask-image: $arrow-mask;
+  background-color: $arrow-color;
+}
+
+@keyframes a1 {
+  from {
+    top: 80%;
+    left: 50%;
+    transform: scale(0);
+  }   
+  
+  to {
+    top: 0;
+    left: 65%;
+    transform: scale(15);
+  }
+}
+
+@keyframes a2 {
+  from {
+    top: 150%;
+    left: -100%;
+    transform: scale(1);
+  }   
+  
+  to {
+    top: 60%;
+    left: 40%;
+    transform: scale(10);
+  }
+}
+
+@keyframes a3 {
+  from {
+    top: 50%;
+    left: 0%;
+    transform: scale(0);
+  }   
+  
+  to {
+    top: 40%;
+    left: 70%;
+    transform: scale(40);
+  }
+}
+
+@keyframes a4 {
+  from {
+    left: 70%;
+    transform: scale(0);
+  }   
+  
+  to {
+    left: 170%;
+    transform: scale(22);
+  }
+}
+
+@keyframes a5 {
+  from {
+    left: 0%;
+    transform: scale(0);
+  }   
+  
+  to {
+    left: 50%;
+    transform: scale(25);
+  }
+}
+
 #menuToggle {
   display: none;
 
   &:checked ~ .main-navigation {
-    clip-path: circle(75%);
+    left: 0;
+
+    a {
+      color: white;
+      letter-spacing: 0;
+      line-height: 2.5rem;
+      transition: all .5s linear;
+    }
 
     .arrow {
-      display: inline-block;
-      width: 60px;
-      height: 60px;
-      backdrop-filter: blur(1px);
-      background-color: rgba(0, 0, 0, 0.5);
-      mask-image: url(/assets/svg/logo-vz.svg);
-      transform: scale(1) translate(0%, 100%);
-      transition: all 1s ease-in-out;
+      @include arrow;
+    }
+
+    .a1 {
+      top: 0%;
+      left: 65%;
+      transform: scale(15);
+      animation: a1 $arrow-duration $arrow-timing;
     }
 
     .a2 {
-      transform: scale(20) translate(40%, 50%);
+      top: 60%;
+      left: 40%;
+      transform: scale(10);
+      animation: a2 $arrow-duration $arrow-timing;
     }
-  
-    .a3 {
-      transform: scale(18) translate(10%, 80%);
-      // background-color: rgb(24, 18, 26, .5);
-    }
-  
-    .a4 {
-      transform: scale(12) translate(63%, 51%);
-      // background-color: rgba(11, 65, 128, 0.5);
-    }
-  
-    .a5 {
-      transform: scale(7) translate(-24%, 175%);
-      // animation: arrow1 0.5s ease-in-out;
 
-      // background-color: rgba(111, 136, 53, 0.5);
+    .a3 {
+      top: 40%;
+      left: 70%;
+      transform: scale(40);
+      animation: a3 $arrow-duration $arrow-timing;
     }
-  
-    .a6 {
-      transform: scale(9) translate(-10%, 93%);
+
+    .a4 {
+      top: 70%;
+      left: 170%;
+      transform: scale(22);
+      animation: a4 $arrow-duration $arrow-timing;
     }
-    .a7 {
-      transform: scale(20) translate(10%, 0);
-    }
-    .a8 {
-      transform: scale(15) translate(10%, 50%);
-    }
-    .a9 {
-      transform: scale(11) translate(0, 6%);
-      // filter: opacity(75%);
-    }
-    .a10 {
-      transform: scale(9) translate(0, 15%);
-      // filter: opacity(5%);
+
+    .a5 {
+      top: 45%;
+      left: 50%;
+      transform: scale(50);
+      animation: a5 $arrow-duration $arrow-timing;
     }
   }
 
@@ -67,16 +146,6 @@
       animation: 0.75s linear bar2;
       background-color: var(--bgColorMenuIcon);
     }
-  }
-}
-
-@keyframes arrow1 {
-  from {
-    transform: scale(1) translate(0, 10%);
-  }   
-  
-  to {
-    transform: scale(5) translate(50%, 10%);
   }
 }
 
@@ -117,17 +186,15 @@
 .main-navigation {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -100%;
   height: 100%;
   width: 100%;
-  // background-color: rgba(0, 0, 0, 0.5);
-  // backdrop-filter: blur(8px);
-  clip-path: circle(0px at calc(100% - 45px) 45px);
+  backdrop-filter: blur(2px);
   transition: all 0.5s ease-in-out;
 
   ul {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     list-style: none;
@@ -138,7 +205,7 @@
     overflow: auto;
 
     li {
-      margin: 1rem;
+      margin: 0;
       padding: 1rem;
 
       ul {
@@ -149,7 +216,6 @@
       }
 
       &:hover ul {
-        // display: block;
         background-color: #000000dc;
         backdrop-filter: blur(5px);
 
@@ -175,8 +241,9 @@
         font-size: 1.75rem;
         font-weight: 500;
         padding: 1rem 0;
-        color: white;
-        line-height: 2.5rem;
+        color: rgba(255, 255, 255, 0);
+        line-height: 20rem;
+        letter-spacing: 10rem;
         transition: all 0.3s ease;
 
         &:hover{
