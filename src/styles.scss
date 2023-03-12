@@ -1,16 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: 'Share Tech Mono';
-  src: url('./assets/fonts/ShareTechMono-Regular.ttf');
+  src: url('/assets/fonts/ShareTechMono-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Exo 2 Regular';
-  src: url('./assets/fonts/Exo2-Regular.ttf');
+  src: url('/assets/fonts/Exo2-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Lobster Regular';
-  src: url('./assets/fonts/LobsterTwo-Regular.ttf');
+  src: url('/assets/fonts/LobsterTwo-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('/assets/fonts/Bitwise.ttf');
+  src: url('/assets/fonts/PressStart2P-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Skulls and Crossbones';
+  src: url('/assets/fonts/Skullsandcrossbones-RppKM.ttf');
+}
+
+@font-face {
+  font-family: 'Pirata One Regular';
+  src: url('/assets/fonts/PirataOne-Regular.ttf');
 }
 
 body {
@@ -38,6 +55,126 @@ body {
       }
     }
   }
+
+  &.the-navigator {
+    background-color: #f3f3e6;
+    color: #333333;
+    font-family: "Pirata One Regular", "Arial", sans-serif;
+    background-image: url('/assets/images/information/the-navigator-bg.png');
+    background-repeat: repeat-x;
+    background-position: center 21rem;
+    background-attachment: fixed;
+
+    h1 {
+      font-family: "Skulls and Crossbones", "Times New Roman", serif;
+      font-size: 4rem;
+      margin-top: 8rem;
+      // text-shadow: 0 0 5px #6c2626;
+      color: #000;
+    }
+
+    h2 {
+      font-size: 2.7rem;
+      font-family: "Pirata One Regular", "Arial", sans-serif;
+      // text-shadow: 0 0 5px #6c2626;
+      color: #6c2626;
+      color: #141414;
+      text-align: center;
+      line-height: 2rem;
+    }
+
+    h3 {
+      color: #1e3a4e;
+      color: #252525;
+      font-size: 2rem;
+      font-family: "Pirata One Regular", "Arial", sans-serif;
+      // text-shadow: 0 0 5px #1e3a4e;
+      margin-bottom: 0.5rem;
+    }
+  
+    a {
+      font-family: "Share Tech Mono", "Arial", sans-serif;
+      font-size: 1rem;
+      color: #434f56;
+      color: #444444;
+      background-color: #a8a8a86e;
+      text-decoration: none;
+  
+      &:hover {
+        color: white;
+        background-color: rgb(60, 60, 60);
+      }
+    }
+
+    .summary {
+      letter-spacing: 0.05rem;
+      font-size: 1.4rem;
+    }
+
+    .vz-header-navigation {
+      font-size: 1.5rem;
+      
+      p {
+        margin: 0;
+        padding:0.5em 1em;
+        background-color: #2d3b44;
+        color: white;
+        display: none;
+      }
+
+      ul, li {
+        list-style: none;
+        margin: 0.25rem 0;
+        padding: 0;
+      }
+
+      li {
+        background-image: url('/assets/svg/divider.svg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding-bottom: 1rem;
+      }
+
+      a {
+        display: inline-block;
+        font-family: "Skulls and Crossbones", "Arial", sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0.75rem 0;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        color:#19565c;
+        color:#727272;
+        text-shadow: 0 0 2px #0000003d;
+
+        &:hover {
+          // background-color: #2d3b4421;
+          color: #6c2626;
+          color: black;
+          // text-shadow: 0 0 5px #6c2626;
+        }
+      }
+
+      &:hover ul {
+        display: block;
+      }
+    }
+
+    .back-to-top {
+      a {
+        background-color: #444444;
+        color: white;
+
+        &:hover {
+          background-color: #000000;
+        }
+      }
+    }
+  }
 }
 
 .main-header {
@@ -46,7 +183,7 @@ body {
   // justify-content: space-between;
 
   .logo {
-    background-image: url('./assets/svg/logo-vz.svg');
+    background-image: url('/assets/svg/logo-vz.svg');
     background-repeat: no-repeat;
     text-indent: -10000rem;
     height: 4rem;
@@ -64,8 +201,9 @@ h1 {
   font-family: 'Share Tech Mono';
   line-height: 2.5rem;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
+  margin-top: 6rem;
 }
 
 h1{
@@ -114,43 +252,8 @@ p {
   line-height: 1.5rem;
 }
 
-.main-navigation {
-  width: 2rem;
-  height: 2rem;
-  background-color: #ff5e00;
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  overflow: hidden;
-
-  &:hover {
-    display: block;
-    background-color: #06080cde;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: auto;
-    width: 100%;
-    height: 60%;
-  }
-
-  ul {
-    list-style: none;
-    display: none;
-
-    li a {
-      display: inline-block;
-      width: 100%;
-      font-size: 3rem;
-      margin-bottom: 2rem;
-      line-height: 3rem;
-    }
-  }
-}
-
-.main-navigation:hover > ul{
-  display: block;
+.back-to-top a {
+  padding: 0.25rem;
 }
 
 footer {

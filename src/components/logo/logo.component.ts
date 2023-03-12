@@ -63,6 +63,6 @@ export class LogoComponent {
 
   public getSecondaryColor(primaryColor: string): string {
     const color = this.hexToHSL(primaryColor);
-    return color.substring(0, color.length - 4) + '15%)';
+    return color.substring(0, color.length - 4) + '25%)';
   }
 }

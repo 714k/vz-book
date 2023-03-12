@@ -1,0 +1,299 @@
+$arrow-duration: .4s;
+$arrow-timing: ease-out;
+$arrow-width: 60px;
+$arrow-height: 60px;
+$arrow-mask: url(/assets/svg/logo-vz.svg);
+$arrow-color: rgba(0, 0, 255, 0.5);
+
+@mixin arrow {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: $arrow-width;
+  height: $arrow-height;
+  mask-image: $arrow-mask;
+  background-color: $arrow-color;
+}
+
+@keyframes a1 {
+  from {
+    top: 80%;
+    left: 50%;
+    transform: scale(0);
+  }   
+  
+  to {
+    top: 0;
+    left: 65%;
+    transform: scale(15);
+  }
+}
+
+@keyframes a2 {
+  from {
+    top: 150%;
+    left: -100%;
+    transform: scale(1);
+  }   
+  
+  to {
+    top: 60%;
+    left: 40%;
+    transform: scale(10);
+  }
+}
+
+@keyframes a3 {
+  from {
+    top: 50%;
+    left: 0%;
+    transform: scale(0);
+  }   
+  
+  to {
+    top: 40%;
+    left: 70%;
+    transform: scale(40);
+  }
+}
+
+@keyframes a4 {
+  from {
+    left: 70%;
+    transform: scale(0);
+  }   
+  
+  to {
+    left: 170%;
+    transform: scale(22);
+  }
+}
+
+@keyframes a5 {
+  from {
+    left: 0%;
+    transform: scale(0);
+  }   
+  
+  to {
+    left: 50%;
+    transform: scale(25);
+  }
+}
+
+#menuToggle {
+  display: none;
+
+  &:checked ~ .main-navigation {
+    left: 0;
+
+    a {
+      color: white;
+      letter-spacing: 0;
+      line-height: 2.5rem;
+      transition: all .5s linear;
+    }
+
+    .arrow {
+      @include arrow;
+    }
+
+    .a1 {
+      top: 0%;
+      left: 65%;
+      transform: scale(15);
+      animation: a1 $arrow-duration $arrow-timing;
+    }
+
+    .a2 {
+      top: 60%;
+      left: 40%;
+      transform: scale(10);
+      animation: a2 $arrow-duration $arrow-timing;
+    }
+
+    .a3 {
+      top: 40%;
+      left: 70%;
+      transform: scale(40);
+      animation: a3 $arrow-duration $arrow-timing;
+    }
+
+    .a4 {
+      top: 70%;
+      left: 170%;
+      transform: scale(22);
+      animation: a4 $arrow-duration $arrow-timing;
+    }
+
+    .a5 {
+      top: 45%;
+      left: 50%;
+      transform: scale(50);
+      animation: a5 $arrow-duration $arrow-timing;
+    }
+  }
+
+  &:checked ~ .menu-icon {
+    &::before {
+      transform: rotate(-45deg) translateY(8px);
+      animation: 0.75s linear bar1;
+      background-color: var(--bgColorMenuIcon);
+    }
+
+    &::after {
+      transform: rotate(45deg) translateY(-9px);
+      animation: 0.75s linear bar2;
+      background-color: var(--bgColorMenuIcon);
+    }
+  }
+}
+
+.menu-icon {
+  width: 1.5rem;
+  height: 1rem;
+  position: fixed;
+  padding: 0.5rem;
+  z-index: 2;
+  top: 1.25rem;
+  right: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &::before, &::after {
+    background-color: var(--bgColorMenuIcon);
+    position: absolute;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width: 100%;
+    height: 4px;  
+  }
+
+  &::before {
+    content: "";
+    width: 1.5rem;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  &::after {
+    content: "";
+    bottom:0.5rem;
+    width: 1.5rem;
+    left: 0.5rem;
+  }
+}
+
+.main-navigation {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  transition: all 0.5s ease-in-out;
+
+  ul {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+
+    li {
+      margin: 0;
+      padding: 1rem;
+
+      ul {
+        display: none;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+      }
+
+      &:hover ul {
+        background-color: #000000dc;
+        backdrop-filter: blur(5px);
+
+        li {
+          margin: 0rem;
+        }
+
+        a {
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+          padding: 0;
+
+          &:hover {
+            color: greenyellow;
+          }  
+        }
+      }
+
+      a {
+        background-color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+        font-family: "PressStart2P";
+        font-size: 1.75rem;
+        font-weight: 500;
+        padding: 1rem 0;
+        color: rgba(255, 255, 255, 0);
+        line-height: 20rem;
+        letter-spacing: 10rem;
+        transition: all 0.3s ease;
+
+        &:hover{
+          background-color: #000000;
+        }
+      }
+    }
+  }
+}
+
+@keyframes bar1 {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+
+  25% {
+    transform: rotate(45deg) translateY(-3px);
+    height: 0.6rem;
+    background-color: grey;
+  }
+
+  50% {
+    transform: rotate(45deg) translateY(-3px);
+    height: 0.6rem;
+    background-color: grey;
+  }
+
+  100% {
+    transform: rotate(-45deg) translateY(8px);
+    background-color: white;
+  }
+}
+
+@keyframes bar2 {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  25% {
+    transform: rotate(-45deg) translateY(3px);
+    height: 0.6rem;
+  }
+
+  50% {
+    transform: rotate(-45deg) translateY(3px);
+    height: 0.6rem;
+  }
+
+  100% {
+    transform: rotate(45deg) translateY(-9px);
+  }
+}
+
