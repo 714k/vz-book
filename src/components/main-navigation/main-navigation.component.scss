@@ -3,7 +3,8 @@ $arrow-timing: ease-out;
 $arrow-width: 60px;
 $arrow-height: 60px;
 $arrow-mask: url(/assets/svg/logo-vz.svg);
-$arrow-color: rgba(0, 0, 255, 0.5);
+$arrow-color: rgba(0, 0, 24, 0.5);
+// $arrow-color: rgb(0 0 64 / 90%);
 
 @mixin arrow {
   position: absolute;
@@ -88,10 +89,18 @@ $arrow-color: rgba(0, 0, 255, 0.5);
     left: 0;
 
     a {
-      color: white;
+      color: #cbdeff;
+      // background-color: #ffffff;
       letter-spacing: 0;
+      font-size: 2.5rem;
       line-height: 2.5rem;
+      font-family: 'PressStart2P';
+      text-shadow: 0 0 10px #81aeffbf;
       transition: all .5s linear;
+
+      &:hover {
+        text-shadow: 0 0 10px #fff;
+      }
     }
 
     .arrow {
@@ -110,6 +119,7 @@ $arrow-color: rgba(0, 0, 255, 0.5);
       left: 40%;
       transform: scale(10);
       animation: a2 $arrow-duration $arrow-timing;
+      // background-color: aliceblue;
     }
 
     .a3 {
@@ -117,6 +127,7 @@ $arrow-color: rgba(0, 0, 255, 0.5);
       left: 70%;
       transform: scale(40);
       animation: a3 $arrow-duration $arrow-timing;
+      // background-color: rgb(12 0 68 / .8);
     }
 
     .a4 {
@@ -190,11 +201,12 @@ $arrow-color: rgba(0, 0, 255, 0.5);
   height: 100%;
   width: 100%;
   backdrop-filter: blur(2px);
+  background-image: url(/assets/svg/screen-lines.svg) ;
   transition: all 0.5s ease-in-out;
 
   ul {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     list-style: none;
@@ -205,8 +217,11 @@ $arrow-color: rgba(0, 0, 255, 0.5);
     overflow: auto;
 
     li {
+      display: flex;
+      align-items: center;
       margin: 0;
-      padding: 1rem;
+      padding: 1.5rem 2rem;
+      border-bottom: dotted 1px rgb(255 255 255 / .15);
 
       ul {
         display: none;
@@ -235,10 +250,12 @@ $arrow-color: rgba(0, 0, 255, 0.5);
       }
 
       a {
+        display: flex;
+        align-items: center;
         background-color: rgba(0, 0, 0, 0);
         text-decoration: none;
         font-family: "PressStart2P";
-        font-size: 1.75rem;
+        font-size: 3.5rem;
         font-weight: 500;
         padding: 1rem 0;
         color: rgba(255, 255, 255, 0);
@@ -246,8 +263,29 @@ $arrow-color: rgba(0, 0, 255, 0.5);
         letter-spacing: 10rem;
         transition: all 0.3s ease;
 
+        &.subnavigation {
+          &::after {
+            display: inline-block;
+            content: '';
+            width: 60px;
+            height: 40px;
+            background-image: url(/assets/svg/caret-right-navigation.svg);
+            background-position: right center;
+            background-repeat: no-repeat;
+            opacity: 0.35;    
+            transition: all 0.5s ease;
+          }
+        }  
+
         &:hover{
-          background-color: #000000;
+          text-decoration: line-through;
+          text-shadow: none;
+          transition: all 0.3s ease;
+
+          &::after {
+            opacity: 1;
+            transform: translate(20px, 0);
+          }
         }
       }
     }
