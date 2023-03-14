@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'victorZamudio';
-  isSearchActive = false;
-
-  handleSearch() {
-    this.isSearchActive = true
-    console.log(this.isSearchActive)
-  }
 }

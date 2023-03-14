@@ -30,10 +30,14 @@ export class NoOneKnowsComponent implements OnInit, OnDestroy {
       content: 'info, web, ui, developer'
     });
 
-    this.document.body.classList.add('no-one-knows');
+    this.document.body.classList.add('no-one-knows', 'wrapper');
   }
 
   ngOnDestroy(): void {
     this.document.body.classList.remove('no-one-knows');
+  }
+
+  public openMenu() {
+    this.document.body.classList.add('perspective', 'effect-airbnb', 'modalview', 'animate');
   }
 }

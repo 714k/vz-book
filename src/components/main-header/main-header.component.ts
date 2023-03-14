@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'vz-main-header',
@@ -9,4 +9,10 @@ export class MainHeaderComponent {
   @Input() color: string = '#ff6600';
   @Input() secondaryColor: string | undefined;
   @Input() colorMenuIcon: string = 'white';
+
+  @Output() newMenuEvent = new EventEmitter<any>();
+
+  public onOpenMenu() {
+    this.newMenuEvent.emit();
+  }
 }
