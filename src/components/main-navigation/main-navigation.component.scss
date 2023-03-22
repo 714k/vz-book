@@ -3,8 +3,7 @@ $arrow-timing: ease-out;
 $arrow-width: 60px;
 $arrow-height: 60px;
 $arrow-mask: url(/assets/svg/logo-vz.svg);
-$arrow-color: rgba(0, 0, 24, 0.5);
-// $arrow-color: rgb(0 0 64 / 90%);
+$arrow-color: rgba(0, 0, 0, 0.35);
 
 @mixin arrow {
   position: absolute;
@@ -20,7 +19,7 @@ $arrow-color: rgba(0, 0, 24, 0.5);
   from {
     top: 80%;
     left: 50%;
-    transform: scale(0);
+    transform: scale(15);
   }   
   
   to {
@@ -34,7 +33,7 @@ $arrow-color: rgba(0, 0, 24, 0.5);
   from {
     top: 150%;
     left: -100%;
-    transform: scale(1);
+    transform: scale(10);
   }   
   
   to {
@@ -48,7 +47,7 @@ $arrow-color: rgba(0, 0, 24, 0.5);
   from {
     top: 50%;
     left: 0%;
-    transform: scale(0);
+    transform: scale(40);
   }   
   
   to {
@@ -61,11 +60,11 @@ $arrow-color: rgba(0, 0, 24, 0.5);
 @keyframes a4 {
   from {
     left: 70%;
-    transform: scale(0);
+    transform: scale(22);
   }   
   
   to {
-    left: 170%;
+    left: 150%;
     transform: scale(22);
   }
 }
@@ -73,7 +72,7 @@ $arrow-color: rgba(0, 0, 24, 0.5);
 @keyframes a5 {
   from {
     left: 0%;
-    transform: scale(0);
+    transform: scale(25);
   }   
   
   to {
@@ -87,14 +86,14 @@ $arrow-color: rgba(0, 0, 24, 0.5);
 
   &:checked ~ .main-navigation {
     left: 0;
+    backdrop-filter: blur(5px);
 
     a {
       color: #cbdeff;
-      // background-color: #ffffff;
       letter-spacing: 0;
       font-size: 2.5rem;
       line-height: 2.5rem;
-      font-family: 'PressStart2P';
+      font-family: 'Russo One';
       text-shadow: 0 0 10px #81aeffbf;
       transition: all .5s linear;
 
@@ -119,7 +118,6 @@ $arrow-color: rgba(0, 0, 24, 0.5);
       left: 40%;
       transform: scale(10);
       animation: a2 $arrow-duration $arrow-timing;
-      // background-color: aliceblue;
     }
 
     .a3 {
@@ -127,12 +125,11 @@ $arrow-color: rgba(0, 0, 24, 0.5);
       left: 70%;
       transform: scale(40);
       animation: a3 $arrow-duration $arrow-timing;
-      // background-color: rgb(12 0 68 / .8);
     }
 
     .a4 {
       top: 70%;
-      left: 170%;
+      left: 150%;
       transform: scale(22);
       animation: a4 $arrow-duration $arrow-timing;
     }
@@ -200,15 +197,11 @@ $arrow-color: rgba(0, 0, 24, 0.5);
   left: -100%;
   height: 100%;
   width: 100%;
-  backdrop-filter: blur(2px);
-  background-image: url(/assets/svg/screen-lines.svg) ;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out .0s;
 
   ul {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 2rem;
     list-style: none;
     text-align: left;
     width: 100%;
@@ -217,11 +210,8 @@ $arrow-color: rgba(0, 0, 24, 0.5);
     overflow: auto;
 
     li {
-      display: flex;
-      align-items: center;
       margin: 0;
-      padding: 1.5rem 2rem;
-      border-bottom: dotted 1px rgb(255 255 255 / .15);
+      padding: .25rem 2rem;
 
       ul {
         display: none;
@@ -251,10 +241,10 @@ $arrow-color: rgba(0, 0, 24, 0.5);
 
       a {
         display: flex;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0);
+        flex-direction: column-reverse;
         text-decoration: none;
-        font-family: "PressStart2P";
+        background-color: rgba(0, 0, 0, 0);
+        font-family: "Russo One";
         font-size: 3.5rem;
         font-weight: 500;
         padding: 1rem 0;
@@ -263,29 +253,17 @@ $arrow-color: rgba(0, 0, 24, 0.5);
         letter-spacing: 10rem;
         transition: all 0.3s ease;
 
-        &.subnavigation {
-          &::after {
-            display: inline-block;
-            content: '';
-            width: 60px;
-            height: 40px;
-            background-image: url(/assets/svg/caret-right-navigation.svg);
-            background-position: right center;
-            background-repeat: no-repeat;
-            opacity: 0.35;    
-            transition: all 0.5s ease;
-          }
-        }  
+        .section-name {
+          font-family: 'Share Tech Mono', Courier, monospace;
+          font-size: .5rem;
+          line-height: 1rem;
+          text-transform: uppercase;
+        }
 
         &:hover{
           text-decoration: line-through;
           text-shadow: none;
           transition: all 0.3s ease;
-
-          &::after {
-            opacity: 1;
-            transform: translate(20px, 0);
-          }
         }
       }
     }
