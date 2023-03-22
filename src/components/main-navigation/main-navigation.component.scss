@@ -86,19 +86,26 @@ $arrow-color: rgba(0, 0, 0, 0.35);
 
   &:checked ~ .main-navigation {
     left: 0;
-    backdrop-filter: blur(5px);
 
     a {
-      color: #cbdeff;
       letter-spacing: 0;
       font-size: 2.5rem;
       line-height: 2.5rem;
-      font-family: 'Russo One';
-      text-shadow: 0 0 10px #81aeffbf;
       transition: all .5s linear;
 
       &:hover {
-        text-shadow: 0 0 10px #fff;
+        line-height: 3.4rem;
+        background-color: black;
+        color: white;
+        text-shadow: none;
+        transition: all 0.3s ease;
+
+        &::before {
+          line-height: 0;
+          color: #ccff00;
+          cursor: default;
+          transition: color .3s linear;
+        }
       }
     }
 
@@ -197,6 +204,7 @@ $arrow-color: rgba(0, 0, 0, 0.35);
   left: -100%;
   height: 100%;
   width: 100%;
+  backdrop-filter: blur(5px);
   transition: all .5s ease-in-out .0s;
 
   ul {
@@ -210,8 +218,32 @@ $arrow-color: rgba(0, 0, 0, 0.35);
     overflow: auto;
 
     li {
-      margin: 0;
+      margin: 2.5rem 0;
       padding: .25rem 2rem;
+
+      &:nth-child(1) {
+        a::before {
+          content: " > [001] home";
+        }
+      }
+
+      &:nth-child(2) {
+        a::before {
+          content: " > [002] info";
+        }
+      }
+
+      &:nth-child(3) {
+        a::before {
+          content: " > [003] projects";
+        }
+      }
+
+      &:nth-child(4) {
+        a::before {
+          content: " > [004] contact";
+        }
+      }
 
       ul {
         display: none;
@@ -234,37 +266,37 @@ $arrow-color: rgba(0, 0, 0, 0.35);
           padding: 0;
 
           &:hover {
-            color: greenyellow;
+            color: #ccff00;
           }  
         }
       }
 
       a {
-        display: flex;
-        flex-direction: column-reverse;
         text-decoration: none;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(255 255 255 / .75);
         font-family: "Russo One";
         font-size: 3.5rem;
         font-weight: 500;
         padding: 1rem 0;
-        color: rgba(255, 255, 255, 0);
+        color: black;
         line-height: 20rem;
         letter-spacing: 10rem;
-        transition: all 0.3s ease;
+        text-shadow: 0 0 10px black;  
+        transition: all 0.3s ease;        
 
-        .section-name {
+        &::before {
+          position: relative;
+          margin-left: .25rem;
+          display: block;
           font-family: 'Share Tech Mono', Courier, monospace;
           font-size: .5rem;
           line-height: 1rem;
+          color: white;
+          text-shadow: none;
           text-transform: uppercase;
         }
 
-        &:hover{
-          text-decoration: line-through;
-          text-shadow: none;
-          transition: all 0.3s ease;
-        }
+        
       }
     }
   }
