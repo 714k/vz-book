@@ -145,13 +145,13 @@ $arrow-color: rgba(0, 0, 0, 0.35);
   &:checked ~ .menu-icon {
     &::before {
       transform: rotate(-45deg) translateY(8px);
-      animation: 0.75s linear bar1;
+      animation: 0.5s linear bar1;
       background-color: var(--bgColorMenuIcon);
     }
 
     &::after {
       transform: rotate(45deg) translateY(-9px);
-      animation: 0.75s linear bar2;
+      animation: 0.5s linear bar2;
       background-color: var(--bgColorMenuIcon);
     }
   }
@@ -171,7 +171,7 @@ $arrow-color: rgba(0, 0, 0, 0.35);
   &::before, &::after {
     background-color: var(--bgColorMenuIcon);
     position: absolute;
-    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    transition: .2s cubic-bezier(.8, .5, .2, 1.4);
     width: 100%;
     height: 4px;  
   }
