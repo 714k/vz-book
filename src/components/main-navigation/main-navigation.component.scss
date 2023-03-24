@@ -1,160 +1,20 @@
-$arrow-duration: .4s;
-$arrow-timing: ease-out;
-$arrow-width: 60px;
-$arrow-height: 60px;
-$arrow-mask: url(/assets/svg/logo-vz.svg);
-$arrow-color: rgba(0, 0, 24, 0.5);
-// $arrow-color: rgb(0 0 64 / 90%);
-
-@mixin arrow {
-  position: absolute;
-  display: inline-block;
-  content: '';
-  width: $arrow-width;
-  height: $arrow-height;
-  mask-image: $arrow-mask;
-  background-color: $arrow-color;
-}
-
-@keyframes a1 {
-  from {
-    top: 80%;
-    left: 50%;
-    transform: scale(0);
-  }   
-  
-  to {
-    top: 0;
-    left: 65%;
-    transform: scale(15);
-  }
-}
-
-@keyframes a2 {
-  from {
-    top: 150%;
-    left: -100%;
-    transform: scale(1);
-  }   
-  
-  to {
-    top: 60%;
-    left: 40%;
-    transform: scale(10);
-  }
-}
-
-@keyframes a3 {
-  from {
-    top: 50%;
-    left: 0%;
-    transform: scale(0);
-  }   
-  
-  to {
-    top: 40%;
-    left: 70%;
-    transform: scale(40);
-  }
-}
-
-@keyframes a4 {
-  from {
-    left: 70%;
-    transform: scale(0);
-  }   
-  
-  to {
-    left: 170%;
-    transform: scale(22);
-  }
-}
-
-@keyframes a5 {
-  from {
-    left: 0%;
-    transform: scale(0);
-  }   
-  
-  to {
-    left: 50%;
-    transform: scale(25);
-  }
-}
-
 #menuToggle {
   display: none;
 
   &:checked ~ .main-navigation {
-    left: 0;
-
-    a {
-      color: #cbdeff;
-      // background-color: #ffffff;
-      letter-spacing: 0;
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-      font-family: 'PressStart2P';
-      text-shadow: 0 0 10px #81aeffbf;
-      transition: all .5s linear;
-
-      &:hover {
-        text-shadow: 0 0 10px #fff;
-      }
-    }
-
-    .arrow {
-      @include arrow;
-    }
-
-    .a1 {
-      top: 0%;
-      left: 65%;
-      transform: scale(15);
-      animation: a1 $arrow-duration $arrow-timing;
-    }
-
-    .a2 {
-      top: 60%;
-      left: 40%;
-      transform: scale(10);
-      animation: a2 $arrow-duration $arrow-timing;
-      // background-color: aliceblue;
-    }
-
-    .a3 {
-      top: 40%;
-      left: 70%;
-      transform: scale(40);
-      animation: a3 $arrow-duration $arrow-timing;
-      // background-color: rgb(12 0 68 / .8);
-    }
-
-    .a4 {
-      top: 70%;
-      left: 170%;
-      transform: scale(22);
-      animation: a4 $arrow-duration $arrow-timing;
-    }
-
-    .a5 {
-      top: 45%;
-      left: 50%;
-      transform: scale(50);
-      animation: a5 $arrow-duration $arrow-timing;
-    }
+    top: 0;
   }
 
   &:checked ~ .menu-icon {
     &::before {
       transform: rotate(-45deg) translateY(8px);
-      animation: 0.75s linear bar1;
+      animation: 0.5s linear bar1;
       background-color: var(--bgColorMenuIcon);
     }
 
     &::after {
       transform: rotate(45deg) translateY(-9px);
-      animation: 0.75s linear bar2;
+      animation: 0.5s linear bar2;
       background-color: var(--bgColorMenuIcon);
     }
   }
@@ -174,7 +34,7 @@ $arrow-color: rgba(0, 0, 24, 0.5);
   &::before, &::after {
     background-color: var(--bgColorMenuIcon);
     position: absolute;
-    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    transition: .2s cubic-bezier(.8, .5, .2, 1.4);
     width: 100%;
     height: 4px;  
   }
@@ -196,19 +56,17 @@ $arrow-color: rgba(0, 0, 24, 0.5);
 
 .main-navigation {
   position: fixed;
-  top: 0;
-  left: -100%;
+  z-index: 1;
+  top: -200%;
+  left: 0;
   height: 100%;
   width: 100%;
-  backdrop-filter: blur(2px);
-  background-image: url(/assets/svg/screen-lines.svg) ;
-  transition: all 0.5s ease-in-out;
+  backdrop-filter: blur(6px);
+  transition: all .5s ease-in-out .0s;
 
   ul {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 2rem;
     list-style: none;
     text-align: left;
     width: 100%;
@@ -217,11 +75,36 @@ $arrow-color: rgba(0, 0, 24, 0.5);
     overflow: auto;
 
     li {
-      display: flex;
-      align-items: center;
-      margin: 0;
-      padding: 1.5rem 2rem;
-      border-bottom: dotted 1px rgb(255 255 255 / .15);
+      margin: 2.5rem 0;
+      padding: .25rem 2rem;
+
+      &:hover {
+        animation: scaleMenuItem 30s linear infinite;
+      }
+
+      &:nth-child(1) {
+        a::before {
+          content: " > [001] home";
+        }
+      }
+
+      &:nth-child(2) {
+        a::before {
+          content: " > [002] info";
+        }
+      }
+
+      &:nth-child(3) {
+        a::before {
+          content: " > [003] projects";
+        }
+      }
+
+      &:nth-child(4) {
+        a::before {
+          content: " > [004] contact";
+        }
+      }
 
       ul {
         display: none;
@@ -244,47 +127,48 @@ $arrow-color: rgba(0, 0, 24, 0.5);
           padding: 0;
 
           &:hover {
-            color: greenyellow;
+            color: #ccff00;
           }  
         }
       }
 
       a {
-        display: flex;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0);
         text-decoration: none;
-        font-family: "PressStart2P";
-        font-size: 3.5rem;
+        background-color: black;
+        font-family: "Russo One";
+        font-size: 2.5rem;
         font-weight: 500;
         padding: 1rem 0;
-        color: rgba(255, 255, 255, 0);
-        line-height: 20rem;
-        letter-spacing: 10rem;
-        transition: all 0.3s ease;
+        color: white;
+        line-height: 3.5rem;
+        text-shadow: 0 0 10px white;  
+        transition: all 0.3s ease;        
 
-        &.subnavigation {
-          &::after {
-            display: inline-block;
-            content: '';
-            width: 60px;
-            height: 40px;
-            background-image: url(/assets/svg/caret-right-navigation.svg);
-            background-position: right center;
-            background-repeat: no-repeat;
-            opacity: 0.35;    
-            transition: all 0.5s ease;
-          }
-        }  
-
-        &:hover{
-          text-decoration: line-through;
+        &::before {
+          position: relative;
+          margin-left: .25rem;
+          display: block;
+          font-family: 'Share Tech Mono', Courier, monospace;
+          font-size: .5rem;
+          line-height: 0;
+          color: #ccff00;
           text-shadow: none;
-          transition: all 0.3s ease;
+          text-transform: uppercase;
+        }
 
-          &::after {
-            opacity: 1;
-            transform: translate(20px, 0);
+        &:hover {
+          background-color: rgba(255 255 255 / .75);
+          color: black;
+          text-shadow: 0 0 10px black;
+          transition: all 0.3s ease;
+  
+          &::before {
+            line-height: 0;
+            color: white;
+            cursor: default;
+            text-shadow: 0 0 10px black;
+            transition: color .3s linear;
+            animation: promtSectionName 5s linear infinite;
           }
         }
       }
@@ -332,6 +216,28 @@ $arrow-color: rgba(0, 0, 24, 0.5);
 
   100% {
     transform: rotate(45deg) translateY(-9px);
+  }
+}
+
+@keyframes promtSectionName {
+  0% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
+@keyframes scaleMenuItem {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.5);
   }
 }
 

@@ -15,12 +15,8 @@
 }
 
 @font-face {
-  font-family: 'PressStart2P';
-  src: url('/assets/fonts/SquadaOne-Regular.ttf');
+  font-family: 'Russo One';
   src: url('/assets/fonts/RussoOne-Regular.ttf');
-  src: url('/assets/fonts/Play-Bold.ttf');
-  src: url('/assets/fonts/Offside-Regular.ttf');
-  src: url('/assets/fonts/Codystar-Regular.ttf');
 }
 
 @font-face {
@@ -39,9 +35,9 @@ body {
   color: #adb6c5;
   background-color: #010916;
   background-color: #0f1012;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   font-family:'Exo 2 Regular', 'Arial Narrow', Arial, sans-serif;
   padding: 16px;
   margin: 0;
@@ -252,7 +248,7 @@ a {
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 1.3rem;
 }
 
 .back-to-top a {
