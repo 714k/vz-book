@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 
+import mainNavigation from './main-navigation.component.json'
+
 @Component({
   selector: 'vz-main-navigation',
   templateUrl: './main-navigation.component.html',
@@ -7,4 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class MainNavigationComponent {
   @Input() colorMenuIcon: string = 'white';
+  anchorsMainNavigation = mainNavigation
 }
