@@ -87,10 +87,34 @@
           a {
             font-family: 'Share Tech Mono', Courier, monospace;
             padding: 0;
-            font-size: 1rem;
-            line-height: 1.5rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
             color: var(--bgColorMenuIcon);
             text-shadow: 0 0 8px var(--bgColorMenuIcon);
+
+            &.active-subnavigation {
+              background-color: white;
+              color: black;
+              padding: 0 1rem;
+              text-shadow: 0 0 8px black;
+
+              &::before {
+                content: '> ';
+                font-size: 1.5rem;
+                line-height: 2rem;
+                display: inline;
+                color: black;
+                cursor: pointer;
+              }
+
+              &:hover {
+                cursor: default;
+                
+                &::before {
+                  cursor: default;
+                }
+              }
+            }
 
             &:hover {
               color: black;
@@ -99,7 +123,8 @@
               
               &::before {
                 content: '> ';
-                font-size: 1rem;
+                font-size: 1.5rem;
+                line-height: 2rem;
                 display: inline;
                 color: black;
                 cursor: pointer;
@@ -123,14 +148,26 @@
         color: white;
         line-height: 3.5rem;
         text-shadow: 0 0 10px white;  
-        transition: all 0.3s ease;        
+        transition: all 0.3s ease;  
+        
+        &.active {
+          background-color: rgba(255 255 255 / .75);
+          color: black;
+          text-shadow: 0 0 10px black;
+          transition: all 0.3s ease;
+          cursor: default;
+
+          &::before {
+            color: white;
+          }
+        }
 
         &::before {
           position: relative;
-          margin-left: .25rem;
+          margin-left: .5rem;
           display: block;
           font-family: 'Share Tech Mono', Courier, monospace;
-          font-size: .5rem;
+          font-size: .6rem;
           line-height: 0;
           color: var(--bgColorMenuIcon);
           content: var(--linkBefore);
@@ -150,7 +187,6 @@
             cursor: default;
             text-shadow: 0 0 10px black;
             transition: color .3s linear;
-            animation: promtSectionName 5s linear infinite;
           }
         }
       }
@@ -198,18 +234,6 @@
 
   100% {
     transform: rotate(-135deg) translateX(8px);
-  }
-}
-
-@keyframes promtSectionName {
-  0% {
-    color: white;
-  }
-  50% {
-    color: black;
-  }
-  100% {
-    color: white;
   }
 }
 

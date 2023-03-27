@@ -16,7 +16,9 @@
         class="nav-link"
         [style]="'--linkBefore:' + anchor.prefixText "
         title="{{anchor.title}}"
-        [routerLink]="anchor.href">
+        [routerLink]="anchor.href"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">
         {{ anchor.text }}
       </a>
       <ul
@@ -27,7 +29,9 @@
           *ngFor="let anchorSubsection of anchor.subsections">
           <a
             title="{{anchorSubsection.title}}" 
-            [routerLink]="anchorSubsection.href">{{ anchorSubsection.text }}</a>
+            [routerLink]="anchorSubsection.href"
+            routerLinkActive="active-subnavigation"
+            [routerLinkActiveOptions]="{exact: true}">{{ anchorSubsection.text }}</a>
         </li>
       </ul>
     </li>
