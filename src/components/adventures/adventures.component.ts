@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Anchors } from '../header-navigation/header-navigation.component';
+import { Anchors } from '../shared/header-navigation/header-navigation.component';
 
 type Link = {
   title: string;
