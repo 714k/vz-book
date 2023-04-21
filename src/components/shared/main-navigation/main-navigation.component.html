@@ -1,0 +1,41 @@
+<input type="checkbox" id="menuToggle" />
+<label for="menuToggle" class="menu-icon" [style]="'--bgColorMenuIcon:' + colorMenuIcon"></label>
+
+<div class="navigation-wrapper">
+  <nav role="navigation" class="main-navigation">
+    <span class="arrow a1"></span> 
+    <span class="arrow a2"></span>  
+    <span class="arrow a3"></span>  
+    <span class="arrow a4"></span>  
+    <span class="arrow a5"></span>  
+
+    <ul class="nav" [style]="'--bgColorMenuIcon:' + colorMenuIcon">
+      <li
+        *ngFor="let anchor of anchorsMainNavigation" 
+        class="nav-item">
+        <a
+          class="nav-link"
+          [style]="'--linkBefore:' + anchor.prefixText "
+          title="{{anchor.title}}"
+          [routerLink]="anchor.href"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }">
+          {{ anchor.text }}
+        </a>
+        <ul
+          *ngIf="anchor.subsections"
+        >
+          <li
+            class="nav-item sub-navigation" 
+            *ngFor="let anchorSubsection of anchor.subsections">
+            <a
+              title="{{anchorSubsection.title}}" 
+              [routerLink]="anchorSubsection.href"
+              routerLinkActive="active-subnavigation"
+              [routerLinkActiveOptions]="{ exact: true }">{{ anchorSubsection.text }}</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>

@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { DOCUMENT } from '@angular/common';
-import atTheBeginningData from './at-the-beginning-component.json'
+import atTheBeginningData from './at-the-beginning-component.json';
 @Component({
   selector: 'vz-at-the-beginning',
   templateUrl: './at-the-beginning.component.html',
