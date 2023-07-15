@@ -5,7 +5,7 @@ import { Anchors } from '../shared/header-navigation/header-navigation.component
 type Link = {
   title: string;
   text: string;
-  href: string;
+  href?: string;
 }
 
 type Account = {

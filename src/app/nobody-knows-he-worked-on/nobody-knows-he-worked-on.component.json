@@ -67,14 +67,6 @@
         "text": "Johnson & Johnson"
       },
       {
-        "title": "See the HipChat project",
-        "href": "hipchat",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "HipChat"
-      },
-      {
         "title": "See the American Airlines project",
         "href": "american-airlines",
         "classes": "anchor-class",
@@ -163,52 +155,12 @@
         "text": "Rutas de México"
       },
       {
-        "title": "See the El Máscara project",
-        "href": "el-mascara",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "El Máscara"
-      },
-      {
-        "title": "See the PJDF project",
-        "href": "pjdf",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "PJDF"
-      },
-      {
-        "title": "See the Infotec project",
-        "href": "infotec",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Infotec"
-      },
-      {
         "title": "See the Sonora project",
         "href": "sonora",
         "classes": "anchor-class",
         "prefixText": "",
         "sufixText": "",
         "text": "Sonora"
-      },
-      {
-        "title": "See the Tulum project",
-        "href": "tulum",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Tulum"
-      },
-      {
-        "title": "See the Reynosa project",
-        "href": "reynosa",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Reynosa"
       },
       {
         "title": "See the Nissan Latinoamérica project",
@@ -225,30 +177,6 @@
         "prefixText": "",
         "sufixText": "",
         "text": "Query Technologies"
-      },
-      {
-        "title": "See the Honda Miramontes project",
-        "href": "honda-miramontes",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Honda Miramontes"
-      },
-      {
-        "title": "See the Concesionarios Peugeot project",
-        "href": "concesionarios-peugeot",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Concesionarios Peugeot"
-      },
-      {
-        "title": "See the Toyota Universidad project",
-        "href": "toyota-universidad",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Toyota Universidad"
       }
     ]
   },
@@ -444,30 +372,6 @@
       "link": {
         "href": "johnson-and-johnson",
         "title": "See project of Johnson & Johnson",
-        "text": "See project"
-      },
-      "image": {
-        "id": "imageId",
-        "src": "https://",
-        "alt": "Image alt text"
-      }
-    },
-    {
-      "id": "hipchat",
-      "title": "HipChat",
-      "year": 2016,
-      "industry": "Instant Messaging and Video Calling",
-      "technologies": [
-        "Agile Development",
-        " JavaScript",
-        " Python",
-        " Ruby",
-        " MongoDB ..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "hipchat",
-        "title": "See project of HipChat",
         "text": "See project"
       },
       "image": {
@@ -735,75 +639,6 @@
       }
     },
     {
-      "id": "el-mascara",
-      "title": "El Máscara",
-      "year": 2013,
-      "industry": "e-Learning",
-      "technologies": [
-        "<abbr title='eXtensible HyperText Markup Language'>XHTML</abbr> 1.0 strict",
-        " Illustration",
-        " Usability",
-        " <abbr title='User Experience'>UX</abbr> ..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "el-mascara",
-        "title": "See project of El Máscara",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-el-mascara",
-        "src": "elmascara-thumb-b.jpg",
-        "alt": "El Máscara Black & White"
-      }
-    },
-    {
-      "id": "pjdf",
-      "title": "<abbr title='Poder Judicial del Distrito Federal - Federal District Judiciary'>PJDF</abbr>",
-      "year": 2010,
-      "industry": "Government",
-      "technologies": [
-        "Accessibility",
-        " Usability",
-        " Photoshop CS4 ..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "pjdf",
-        "title": "See project of PJDF",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-pjdf",
-        "src": "pjdf-thumb-b.jpg",
-        "alt": "PJDF Black & White"
-      }
-    },
-    {
-      "id": "infotec",
-      "title": "Infotec",
-      "year": 2010,
-      "industry": "Research and Technological Development",
-      "technologies": [
-        "<abbr title='Semantic Web Builder'>SWB</abbr> 4.0",
-        " Photoshop CS4",
-        " Accessibility",
-        " Usability",
-        " Web standards..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "infotec",
-        "title": "See project of Infotec",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-infotec",
-        "src": "infotec-thumb-b.jpg",
-        "alt": "Infotec Black & White"
-      }
-    },
-    {
       "id": "sonora",
       "title": "Sonora",
       "year": 2010,
@@ -825,51 +660,6 @@
         "id": "image-sonora",
         "src": "sonora-thumb-b.jpg",
         "alt": "Sonora Black & White"
-      }
-    },
-    {
-      "id": "tulum",
-      "title": "Tulum",
-      "year": 2010,
-      "industry": "Government",
-      "technologies": [
-        "<abbr title='eXtensible HyperText Markup Languaje'>XHTML</abbr> 1.0",
-        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
-        " JavaScript 1.5",
-        " Dojo..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "tulum",
-        "title": "See project of Tulum",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-tulum",
-        "src": "tulum-thumb-b.jpg",
-        "alt": "Tulum Black & White"
-      }
-    },
-    {
-      "id": "reynosa",
-      "title": "Reynosa",
-      "year": 2010,
-      "industry": "Government",
-      "technologies": [
-        "<abbr title='eXtensible HyperText Markup Languaje'>XHTML</abbr> 1.0 strict",
-        " <abbr title='Cascading Style Sheets'>CSS</abbr> 2.1",
-        " Web standards..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "reynosa",
-        "title": "See project of Reynosa",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-reynosa",
-        "src": "reynosa-thumb-b.jpg",
-        "alt": "Reynosa Black & White"
       }
     },
     {
@@ -917,75 +707,6 @@
         "id": "image-query-technologies",
         "src": "query-thumb-b.jpg",
         "alt": "Query Black & White"
-      }
-    },
-    {
-      "id": "honda-miramontes",
-      "title": "Honda Miramontes",
-      "year": 2008,
-      "industry": "Automotive",
-      "technologies": [
-        "Information Architecture",
-        " <abbr title='Hypertext Preprocessor'>PHP</abbr> 5",
-        " MySQL 5",
-        " Actionscript 2.0 ..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "honda-miramontes",
-        "title": "See project of Honda Miramontes",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-honda-miramontes",
-        "src": "hondamiramontes-thumb-b.jpg",
-        "alt": "Honda Miramontes Black & White"
-      }
-    },
-    {
-      "id": "concesionarios-peugeot",
-      "title": "Concesionarios Peugeot",
-      "year": 2008,
-      "industry": "Automotive",
-      "technologies": [
-        "Information Architecture",
-        " <abbr title='Hypertext Preprocessor'>PHP</abbr> 4",
-        " MySQL 4",
-        " Actionscript 2.0 ..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "concesionarios-peugeot",
-        "title": "See project of Concesionarios Peugeot",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-concesionarios-peugeot",
-        "src": "concesionarios-thumb-b.jpg",
-        "alt": "Concesionarios Peugeot Black & White"
-      }
-    },
-    {
-      "id": "toyota-universidad",
-      "title": "Toyota Universidad",
-      "year": 2007,
-      "industry": "Automotive",
-      "technologies": [
-        "Information Architecture",
-        " <abbr title='eXtensible HyperText Markup Language'>XHTML</abbr> 1.0",
-        " <abbr title='Hypertext Preprocessor'>PHP</abbr> 4",
-        " MySQL 4 ..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "toyota-universidad",
-        "title": "See project of Toyota Universidad",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-toyota-universidad",
-        "src": "toyota-thumb-b.jpg",
-        "alt": "Toyota Universidad Black & White"
       }
     }
   ]
