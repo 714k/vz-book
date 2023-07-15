@@ -11,30 +11,21 @@ import {
   CitiBanamexComponent,
   ClubAtleticoDeMadridComponent,
   CMLLComponent,
-  ConcesionariosPeugeotComponent,
-  ElMascaraComponent,
   HBOComponent,
   HBOMaxComponent,
-  HipchatComponent,
-  HondaMiramontesComponent,
-  InfotecComponent,
   JohnsonAndJohnsonComponent,
   MenumaniaComponent,
   NextGenComponent,
   NissanLatinoamericaComponent,
   OptimaCottonWearComponent,
-  PJDFComponent,
   PlastiqComponent,
   QueryTechnologiesComponent,
-  ReynosaComponent,
   RutasDeMexicoComponent,
   SaffroloteComponent,
   SeccionAmarillaComponent,
   SkinyComponent,
   SonoraComponent,
   TopsAndBottomsComponent,
-  ToyotaUniversidadComponent,
-  TulumComponent,
 } from './index';
 
 const routes = [
@@ -73,10 +64,6 @@ const routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/johnson-and-johnson",
     component: JohnsonAndJohnsonComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/hipchat",
-    component: HipchatComponent,
   },
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/american-airlines",
@@ -123,28 +110,8 @@ const routes = [
     component: RutasDeMexicoComponent,
   },
   {
-    path: "at-the-beginning/nobody-knows-he-worked-on/el-mascara",
-    component: ElMascaraComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/pjdf",
-    component: PJDFComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/infotec",
-    component: InfotecComponent,
-  },
-  {
     path: "at-the-beginning/nobody-knows-he-worked-on/sonora",
     component: SonoraComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/tulum",
-    component: TulumComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/reynosa",
-    component: ReynosaComponent,
   },
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/nissan-latinoamerica",
@@ -153,18 +120,6 @@ const routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/query-technologies",
     component: QueryTechnologiesComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/honda-miramontes",
-    component: HondaMiramontesComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/concesionarios-peugeot",
-    component: ConcesionariosPeugeotComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/toyota-universidad",
-    component: ToyotaUniversidadComponent,
   },
 ]
 

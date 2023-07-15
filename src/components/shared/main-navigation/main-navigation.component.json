@@ -110,14 +110,6 @@
         "text":"Johnson & Johnson"
       },
       {
-        "title":"See the HipChat project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/hipchat",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"HipChat"
-      },
-      {
         "title":"See the American Airlines project",
         "href":"/at-the-beginning/nobody-knows-he-worked-on/american-airlines",
         "classes":"",
@@ -206,52 +198,12 @@
         "text":"Rutas de Mexico"
       },
       {
-        "title":"See the El Mascara project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/el-mascara",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"El Mascara"
-      },
-      {
-        "title":"See the PJDF project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/pjdf",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"PJDF"
-      },
-      {
-        "title":"See the Infotec project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/infotec",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"Infotec"
-      },
-      {
         "title":"See the Sonora project",
         "href":"/at-the-beginning/nobody-knows-he-worked-on/sonora",
         "classes":"",
         "prefixText":"",
         "sufixText":"",
         "text":"Sonora"
-      },
-      {
-        "title":"See the Tulum project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/tulum",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"Tulum"
-      },
-      {
-        "title":"See the Reynosa project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/reynosa",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"Reynosa"
       },
       {
         "title":"See the Nissan Latinoamerica project",
@@ -268,30 +220,6 @@
         "prefixText":"",
         "sufixText":"",
         "text":"Query Technologies"
-      },
-      {
-        "title":"See the Honda Miramontes project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/honda-miramontes",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"Honda Miramontes"
-      },
-      {
-        "title":"See the Concesionarios Peugeot project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/concesionarios-peugeot",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"Concesionarios Peugeot"
-      },
-      {
-        "title":"See the Toyota Universidad project",
-        "href":"/at-the-beginning/nobody-knows-he-worked-on/toyota-universidad",
-        "classes":"",
-        "prefixText":"",
-        "sufixText":"",
-        "text":"Toyota Universidad"
       }
      ]
   },
