@@ -43,7 +43,6 @@ body {
   margin: 0;
 
   &.at-the-beginning {
-
     a {
       background-color: #4d1f00;
       color: #ff6600;
@@ -54,123 +53,63 @@ body {
       }
     }
   }
-
-  &.the-navigator {
-    background-color: #f3f3e6;
-    color: #333333;
-    font-family: "Pirata One Regular", "Arial", sans-serif;
-    background-image: url('/assets/images/information/the-navigator-bg.png');
-    background-repeat: repeat-x;
-    background-position: center 21rem;
-    background-attachment: fixed;
-
-    h1 {
-      font-family: "Skulls and Crossbones", "Times New Roman", serif;
-      font-size: 4rem;
-      margin-top: 8rem;
-      // text-shadow: 0 0 5px #6c2626;
-      color: #000;
-    }
-
-    h2 {
-      font-size: 2.7rem;
-      font-family: "Pirata One Regular", "Arial", sans-serif;
-      // text-shadow: 0 0 5px #6c2626;
-      color: #6c2626;
-      color: #141414;
-      text-align: center;
-      line-height: 2rem;
-    }
-
-    h3 {
-      color: #1e3a4e;
-      color: #252525;
-      font-size: 2rem;
-      font-family: "Pirata One Regular", "Arial", sans-serif;
-      // text-shadow: 0 0 5px #1e3a4e;
-      margin-bottom: 0.5rem;
-    }
-  
+  &.no-one-knows {
     a {
-      font-family: "Share Tech Mono", "Arial", sans-serif;
-      font-size: 1rem;
-      color: #434f56;
-      color: #444444;
-      background-color: #a8a8a86e;
-      text-decoration: none;
-  
+      color: rgb(255, 188, 0);
+      background-color: rgb(49, 36, 0);
       &:hover {
-        color: white;
-        background-color: rgb(60, 60, 60);
+        color: rgb(49, 36, 0);
+        background-color: rgb(255, 188, 0);
       }
     }
-
-    .summary {
-      letter-spacing: 0.05rem;
-      font-size: 1.4rem;
-    }
-
-    .vz-header-navigation {
-      font-size: 1.5rem;
-      
-      p {
-        margin: 0;
-        padding:0.5em 1em;
-        background-color: #2d3b44;
-        color: white;
-        display: none;
-      }
-
-      ul, li {
-        list-style: none;
-        margin: 0.25rem 0;
-        padding: 0;
-      }
-
-      li {
-        background-image: url('/assets/svg/divider.svg');
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        padding-bottom: 1rem;
-      }
-
-      a {
-        display: inline-block;
-        font-family: "Skulls and Crossbones", "Arial", sans-serif;
-        font-size: 1.75rem;
-        font-weight: 700;
-        line-height: 2rem;
-        letter-spacing: 2px;
-        margin: 0;
-        padding: 0.75rem 0;
-        background-color: transparent;
-        width: 100%;
-        text-align: center;
-        color:#19565c;
-        color:#727272;
-        text-shadow: 0 0 2px #0000003d;
-
-        &:hover {
-          // background-color: #2d3b4421;
-          color: #6c2626;
-          color: black;
-          // text-shadow: 0 0 5px #6c2626;
-        }
-      }
-
-      &:hover ul {
-        display: block;
+  }
+  &.the-server {
+    a {
+      color: rgb(192, 255, 0);
+      background-color: rgb(43, 57, 0);
+      &:hover {
+        color: rgb(43, 57, 0);
+        background-color: rgb(192, 255, 0);
       }
     }
-
-    .back-to-top {
-      a {
-        background-color: #444444;
-        color: white;
-
-        &:hover {
-          background-color: #000000;
-        }
+  }
+  &.the-navigator {
+    a {
+      color: #05caff;
+      background-color: #003b4b;
+      &:hover {
+        color: #003b4b;
+        background-color: #05caff;
+      }
+    }
+  }
+  &.the-fixer {
+    a {
+      color: rgb(255, 0, 0);
+      background-color: rgb(47, 0, 0);
+      &:hover {
+        color: rgb(47, 0, 0);
+        background-color: rgb(255, 0, 0);
+      }
+    }
+  }
+  &.nobody-knows-he-worked-on {
+    a {
+      color: #ff0086;
+      background-color: #3f0021;
+      &:hover {
+        color: #3f0021;
+        background-color: #ff0086;
+      }
+    }
+  }
+  &.nor-where-to-find-him {
+    a {
+      color: #00ffc6;
+      background-color: #003529;
+      &:hover {
+        color: #003529;
+        background-color: #00ffc6;
       }
     }
   }
