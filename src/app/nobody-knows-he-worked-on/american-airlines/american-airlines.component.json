@@ -35,5 +35,10 @@
     "current": "American Airlines",
     "next": "Johnson and Johnson",
     "previous": "Cars"
-  }
+  },
+  "galleries": [
+    {
+      "title": "Desktop"
+    }
+  ]
 }

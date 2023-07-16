@@ -54,41 +54,6 @@
       ]
     },
     {
-      "title": "Tablet",
-      "links": [
-        {
-          "title": "See Tablet image 01",
-          "href": "image-tablet-01",
-          "text": "01",
-          "separator": "~"
-        },
-        {
-          "title": "See Tablet image 02",
-          "href": "image-tablet-02",
-          "text": "02",
-          "separator": "~"
-        },
-        {
-          "title": "See Tablet image 03",
-          "href": "image-tablet-03",
-          "text": "03",
-          "separator": "~"
-        },
-        {
-          "title": "See Tablet image 04",
-          "href": "image-tablet-04",
-          "text": "04",
-          "separator": "~"
-        },
-        {
-          "title": "See Tablet image 05",
-          "href": "image-tablet-05",
-          "text": "05",
-          "separator": ""
-        }
-      ]
-    },
-    {
       "title": "Mobile",
       "links": [
         {
@@ -129,12 +94,6 @@
       "title": "See Desktop gallery",
       "href": "galleryDesktop",
       "text": "Desktop",
-      "separator": "|"
-    },
-    {
-      "title": "See Tablet gallery",
-      "href": "galleryTablet",
-      "text": "Tablet",
       "separator": "|"
     },
     {
