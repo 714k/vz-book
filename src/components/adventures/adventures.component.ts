@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 import { Anchors } from '../shared/header-navigation/header-navigation.component';
 
 type Link = {
-  title: string;
+  title?: string;
   text: string;
   href?: string;
 }

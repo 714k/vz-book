@@ -14,7 +14,6 @@ import {
   HBOComponent,
   HBOMaxComponent,
   JohnsonAndJohnsonComponent,
-  MenumaniaComponent,
   NextGenComponent,
   NissanLatinoamericaComponent,
   OptimaCottonWearComponent,
@@ -76,10 +75,6 @@ const routes = [
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/seccion-amarilla",
     component: SeccionAmarillaComponent,
-  },
-  {
-    path: "at-the-beginning/nobody-knows-he-worked-on/menumania",
-    component: MenumaniaComponent,
   },
   {
     path: "at-the-beginning/nobody-knows-he-worked-on/cmll",

@@ -50,7 +50,7 @@
                 [href]="link.href"
                 [title]="link.title"
               >{{ link.text }}</a>
-              <span *ngIf="!link.href">{{ link.text }}</span>
+              <span *ngIf="!link.href" innerHTML="{{ link.text }}"></span>
               <span innerHTML="{{isLast ? '.' : ', '}}"></span>
           </span>
           <br />
