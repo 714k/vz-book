@@ -33,7 +33,7 @@ export class SeccionAmarillaComponent implements OnInit, OnDestroy {
     
     this.meta.updateTag({ 
       name: 'keywords',
-      content: 'Menumania, Project, Portfolio, Design, Designer, Web, C# 5.0, XAML 1.0, Java 1.7, Objective-C 5.0, PHP, .NET 4.0, Web Standards, Accessibility, Usability, UX, Responsive Web Design, Microformats, Web Optimization, SEO, Photoshop CS6, Fireworks CS6, Illustrator CS6, Dreamweaver CS6, Visual Studio 2013, XCode 5, Eclipse Juno, Cocoa 10.4.'
+      content: 'Seccion Amarilla, Project, Portfolio, Design, Designer, Web, C# 5.0, XAML 1.0, Java 1.7, Objective-C 5.0, PHP, .NET 4.0, Web Standards, Accessibility, Usability, UX, Responsive Web Design, Microformats, Web Optimization, SEO, Photoshop CS6, Fireworks CS6, Illustrator CS6, Dreamweaver CS6, Visual Studio 2013, XCode 5, Eclipse Juno, Cocoa 10.4.'
     });
 
     this.document.body.classList.add('seccion-amarilla');

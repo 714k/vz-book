@@ -10,7 +10,6 @@ export { JohnsonAndJohnsonComponent } from './johnson-and-johnson/johnson-and-jo
 export { AmericanAirlinesComponent } from './american-airlines/american-airlines.component';
 export { CarsComponent } from './cars/cars.component';
 export { SeccionAmarillaComponent } from './seccion-amarilla/seccion-amarilla.component';
-export { MenumaniaComponent } from './menumania/menumania.component';
 export { CMLLComponent } from './cmll/cmll.component';
 export { AventurasEnmascaradasComponent } from './aventuras-enmascaradas/aventuras-enmascaradas.component';
 export { ClubAtleticoDeMadridComponent } from './club-atletico-de-madrid/club-atletico-de-madrid.component';

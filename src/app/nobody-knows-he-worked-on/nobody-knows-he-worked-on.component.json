@@ -91,14 +91,6 @@
         "text": "Sección Amarilla"
       },
       {
-        "title": "See the Menumania project",
-        "href": "menumania",
-        "classes": "anchor-class",
-        "prefixText": "",
-        "sufixText": "",
-        "text": "Menumania"
-      },
-      {
         "title": "See the CMLL project",
         "href": "cmll",
         "classes": "anchor-class",
@@ -450,30 +442,6 @@
         "id": "image-seccion-amarilla",
         "src": "seccionamarilla-thumb-b.jpg",
         "alt": "Seccion Amarilla Black & White"
-      }
-    },
-    {
-      "id": "menumania",
-      "title": "Menumania",
-      "year": 2017,
-      "industry": "Food Services",
-      "technologies": [
-        "Website",
-        " Blog",
-        " WebApp",
-        " C# 5.0",
-        " Visual..."
-      ],
-      "classes": "class 1 class 2 class 3",
-      "link": {
-        "href": "menumania",
-        "title": "See project of Menumania",
-        "text": "See project"
-      },
-      "image": {
-        "id": "image-menumania",
-        "src": "menumania-thumb-b.jpg",
-        "alt": "Menumania Black & White"
       }
     },
     {
